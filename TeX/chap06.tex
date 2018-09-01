@@ -1,30 +1,14 @@
-\chapter{Cronograma detalhado}
+\chapter{Conclusões}
 
-Em geral, o cronograma de execu\c{c}\~{a}o das atividades a serem feitas ao longo de um projeto
-de pesquisa \'{e} apresentado na forma de tabela. \'{E} importante ressaltar que o projeto de pesquisa 
-de mestrado \'{e} \'{e} avaliado no terceiro trimestre do primeiro ano. Nesta \'{e}poca, espera-se que
-algumas atividades previstas no projeto j\'{a} tenham sido executadas.
+O teste de convergência da rede, Fig \ref{convergencia}, realizado durante a etapa de treinamento, indicou que o número de erros não iria diminuir após o milésimo ciclo de treinamento. Sendo o resultado, Fig. \ref{SOM}, deste teste usado como parâmetro para o número de repetições realizadas para os casos de identificação da rede. 
 
-A tabela abaixo usa alguns s\'{i}mbolos do pacote \verb|pifont| (\url{https://en.wikibooks.org/wiki/LaTeX/Special_Characters#Other_symbols}). O comando \verb|\ding{número}| insere um determinado s\'{i}mbolo.
+Os diagramas de velocidades por densidade e o de velocidade por raio-gama, Fig. \ref{clusterT1}, Fig. \ref{clusterC1} e Fig. \ref{clusterC2}, apresentaram os agrupamentos mais bem separados. Portanto estas propriedades físicas (densidade, velocidade e raio-gama) tem uma importância relativa maior ,na classificação das litologias dos poços C$1$ e C$2$. 
 
-\begin{table}[h]
-\caption[Exemplo ilustrativo de um Cronograma (texto do que aparece no sum\'{a}rio)]{Exemplo ilustrativo de um Cronograma de atividades a serem desenvolvidas durante o mestrado.
-As siglas T1$-$T8 indicam os trimestres. A c\'{e}lulas em cinza representam o planejamento inicial. Os símbolos \ding{52} e \ding{45} indicam, respectivamente atividades conclu\'{i}das e em andamento. \\}
-\label{tab:cronograma}
-\centering
-{\footnotesize
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-  \hline
-  Atividade & T1 & T2 & T3 & T4 & T5 & T6 & T7 & T8 \\
-  \hline
-  Revis\~{a}o bibliogr\'{a}fica & \cellcolor{gray}\ding{52} & \cellcolor{gray}\ding{52} & & & & & & \\  
-  Disciplinas & \cellcolor{gray}\ding{52} & \cellcolor{gray}\ding{52} & & & & & & \\
-  Processamento dos dados 1 & & \cellcolor{gray}\ding{52} & \cellcolor{gray}\ding{45} & \cellcolor{gray} & & & & \\
-  Processamento dos dados 2 & & \cellcolor{gray}\ding{52} & \cellcolor{gray}\ding{45} & \cellcolor{gray} & & & & \\
-  Interpreta\c{c}\~{a}o dos resultados & & & & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \\
-  Escrita da disserta\c{c}\~{a}o & & & & & & & \cellcolor{gray} & \cellcolor{gray} \\
-  \hline
-\end{tabular}}
-\end{table}
+A saída da rede aponta que o maior caso de erros ocorreram em uma única classe de rocha, a do embasamento. Esses erros fizeram com que conglomerados fossem classificados como rochas do embasamento, nos dois casos dos poços de classificação, o poço C$1$ e o poço C$2$.  Uma das razões pode ser o fato das misturas de conglomerado e embasamento serem finas demais para a rede conseguir realizar uma identificação de padrão. Ou pelo fato dos conjuntos de propriedades físicas da mistura de $20\%$ se aproximar das propriedades físicas que representam o litotipo embasamento. 
 
-De acordo com o cronograma acima, as atividades ``Revis\~{a}o bibliogr\'{a}fica" e ``Disciplinas" j\'{a} foram conclu\'{i}das e as atividades ``Processamento dos dados 1" e ``Processamento dos dados 2" est\~{a}o em andamento.
+O menor número de erros relativos encontrados, no poço C$2$, Fig. \ref{Class C2}, deve-se a escolha da alocação do furo, no perfil. O poço C$2$ localiza-se em um baixo estrutural, atingindo menos de $1$km do embasamento. Entretanto, o poço C$1$, Fig. \ref{Class C1}, encontra-se em um alto estrutural, divergindo do poço C$2$ e produzindo, consequentemente, os maiores erros relativos encontrados.    
+
+O classificador de Euclides apresentou mais erros do que a rede neuronal de Kohonen com $42$ erros para o poço C$1$ e $12$ erros para o poço C$2$. E o classificador de Mahalanobis apresentou o resultado de identificação de poços com os maiores erros $79$ e $128$ respectivamente para os poços C$1$ e C$2$. 
+
+Tal desempenho dos classificadores se deu por conta da existência de uma falha normal aonde foi escolhida a alocação do furo, Fig. \ref{modelo}. Nesta situação simulada há uma mistura entre os clusters em todos os espaços bi-dimensionais de propriedades analisadas tanto para o conglomerado quanto para o embasamento cristalino, Fig. \ref{clusterT1}. Portanto a definição dos centroides dos agrupamentos de propriedades ficam longe das distribuições ideais preditas no teste analítico do capítulo \ref{introducao}, na seção \ref{teste}.  
+

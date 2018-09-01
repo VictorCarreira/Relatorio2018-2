@@ -1,0 +1,360 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Adibifard}\emph{ et~al.}(2014)Adibifard,
+  Tabatabaei-Nejad, e Khodapanah]{Adibifard2014}
+\MakeUppercase{Adibifard, M., Tabatabaei-Nejad, S., Khodapanah, E.}, 2014,
+  \enquote{{Artificial Neural Network (ANN) to estimate reservoir parameters in
+  Naturally Fractured Reservoirs using well test data}}, \emph{Journal of
+  Petroleum Science and Engineering}, v.~122, \penalty0 pp.~585--594.
+\newblock ISSN: 09204105.
+\newblock \doi{10.1016/j.petrol.2014.08.007}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://linkinghub.elsevier.com/retrieve/pii/S0920410514002563}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Artero}(2008)Artero]{Artero2009}
+\MakeUppercase{Artero, A.~O.}, 2008, \emph{{Inteligência Artificial Teórica e
+  Prática}}.
+\newblock 1st ed. {São Paulo}, Livraria da Física.
+\newblock ISBN: 9788578610296.
+\newblock Dispon{\' i}vel em:
+  \textless\url{www.livrariadafisica.com.br}\textgreater .
+
+\bibitem[\MakeUppercase{Artur} e \MakeUppercase{Soares}(2008)Artur e
+  Soares]{artur_paleoestruturas_2008}
+\MakeUppercase{Artur, P.~C., Soares, P.~C.}, 2008, \enquote{{Paleoestruturas e
+  petr{\'{o}}leo na Bacia do Paran{\'{a}}, Brasil}}, \emph{Brazilian Journal of
+  Geology}, v.~32, n.~4, \penalty0 pp.~433--448.
+
+\bibitem[\MakeUppercase{Benaouda}\emph{ et~al.}(1999)Benaouda, Wadge,
+  Whitmarsh, Rothwell, e MacLeod]{Benaouda1999}
+\MakeUppercase{Benaouda, D., Wadge, G., Whitmarsh, R.~B.,
+  \MakeLowercase{et~al.}}, 1999, \enquote{{Inferring the lithology of borehole
+  rocks by applying neural network classifiers to downhole logs: An example
+  from the Ocean Drilling Program}}, \emph{Geophysical Journal International},
+  v.~136, n.~2, \penalty0 pp.~477--491.
+\newblock ISSN: 0956540X.
+\newblock \doi{10.1046/j.1365-246X.1999.00746.x}.
+
+\bibitem[\MakeUppercase{Bizzi}\emph{ et~al.}(2003)Bizzi, Schobenhaus, Vidotti,
+  e Gon\c{c}alves]{Vidotti_2003}
+\MakeUppercase{Bizzi, A.~L., Schobenhaus, C., Vidotti, R.~M.,
+  \MakeLowercase{et~al.}}, 2003, \emph{Geologia, {tect\^onica} e recursos
+  minerais do {Brasil}: texto, mapas e \textsc{SIG}}.
+\newblock CPRM - Servi\c{c}o Geol\'ogico do Brasil.
+
+\bibitem[\MakeUppercase{Borghi}(2002)Borghi]{borghi_2002}
+\MakeUppercase{Borghi, L.}, 2002, \enquote{A {Bacia} do {Paran\'a}},
+  \emph{Anu\'ario do Instituto de Geoci\^encias - IGEO, Departamentno de
+  Geologia}.
+
+\bibitem[\MakeUppercase{Cat{\'e}}\emph{ et~al.}(2017)Cat{\'e}, Perozzi,
+  Glouguen, e Blouin]{Gloaguen2017}
+\MakeUppercase{Cat{\'e}, A., Perozzi, L., Glouguen, E.,
+  \MakeLowercase{et~al.}}, 2017, \enquote{Machine learning as a tool for
+  geologists}, \emph{The Leading Edge}, v.~36, n.~6 (mar.), \penalty0
+  pp.~215--219.
+
+\bibitem[\MakeUppercase{Chakravarthy}\emph{ et~al.}(1999)Chakravarthy,
+  Chunduru, Fanini, e Mezzatesta]{Chakravarthy1999}
+\MakeUppercase{Chakravarthy, S., Chunduru, R., Fanini, O.,
+  \MakeLowercase{et~al.}}, 1999, \enquote{{Detection of layer boundaries from
+  array induction tool responses using neural networks}}, \emph{69th Ann.
+  Internat. Mtg}, pp. 140--143.
+\newblock \doi{10.1190/1.1820779}.
+
+\bibitem[\MakeUppercase{{Cristina Lopes Quintas}}\emph{ et~al.}(1999){Cristina
+  Lopes Quintas}, {Silvia Maria Mantovani}, e {Victor
+  Zal{\'{a}}n}]{CristinaLopesQuintas1999}
+\MakeUppercase{{Cristina Lopes Quintas}, M., {Silvia Maria Mantovani}, M.,
+  {Victor Zal{\'{a}}n}, P.}, 1999, \enquote{{Contribui{\c{c}}{\~{a}}o Ao Estudo
+  Da Evolu{\c{c}}{\~{a}}o Mec{\^{a}}nica Da Bacia Do Paran{\'{a}}}},
+  \emph{Revista Brasileira de Geoci{\^{e}}ncias}, v.~29, n.~2, \penalty0
+  pp.~217--226.
+
+\bibitem[\MakeUppercase{Eiras}(1996)Eiras]{Eiras1996}
+\MakeUppercase{Eiras, J.~F.}, 1996, \enquote{{Influência da tectônica do Arco
+  de Carauari na sedimentação fanerozóica da Bacia do Solimões, norte do
+  Brasil.} In Congresso Brasileiro de Geologia, 39. Salvador, Bahia.} v.~1, pp.
+  52--53.
+
+\bibitem[\MakeUppercase{Feldman}\emph{ et~al.}(1988)Feldman, Fanty, e
+  Goddard]{Feldman1988}
+\MakeUppercase{Feldman, J.~A., Fanty, M.~A., Goddard, N.~H.}, 1988,
+  \enquote{{Computing With Structured Neural Networks.}} \emph{Computer},
+  v.~21, n.~3, \penalty0 pp.~91--103.
+\newblock ISSN: 00189162.
+\newblock \doi{10.1109/2.34}.
+
+\bibitem[\MakeUppercase{{Franca, Almerio {\&} Potter}}(1991){Franca, Almerio
+  {\&} Potter}]{FrancaAlmerio&Potter1991}
+\MakeUppercase{{Franca, Almerio {\&} Potter}, E.}, 1991.
+\newblock \enquote{{Reservoir Potential of glacial deposits of the Itarare
+  Group.pdf}}. .
+
+\bibitem[\MakeUppercase{Freund} e \MakeUppercase{Mason}(1999)Freund e
+  Mason]{FreundYoav1999}
+\MakeUppercase{Freund, Y., Mason, L.}, 1999, \enquote{{The alternating decision
+  tree learning algorithm}}, \emph{International Conference on Machine
+  Learning}, v.~99, \penalty0 pp.~124--133.
+\newblock ISSN: 14602431.
+\newblock \doi{10.1093/jxb/ern164}.
+
+\bibitem[\MakeUppercase{Hagan}\emph{ et~al.}(1996)Hagan, Demuth, Beale, e {De
+  Jes{\'{u}}s}]{Hagan1996}
+\MakeUppercase{Hagan, M.~T., Demuth, H.~B., Beale, M.~H.,
+  \MakeLowercase{et~al.}}, 1996, \enquote{{Neural Network Design}}, p. 1012.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://books.google.ru/books?id=bUNJAAAACAAJ}\textgreater .
+
+\bibitem[\MakeUppercase{Hall}\emph{ et~al.}(2014)Hall, Dean, Kabul, e
+  Silva]{Hall2014}
+\MakeUppercase{Hall, P., Dean, J., Kabul, I.~K., \MakeLowercase{et~al.}}, 2014,
+  \enquote{{An Overview of Machine Learning with SAS {\textregistered}
+  Enterprise Miner ™}}, , n. Rosenblatt 1958, \penalty0 pp.~1--24.
+
+\bibitem[\MakeUppercase{Hawkesworth}\emph{ et~al.}(2000)Hawkesworth, Gallagher,
+  Kirstein, Mantovani, Peate, e Turner]{hawkesworth_tectonic_2000}
+\MakeUppercase{Hawkesworth, C., Gallagher, K., Kirstein, L.,
+  \MakeLowercase{et~al.}}, 2000, \enquote{Tectonic controls on magmatism
+  associated with continental break-up an example from the {Paran\'a}
+  {Etendeka} {Province}}, \emph{Earth and Planetary Science Letters}, v.~179
+  (jun.), \penalty0 pp.~335--349.
+
+\bibitem[\MakeUppercase{Kanal}(2001)Kanal]{Kanal2001}
+\MakeUppercase{Kanal, L.~N.}, 2001, \enquote{{Perceptrons}}, \emph{Encyclopedia
+  of Computer Science}, pp. 11215--11218.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/B7MRM-4MT09VJ-2HC/2/11e1b0f217b506994f9009281762b4b5$\backslash$nhttp://www.sciencedirect.com/science?{\_}ob=ArticleURL{\&}{\_}udi=B7MRM-4MT09VJ-2HC{\&}{\_}rdoc=8{\&}{\_}hierId=151000304{\&}{\_}refWorkId=21{\&}{\_}explode=151000302,151000304{\&}{\_}fmt=high{\&}{\_}o}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Konat{\'{e}}}\emph{ et~al.}(2014)Konat{\'{e}}, Pan,
+  Khan, e Ziggah]{Konate2014}
+\MakeUppercase{Konat{\'{e}}, A.~A., Pan, H., Khan, N., \MakeLowercase{et~al.}},
+  2014, \enquote{{Prediction of porosity in crystalline rocks using artificial
+  neural networks: An example from the Chinese Continental Scientific Drilling
+  Main hole}}, \emph{Studia Geophysica et Geodaetica}, v.~59, n.~1, \penalty0
+  pp.~113--136.
+\newblock ISSN: 00393169.
+\newblock \doi{10.1007/s11200-013-0993-5}.
+
+\bibitem[\MakeUppercase{Krogh}(2008)Krogh]{Krogh2008}
+\MakeUppercase{Krogh, A.}, 2008, \enquote{{What are artificial neural
+  networks?}} \emph{Nature biotechnology}, v.~26, n.~2, \penalty0 pp.~195--197.
+\newblock ISSN: 1546-1696.
+\newblock \doi{10.1038/nbt1386}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.ncbi.nlm.nih.gov/pubmed/18259176}\textgreater .
+
+\bibitem[\MakeUppercase{Kumar}\emph{ et~al.}(2015)Kumar, Aggarwal, e
+  Sharma]{Kumar2015}
+\MakeUppercase{Kumar, R., Aggarwal, R., Sharma, J.}, 2015, \enquote{{Comparison
+  of regression and artificial neural network models for estimation of global
+  solar radiations}}, \emph{Renewable and Sustainable Energy Reviews}, v.~52,
+  \penalty0 pp.~1294--1299.
+\newblock ISSN: 13640321.
+\newblock \doi{10.1016/j.rser.2015.08.021}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S1364032115008679}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Levy}(1997)Levy]{Levy1997}
+\MakeUppercase{Levy, S.}, 1997, \enquote{{The Computer}}, \emph{Newsweek},
+  v.~130, n.~22, \penalty0 pp.~28.
+\newblock Dispon{\' i}vel em:
+  \textless\url{file:///D:/Dropbox/Whitfield/History/Semester Two/Changing
+  Times/Research/EBSCOhost2.htm}\textgreater .
+
+\bibitem[\MakeUppercase{MacKay}(2005)MacKay]{MacKay2005}
+\MakeUppercase{MacKay, D. J.~C.}, 2005, \emph{{Information Theory, Inference,
+  and Learning Algorithms David J.C. MacKay}}, v. 100.
+\newblock ISBN: 9780521642989.
+\newblock \doi{10.1198/jasa.2005.s54}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://pubs.amstat.org/doi/abs/10.1198/jasa.2005.s54{\%}5Cnhttp://www.cambridge.org/0521642981}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Mao}(1996)Mao]{Mao1996}
+\MakeUppercase{Mao, J.}, 1996, \enquote{{Why artificial neural networks?}}
+  \emph{Communications}, v.~29, \penalty0 pp.~31--44.
+\newblock ISSN: 00189162.
+\newblock \doi{10.1109/2.485891}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=485891}\textgreater
+  .
+
+\bibitem[\MakeUppercase{McCulloch} e \MakeUppercase{Pitts}(1943)McCulloch e
+  Pitts]{McCulloch1943}
+\MakeUppercase{McCulloch, W.~S., Pitts, W.}, 1943, \enquote{{A logical calculus
+  of the ideas immanent in nervous activity}}, \emph{The Bulletin of
+  Mathematical Biophysics}, v.~5, n.~4, \penalty0 pp.~115--133.
+\newblock ISSN: 00074985.
+\newblock \doi{10.1007/BF02478259}.
+
+\bibitem[\MakeUppercase{Michel} e \MakeUppercase{Deza}(2016)Michel e
+  Deza]{Michel2016}
+\MakeUppercase{Michel, M.~D., Deza, E.}, 2016, \emph{Encyclopedia of
+  Distances}.
+\newblock ISBN: 978-3-662-52844-0.
+\newblock \doi{10.1007/978-3-662-52844-0}.
+
+\bibitem[\MakeUppercase{Michie}\emph{ et~al.}(1994)Michie, Spiegelhalter, e
+  Taylor]{Michie1994}
+\MakeUppercase{Michie, E.~D., Spiegelhalter, D.~J., Taylor, C.~C.}, 1994,
+  \enquote{{Machine Learning , Neural and Statistical Classification}},
+  \emph{Technometrics}, v.~37, n.~4, \penalty0 pp.~459.
+\newblock ISSN: 00401706.
+\newblock \doi{10.2307/1269742}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.94.3615}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Milani} e
+  \MakeUppercase{Ramos}(1998{\natexlab{a}})Milani e Ramos]{Milani1998}
+\MakeUppercase{Milani, E.~J., Ramos, V.~A.}, 1998{\natexlab{a}},
+  \enquote{{Paleozoic orogenies in southwestern Gondwana and the subsidence
+  cycles of the Parana Basin$\backslash$rOrogenias paleozoicas no dominio
+  sul-ocidental do Gondwana e os cicios de subsidencia da bacia do Parana}},
+  \emph{Revista Brasileira de Geociencias}, v.~28, n.~4, \penalty0
+  pp.~473--484.
+
+\bibitem[\MakeUppercase{Milani}\emph{ et~al.}(2000)Milani, Brand{\~{a}}o,
+  Zal{\'{a}}n, e Gamboa]{Milani2000}
+\MakeUppercase{Milani, E.~J., Brand{\~{a}}o, J., Zal{\'{a}}n, P.~V.,
+  \MakeLowercase{et~al.}}, 2000, \enquote{{Petr{\'{o}}leo na margem continental
+  Brasileira: Geologia, explora{\c{c}}{\~{a}}o, resultados e perspectivas}},
+  \emph{Revista Brasileira de Geofisica}, v.~18, n.~3, \penalty0 pp.~351--396.
+\newblock ISSN: 0102261X.
+\newblock \doi{10.1590/S0102-261X2000000300012}.
+
+\bibitem[\MakeUppercase{Milani} e
+  \MakeUppercase{Ramos}(1998{\natexlab{b}})Milani e
+  Ramos]{milani_orogenias_1998}
+\MakeUppercase{Milani, E.~J., Ramos, V.~A.}, 1998{\natexlab{b}},
+  \enquote{Orogenias paleoz\'oicas no dom\'inio sul-ocidental do {Gondwana} e
+  os ciclos de subsid\^encia da {Bacia} do {Paran\'a}}, \emph{Brazilian Journal
+  of Geology}, v.~28, n.~4, \penalty0 pp.~473--484.
+
+\bibitem[\MakeUppercase{Milani} e \MakeUppercase{Zalan}(1999)Milani e
+  Zalan]{milani_outline_1999}
+\MakeUppercase{Milani, E.~J., Zalan, P.~V.}, 1999, \enquote{{An outline of the
+  geology and petroleum systems of the Paleozoic interior basins of South
+  America}}, \emph{Milani1999}, v.~22, \penalty0 pp.~199--205.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.episodes.co.in/www/backissues/223/199-205
+  Milani.pdf}\textgreater .
+
+\bibitem[\MakeUppercase{Milani}\emph{ et~al.}(2007)Milani, Spadini, Terra,
+  Silva, e Bueno]{boletim_2007}
+\MakeUppercase{Milani, E., Spadini, A., Terra, G., \MakeLowercase{et~al.}},
+  2007, \emph{Boletim de geoci\^encias da {Petrobras}}, v. v. 15.
+\newblock Cenpes.
+
+\bibitem[\MakeUppercase{Minsky} e \MakeUppercase{Papert}(1969)Minsky e
+  Papert]{Minsky1969}
+\MakeUppercase{Minsky, M., Papert, S.}, 1969, \emph{Perceptrons}.
+\newblock \doi{10.1016/j.neucom.2015.05.138}.
+
+\bibitem[\MakeUppercase{Misra} e \MakeUppercase{Saha}(2010)Misra e
+  Saha]{Misra2010}
+\MakeUppercase{Misra, J., Saha, I.}, 2010, \enquote{{Artificial neural networks
+  in hardware: A survey of two decades of progress}}, \emph{Neurocomputing},
+  v.~74, n. 1-3, \penalty0 pp.~239--255.
+\newblock ISSN: 09252312.
+\newblock \doi{10.1016/j.neucom.2010.03.021}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://dx.doi.org/10.1016/j.neucom.2010.03.021}\textgreater .
+
+\bibitem[\MakeUppercase{Mohriak}\emph{ et~al.}(2008)Mohriak, Szatmari, e
+  Anjos]{Sal2008}
+\MakeUppercase{Mohriak, W., Szatmari, P., Anjos, S.}, 2008, \emph{Sal: Geologia
+  e Tect{\^o}nica. Exemplos nas Bacias Brasileiras}.
+\newblock 1 ed. S{\~a}o Paulo, SP., Beca.
+\newblock ISBN: 978-85-87256-49-2.
+
+\bibitem[\MakeUppercase{Nedjah}\emph{ et~al.}(2016)Nedjah, da~Silva,
+  de~S{\'{a}}, Mourelle, e Bonilla]{Nedjah2016}
+\MakeUppercase{Nedjah, N., da~Silva, F.~P., de~S{\'{a}}, A.~O.,
+  \MakeLowercase{et~al.}}, 2016, \enquote{{A massively parallel pipelined
+  reconfigurable design for M-PLN based neural networks for efficient image
+  classification}}, \emph{Neurocomputing}, v.~183, \penalty0 pp.~39--55.
+\newblock ISSN: 18728286.
+\newblock \doi{10.1016/j.neucom.2015.05.138}.
+
+\bibitem[\MakeUppercase{Poulton}(2002)Poulton]{Poulton2002}
+\MakeUppercase{Poulton, M.~M.}, 2002, \enquote{{Neural networks as an
+  intelligence amplification tool: A review of applications}},
+  \emph{Geophysics}, v.~67, n.~3, \penalty0 pp.~979.
+\newblock ISSN: 0016-8033.
+\newblock \doi{10.1190/1.1484539}.
+
+\bibitem[\MakeUppercase{Rosenblatt}(1962)Rosenblatt]{Rosenblatt1962}
+\MakeUppercase{Rosenblatt, F.}, 1962, \enquote{{Principles of Neurodynamics.
+  Perceptrons and the Theory of Brain Mechanisms.}} \emph{Archives of General
+  Psychiatry}, v.~7, \penalty0 pp.~218--219.
+\newblock ISSN: 0003-990X.
+\newblock \doi{10.1001/archpsyc.1962.01720030064010}.
+
+\bibitem[\MakeUppercase{Saljooghi} e \MakeUppercase{Hezarkhani}(2014)Saljooghi
+  e Hezarkhani]{Saljooghi2014}
+\MakeUppercase{Saljooghi, B.~S., Hezarkhani, A.}, 2014, \enquote{{Comparison of
+  WAVENET and ANN for predicting the porosity obtained from well log data}},
+  \emph{Journal of Petroleum Science and Engineering}, v.~123, \penalty0
+  pp.~172--182.
+\newblock ISSN: 09204105.
+\newblock \doi{10.1016/j.petrol.2014.08.025}.
+
+\bibitem[\MakeUppercase{Scherer} e \MakeUppercase{Lavina}(2006)Scherer e
+  Lavina]{Scherer2006}
+\MakeUppercase{Scherer, C. M.~S., Lavina, E. L.~C.}, 2006,
+  \enquote{{Stratigraphic evolution of a fluvial-eolian succession: The example
+  of the Upper Jurassic-Lower Cretaceous Guara and Botucatu formations, Parana
+  Basin, Southernmost Brazil}}, \emph{Gondwana Research}, v.~9, n.~4, \penalty0
+  pp.~475--484.
+\newblock ISSN: 1342937X.
+\newblock \doi{10.1016/j.gr.2005.12.002}.
+
+\bibitem[\MakeUppercase{Telford} e \MakeUppercase{Sheriff}(1993)Telford e
+  Sheriff]{Telford_1993}
+\MakeUppercase{Telford, W.~M., Sheriff, R.~E.}, 1993, \emph{Applied
+  Geophysics.}
+\newblock Cambridge University Press.
+
+\bibitem[\MakeUppercase{Vail}\emph{ et~al.}(1977)Vail, Mitchum, e
+  Thompson]{Vail_1977}
+\MakeUppercase{Vail, P.~R., Mitchum, R.~M., Thompson, S.}, 1977, \emph{Seismic
+  stratigraphy and global changes of sea level}.
+\newblock Seismic stratigraphy: applications to hydrocarbon exploration. APPG.
+
+\bibitem[\MakeUppercase{Yan}\emph{ et~al.}(2014)Yan, Xiaodong, Jiaotong, e
+  Corporation]{Yan2014}
+\MakeUppercase{Yan, Z., Xiaodong, Z., Jiaotong, L., \MakeLowercase{et~al.}},
+  2014, \enquote{{Lithology identification research based on self-organizing
+  map of data mining method}}, .
+
+\bibitem[\MakeUppercase{Zalan} e \MakeUppercase{Wolf}(1987)Zalan e
+  Wolf]{zalan_p._v._tectonica_1987}
+\MakeUppercase{Zalan, P.~V., Wolf, S.}, 1987, \enquote{Tect\^onica e
+  Sedimenta\c{c}\~ao da {Bacia} do {Paran\'a}}. In: \emph{Simp\'osio
+  sul-brasileiro de geologia, SBG, 3, Atas, Curitiba-PR.}, v.~1, pp. 441--477.
+
+\bibitem[\MakeUppercase{Zalan}(2007)Zalan]{Zalan2007}
+\MakeUppercase{Zalan, P.~V.}, 2007, \enquote{{Evolu{\c{c}}{\~{a}}o
+  Faneroz{\'{o}}ica das Bacias Sedimentares Brasileiras}}. In: \emph{Geologia
+  da Plataforma Sul-Americana}, Petrobras, cap.~23, pp. 595--613, Rio de
+  Janeiro.
+
+\bibitem[\MakeUppercase{Zhang}\emph{ et~al.}(1999)Zhang, Poulton, Zhang,
+  Chakravarthy, e Mezzatesta]{Zhang1999}
+\MakeUppercase{Zhang, L., Poulton, M., Zhang, Z., \MakeLowercase{et~al.}},
+  1999, \enquote{{Fast forward modeling simulation of resistivity well logs
+  using neural network}}, \emph{69th Ann. Internat. Mtg}, pp. 124--127.
+\newblock \doi{10.1190/1.1820734}.
+
+\end{thebibliography}

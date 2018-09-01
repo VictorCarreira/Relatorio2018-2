@@ -1,0 +1,151 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: manuscript.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: chap01.aux
+A level-1 auxiliary file: chap02.aux
+A level-1 auxiliary file: chap03.aux
+A level-1 auxiliary file: chap04.aux
+A level-1 auxiliary file: chap05.aux
+A level-1 auxiliary file: chap06.aux
+A level-1 auxiliary file: chap07.aux
+The style file: on-plain.bst
+Database file #1: references.bib
+Repeated entry---line 1996 of file references.bib
+ : @article{artur_paleoestruturas_2008
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2106 of file references.bib
+ : @article{milani_outline_1999
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2130 of file references.bib
+ :  
+ :  year = {2005}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2993 of file references.bib
+ : @article{McCulloch1943
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3008 of file references.bib
+ : @article{Rosenblatt1962
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3034 of file references.bib
+ : @article{Feldman1988
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3057 of file references.bib
+ : @misc{FrancaAlmerio&Potter1991
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3082 of file references.bib
+ : @article{Hagan1996
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3092 of file references.bib
+ : @article{Mao1996
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3107 of file references.bib
+ : @article{Levy1997
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3118 of file references.bib
+ : @article{Milani1998
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3139 of file references.bib
+ : @article{milani_outline_1999
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3160 of file references.bib
+ : @article{CristinaLopesQuintas1999
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3172 of file references.bib
+ : @article{Chakravarthy1999
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3183 of file references.bib
+ : @article{Zhang1999
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3193 of file references.bib
+ : @article{Benaouda1999
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3221 of file references.bib
+ : @article{Milani2000
+ :                    ,
+I'm skipping whatever remains of this entry
+`address' is a missing field, not a string, for entry Vidotti_2003
+while executing---line 1437 of file on-plain.bst
+Warning--empty booktitle in Eiras1996
+Warning--empty month in Eiras1996
+Warning--empty journal in Hagan1996
+Warning--empty journal in Hall2014
+Warning--there's a number but no volume in Hall2014
+`address' is a missing field, not a string, for entry MacKay2005
+while executing---line 1437 of file on-plain.bst
+Warning--empty publisher in MacKay2005
+Warning--can't use both author and editor fields in Michel2016
+`address' is a missing field, not a string, for entry Michel2016
+while executing---line 1437 of file on-plain.bst
+Warning--empty publisher in Michel2016
+Warning--can't use both volume and number fields in boletim_2007
+`address' is a missing field, not a string, for entry boletim_2007
+while executing---line 1437 of file on-plain.bst
+Warning--can't use both author and editor fields in Minsky1969
+`address' is a missing field, not a string, for entry Minsky1969
+while executing---line 1437 of file on-plain.bst
+Warning--empty publisher in Minsky1969
+`address' is a missing field, not a string, for entry Telford_1993
+while executing---line 1437 of file on-plain.bst
+`address' is a missing field, not a string, for entry Vail_1977
+while executing---line 1437 of file on-plain.bst
+Warning--empty journal in Yan2014
+Warning--empty month in zalan_p._v._tectonica_1987
+You've used 45 entries,
+            2972 wiz_defined-function locations,
+            983 strings with 14401 characters,
+and the built_in function-call counts, 22359 in all, are:
+= -- 2009
+> -- 1060
+< -- 54
++ -- 391
+- -- 345
+* -- 2199
+:= -- 3261
+add.period$ -- 144
+call.type$ -- 45
+change.case$ -- 168
+chr.to.int$ -- 44
+cite$ -- 103
+duplicate$ -- 1163
+empty$ -- 1969
+format.name$ -- 416
+if$ -- 4699
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 53
+newline$ -- 206
+num.names$ -- 180
+pop$ -- 468
+preamble$ -- 1
+purify$ -- 162
+quote$ -- 0
+skip$ -- 698
+stack$ -- 0
+substring$ -- 899
+swap$ -- 319
+text.length$ -- 29
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 450
+warning$ -- 13
+while$ -- 199
+width$ -- 0
+write$ -- 609
+(There were 24 error messages)

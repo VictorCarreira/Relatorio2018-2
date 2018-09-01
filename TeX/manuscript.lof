@@ -1,0 +1,38 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Modelo esquem\IeC {\'a}tico de um neur\IeC {\^o}nio de McCulloch-Pitts. Onde $x_{1}, x_{2}, ..., x_{n}$ s\IeC {\~a}o os \textit {inputs}, $w_{1}, w_{2}, ..., w_{n}$ s\IeC {\~a}o os pesos, h \IeC {\'e} o treino, $g(x)$ \IeC {\'e} a fun\IeC {\c c}\IeC {\~a}o de ativa\IeC {\c c}\IeC {\~a}o, e $y$ \IeC {\'e} o \textit {output}.}}{4}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Neur\IeC {\^o}nio e suas vizinhan\IeC {\c c}as}}{5}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Hom\IeC {\'u}nculo de Penfield.}}{6}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces An\IeC {\'a}lise de agrupamento 1}}{10}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces An\IeC {\'a}lise de agrupamento 2}}{11}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces An\IeC {\'a}lise de agrupamento 3}}{13}{figure.1.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa geol\IeC {\'o}gico e de localiza\IeC {\c c}\IeC {\~a}o da \IeC {\'a}rea de estudo. }}{16}{figure.2.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fluxograma do programa de gera\IeC {\c c}\IeC {\~a}o dos dados sint\IeC {\'e}ticos}}{17}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fluxograma do programa de treinamento da rede neuronal de kohonen.}}{18}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Fluxograma do programa de identifica\IeC {\c c}\IeC {\~a}o da rede.}}{19}{figure.3.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Exemplo de um dado p\IeC {\'u}blico de uma perfilagem de po\IeC {\c c}o composta realizada pela Petrobras, na Bacia do Paran\IeC {\'a}.}}{22}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Modelo Simplificado baseado em \cite {Sal2008}.}}{25}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dado de perfilagem sint\IeC {\'e}tico, T1. Aonde a porcentagem de CE indica a mistura de conglomerado com embasamento}}{26}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dado de perfilagem sint\IeC {\'e}tico, C1.}}{26}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dado de perfilagem sint\IeC {\'e}tico, C2.}}{27}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o do total de po\IeC {\c c}os de trabalho.}}{28}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{29}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{30}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{31}{figure.4.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Agrupamento de dados do po\IeC {\c c}o T1.}}{32}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Agrupamento de dados do po\IeC {\c c}o C1.}}{33}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Agrupamento de dados do po\IeC {\c c}o C2.}}{34}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal.}}{35}{figure.5.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{35}{figure.5.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{35}{figure.5.4}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{35}{figure.5.4}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces ref4}}{35}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Teste de converg\IeC {\^e}ncia da rede.}}{36}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Dado de sa\IeC {\'\i }da da rede para o po\IeC {\c c}o de classifica\IeC {\c c}\IeC {\~a}o C1.}}{37}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Dado de sa\IeC {\'\i }da da rede para o po\IeC {\c c}o de classifica\IeC {\c c}\IeC {\~a}o C2.}}{38}{figure.5.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
