@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Modelo esquem\IeC {\'a}tico de um neur\IeC {\^o}nio de McCulloch-Pitts. Onde $x_{1}, x_{2}, ..., x_{n}$ s\IeC {\~a}o os \textit {inputs}, $w_{1}, w_{2}, ..., w_{n}$ s\IeC {\~a}o os pesos, h \IeC {\'e} o treino, $g(x)$ \IeC {\'e} a fun\IeC {\c c}\IeC {\~a}o de ativa\IeC {\c c}\IeC {\~a}o, e $y$ \IeC {\'e} o \textit {output}.}}{4}{figure.1.1}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Neur\IeC {\^o}nio e suas vizinhan\IeC {\c c}as}}{5}{figure.1.2}
@@ -20,8 +20,14 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Dado de perfilagem sint\IeC {\'e}tico, C2.}}{27}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o do total de po\IeC {\c c}os de trabalho.}}{28}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{29}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{30}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Localiza\IeC {\c c}\IeC {\~a}o dos po\IeC {\c c}os escolhidos.}}{31}{figure.4.9}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Po\IeC {\c c}o 1BN0002SC e as respectivas propriedades f\IeC {\'\i }sicas escolhidas para o teste. Em (b) tem-se a varia\IeC {\c c}\IeC {\~a}o de litologia com a profundidade, (c) o potencial espont\IeC {\^a}neo e em (d) a resistividade lateral. }}{30}{figure.4.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref1}}{30}{figure.4.8}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref2}}{30}{figure.4.8}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces ref3}}{30}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Po\IeC {\c c}o 1BN0002SC e as respectivas propriedades f\IeC {\'\i }sicas escolhidas para o teste. Em (b) tem-se a varia\IeC {\c c}\IeC {\~a}o de litologia com a profundidade, (c) \textit {Transient Time Integrator} e em (d) TOT.}}{31}{figure.4.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref1}}{31}{figure.4.9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref4}}{31}{figure.4.9}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces ref5}}{31}{figure.4.9}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Agrupamento de dados do po\IeC {\c c}o T1.}}{32}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Agrupamento de dados do po\IeC {\c c}o C1.}}{33}{figure.5.2}
@@ -34,5 +40,29 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Teste de converg\IeC {\^e}ncia da rede.}}{36}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Dado de sa\IeC {\'\i }da da rede para o po\IeC {\c c}o de classifica\IeC {\c c}\IeC {\~a}o C1.}}{37}{figure.5.6}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Dado de sa\IeC {\'\i }da da rede para o po\IeC {\c c}o de classifica\IeC {\c c}\IeC {\~a}o C2.}}{38}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $40$X$40$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{40}{figure.5.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{40}{figure.5.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{40}{figure.5.8}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{40}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $40$X$40$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{41}{figure.5.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{41}{figure.5.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{41}{figure.5.9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{41}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $40$X$40$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{42}{figure.5.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{42}{figure.5.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{42}{figure.5.10}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{42}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $20$X$20$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{43}{figure.5.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{43}{figure.5.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{43}{figure.5.11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{43}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $20$X$20$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{44}{figure.5.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{44}{figure.5.12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{44}{figure.5.12}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{44}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Mapas auto-organiz\IeC {\'a}veis e sua evolu\IeC {\c c}\IeC {\~a}o temporal. A figura (a) mostra a rede com $20$X$20$ neur\IeC {\^o}nios no in\IeC {\'\i }cio do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}}{45}{figure.5.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces ref1}}{45}{figure.5.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces ref2}}{45}{figure.5.13}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces ref3}}{45}{figure.5.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

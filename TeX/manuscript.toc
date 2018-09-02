@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Lista de Figuras}{iii}{chapter*.2}
 \contentsline {chapter}{Lista de Tabelas}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
@@ -15,10 +15,11 @@
 \contentsline {chapter}{\numberline {4}Dados de Perfilagem}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modelo proposto para gerar os dados sint\IeC {\'e}ticos}{24}{section.4.1}
 \contentsline {section}{\numberline {4.2}Dado Real}{27}{section.4.2}
-\contentsline {subsubsection}{Os primeiros po\IeC {\c c}os reais de treinamento e classifica\IeC {\c c}\IeC {\~a}o}{28}{section*.4}
+\contentsline {subsection}{\numberline {4.2.1}Dados reais e treinamento e classifica\IeC {\c c}\IeC {\~a}o da rede}{28}{subsection.4.2.1}
 \contentsline {chapter}{\numberline {5}Resultados e Discuss\IeC {\~o}es}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Treinamento}{34}{section.5.1}
 \contentsline {section}{\numberline {5.2}Identifica\IeC {\c c}\IeC {\~a}o}{36}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{40}{chapter.6}
-\contentsline {chapter}{\numberline {7}Cronograma}{42}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{44}{chapter*.5}
+\contentsline {section}{\numberline {5.3}Dado Real: treinamento}{39}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{46}{chapter.6}
+\contentsline {chapter}{\numberline {7}Cronograma}{48}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{50}{chapter*.4}

@@ -14,9 +14,11 @@
 \BOOKMARK [0][-]{chapter.4}{Dados de Perfilagem}{}% 14
 \BOOKMARK [1][-]{section.4.1}{Modelo proposto para gerar os dados sint\351ticos}{chapter.4}% 15
 \BOOKMARK [1][-]{section.4.2}{Dado Real}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Resultados e Discuss\365es}{}% 17
-\BOOKMARK [1][-]{section.5.1}{Treinamento}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.2}{Identifica\347\343o}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Conclus\365es}{}% 20
-\BOOKMARK [0][-]{chapter.7}{Cronograma}{}% 21
-\BOOKMARK [0][-]{chapter*.5}{Refer\352ncias Bibliogr\341ficas}{}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{Dados reais e treinamento e classifica\347\343o da rede}{section.4.2}% 17
+\BOOKMARK [0][-]{chapter.5}{Resultados e Discuss\365es}{}% 18
+\BOOKMARK [1][-]{section.5.1}{Treinamento}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{Identifica\347\343o}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Dado Real: treinamento}{chapter.5}% 21
+\BOOKMARK [0][-]{chapter.6}{Conclus\365es}{}% 22
+\BOOKMARK [0][-]{chapter.7}{Cronograma}{}% 23
+\BOOKMARK [0][-]{chapter*.4}{Refer\352ncias Bibliogr\341ficas}{}% 24
