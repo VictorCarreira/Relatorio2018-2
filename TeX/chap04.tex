@@ -165,9 +165,9 @@ A Fig. \ref{real} mostra a localização e distribuição dos poços na Bacia do
 	\label{real}
 \end{figure}
 
-\subsubsection{Os primeiros poços reais de treinamento e classificação}
+\subsection{Dados reais e treinamento e classificação da rede}
 
-Como uma primeira abordagem com os dados reais foram escolhidos dois poços localizados na borda leste da Bacia Sedimentar do Paraná que preenchessem alguns pré-requisistos.
+Como uma primeira abordagem com os dados reais foram escolhidos dois poços localizados na borda leste da Bacia Sedimentar do Paraná que preenchessem alguns pré-requisitos.
 
 \begin{enumerate}
 	\item Os primeiros poços devem estar localizados próximos para garantir um controle inicial no que tange as litologias presentes no poço de treinamento. 
@@ -176,36 +176,56 @@ Como uma primeira abordagem com os dados reais foram escolhidos dois poços loca
 	\item As propriedades físicas que definem litologia devem ser priorizadas quando possível.
 \end{enumerate}
 
-\begin{figure}[H]
-	\centering
-	\setlength{\fboxsep}{8pt}
-	\setlength{\fboxrule}{0.1pt}
-	\fbox{
-		\includegraphics[scale=0.5]{Imagens/locmap01.pdf}
-	}
-	\caption{Localização dos poços escolhidos.}
-	\label{loc01}
-\end{figure}
+O mapa da Fig. \ref{loc02} aponta a localização dos dois poços iniciais para o treinamento da rede.  
 
 
 \begin{figure}[H]
-	\centering
+	\flushleft
 	\setlength{\fboxsep}{8pt}
 	\setlength{\fboxrule}{0.1pt}
 	\fbox{
-		\includegraphics[scale=0.5]{Imagens/locmap02.pdf}
+		\includegraphics[scale=0.8]{Imagens/locmap02.pdf}
 	}
 	\caption{Localização dos poços escolhidos.}
 	\label{loc02}
 \end{figure}
 
+O primeiro poço escolhido para o treinamento da rede foi o de nome 1BN0001SC localizado na borda leste da Bacia Sedimentar do Paraná no Estado de Santa Catarina. A taxa de amostragem é $0,2$ medidas por metro e possui uma profundidade de aproximadamente $1400$ m.  As propriedades medidas foram o potencial espontâneo, raios-gama, resistividade lateral, radiação neutrônica além de medidas de propriedades para inferência da qualidade do poço e medidas de complementação a perfis sísmicos tais como \textit{Transient Time Integrator}.  
+
+O segundo poço denomina-se 1BN0002SC e foi perfurado a poucos quilômetros de distância ao sul do poço de treinamento. Possui uma profundidade de $700$ m e taxa de amostragem no valor de $0,2$ medidas por metro. As propriedades inferidas foram Potencial espontâneo, resistividade lateral, densidade de formação, raio-gama, além de medidas de propriedades para inferência da qualidade do poço e medidas de complementação a perfis sísmicos tais como \textit{Integral Time Travel}. 
+
+Foram inicialmente escolhidas quatro propriedades que são comuns em ambos os poços dentre as quais podem-se destacar o potencial espontâneo, resitividade lateral, TTI, TOT. As Figuras \ref{1BN0002SCa} e \ref{1BN0002SCb} apresentam a distribuição de propriedades físicas relacionadas com a litologia associado à variação de profundidade, respectivamente. 
+
+
 \begin{figure}[H]
 	\centering
-	\setlength{\fboxsep}{8pt}
-	\setlength{\fboxrule}{0.1pt}
-	\fbox{
-		\includegraphics[scale=0.5]{Imagens/locmap03.pdf}
-	}
-	\caption{Localização dos poços escolhidos.}
-	\label{loc03}
+	\subfigure{\includegraphics[width=2.5cm, height=2.5cm]{Imagens/legenda.png}}
+	\qquad                                                           
+	\subfigure[ref1][Litologia]{\includegraphics[width=2.8cm, height=12cm]{Imagens/1BN0002SC_lit2.png}}
+	\qquad                                                             
+	\subfigure[ref2][SP]{\includegraphics[width=3.0cm]{Imagens/1BN0002SC_SP.png}}
+	\qquad
+	\subfigure[ref3][RLAT]{\includegraphics[width=3.0cm]{Imagens/1BN0002SC_res.png}}
+	\qquad
+	\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) o potencial espontâneo e em (d) a resistividade lateral.   } 
+	\label{1BN0002SCa}
 \end{figure}
+
+
+\begin{figure}[H]
+	\centering                                                         
+    \subfigure{\includegraphics[width=2.5cm, height=2.5cm]{Imagens/legenda.png}}
+    \qquad                                                           
+    \subfigure[ref1][Litologia]{\includegraphics[width=2.8cm, height=12cm]{Imagens/1BN0002SC_lit2.png}}
+    \qquad                                                             
+	\subfigure[ref4][TTI]{\includegraphics[width=3.0cm]{Imagens/1BN0002SC_TTI.png}}
+	\qquad
+	\subfigure[ref5][TOT]{\includegraphics[width=3.0cm]{Imagens/1BN0002SC_TOT.png}}
+	\qquad
+	\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) \textit{Transient Time Integrator} e em (d) TOT.}
+	\label{1BN0002SCb}
+\end{figure}
+
+Muito embora o critério de escolha dos poços tenham sido obedecidos alumas litologias presentes no poço de classificação não existem no poço de treinamento. Isso torna necessário que futuramente seja criado um banco de dados para classificação de rochas que contenham dados de propriedades que sejam independentes da profundidade. Extinguindo-se o conceito poço de treinamento substituindo-o por Banco de dados litológicos. 
+   
+
