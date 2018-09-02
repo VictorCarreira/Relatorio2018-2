@@ -169,7 +169,7 @@ Em contra-partida, o classificador de Mahalanobis apresentou $79$ erros, no tota
 
 Foram performados ao todo $6$ testes no que tange o dado real. Os parâmetros testados da rede neuronal foram o número de neurônios e épocas\footnote{Época é definido pelo número de iterações ao longo do tempo.} Analogamente ao dado sintético foram analisadas os mapas auto-organizáveis e as curvas de convergência da rede. Para cada teste foram gerados três mapas SOMs que representam o início o meio e o fim do processo de treinamento e aprendizagem da rede. O por fim as curvas de convergência apontam todo o processo de aprendizado da rede. 
 
-Como a taxa de amostragem do dado real é alta optou-se por aumentar a dimensão do hiperplano da rede. O teste $01$ foi conduzido em uma malha composta por $1600$ neurônios, $10$ épocas, $976$ neurônios vitoriosos e um custo computacional de $6,388$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt01}
+Como a taxa de amostragem do dado real é alta optou-se por aumentar a dimensão do hiperplano da rede. O teste $01$ foi conduzido em uma malha composta por $1600$ neurônios, $10$ épocas, $976$ neurônios vitoriosos e um custo computacional de $6,388$s em tempo de máquina. o conjunto de mapas são apresentados na Fig. \ref{SOMt01}.
 
 \begin{figure}[H]
 	\centering
@@ -183,66 +183,353 @@ Como a taxa de amostragem do dado real é alta optou-se por aumentar a dimensão
 	\label{SOMt01}
 \end{figure}
 
-O teste $02$ foi conduzido em uma malha composta por $1600$ neurônios, $100$ épocas, $1600$ neurônios vitoriosos e um custo computacional de $62,01$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt02}
+A convergência do teste $01$ assumiu um comportamento exponencial até a décima época. A Fig \ref{Conv01}. 
+
+\begin{figure}[H]
+	\centering
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv01.png}
+	}
+	\caption{Convergência do teste $01$. Inicialmente a curva aproxima-se de uma função exponencial.}
+	\label{Conv01}
+\end{figure} 
+
+
+O teste $02$ foi conduzido em uma malha composta por $1600$ neurônios, $100$ épocas, $1600$ neurônios vitoriosos e um custo computacional de $62,01$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt02}.
 
 \begin{figure}[H]
 	\centering
 	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t02.pdf}}
 	\qquad
-	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM2t02.pdf}}
+	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM3t02.pdf}}
 	\qquad
-	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM3t02.pdf}}
+	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM2t02.pdf}}
 	\qquad
 	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
 	\label{SOMt02}
 \end{figure}
 
-O teste $03$ foi conduzido em uma malha composta por $1600$ neurônios, $1000$ épocas, $1600$ neurônios vitoriosos e um custo computacional de $610,12$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt03}
+A convergência do teste $02$ assume um comportamento de queda indicando que a rede ainda aprende. A Fig \ref{Conv02}. 
+
+\begin{figure}[H]
+	\centering
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv02.png}
+	}
+	\caption{Convergência do teste $02$.}
+	\label{Conv02}
+\end{figure} 
+
+O teste $03$ foi conduzido em uma malha composta por $1600$ neurônios, $1000$ épocas, $1600$ neurônios vitoriosos e um custo computacional de $610,12$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt03}.
 
 \begin{figure}[H]
 	\centering
 	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t03.pdf}}
 	\qquad
-	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM2t03.pdf}}
+	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM3t03.pdf}}
 	\qquad
-	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM3t03.pdf}}
+	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM2t03.pdf}}
 	\qquad
 	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
 	\label{SOMt03}
 \end{figure}
 
+A convergência do teste $03$ indica queda próximo a época $1000$. A Fig \ref{Conv03}. 
+
+
+\begin{figure}[H]
+	\centering
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv03.png}
+	}
+	\caption{Convergência do teste $03$.}
+	\label{Conv03}
+\end{figure} 
+
+O teste $04$ foi conduzido em uma malha composta por $400$ neurônios, $10$ épocas, $400$ neurônios vitoriosos e um custo computacional de $1,45$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt04}.
+
 \begin{figure}[H]
 	\centering
 	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t04.pdf}}
 	\qquad
-	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
+	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
 	\qquad
-	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
+	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
 	\qquad
 	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $20$X$20$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
 	\label{SOMt04}
 \end{figure}
 
+A convergência do teste $04$ indica queda próximo a época $10$. A Fig \ref{Conv04}. 
+
 \begin{figure}[H]
 	\centering
-	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t04.pdf}}
-	\qquad
-	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
-	\qquad
-	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
-	\qquad
-	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $20$X$20$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
-	\label{SOMt05}
-\end{figure}
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv04.png}
+	}
+	\caption{Convergência do teste $04$.}
+	\label{Conv04}
+\end{figure} 
+
+O teste $05$ foi conduzido em uma malha composta por $400$ neurônios, $100$ épocas, $400$ neurônios vitoriosos e um custo computacional de $15,60$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt05}.
+
 
 \begin{figure}[H]
 	\centering
 	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t04.pdf}}
 	\qquad
-	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
+	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
 	\qquad
-	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
+	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
+	\qquad
+	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $20$X$20$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+	\label{SOMt05}
+\end{figure}
+
+A convergência do teste $05$ indica queda próximo a época $100$. A Fig \ref{Conv05}. 
+
+\begin{figure}[H]
+	\centering
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv05.png}
+	}
+	\caption{Convergência do teste $05$.}
+	\label{Conv05}
+\end{figure} 
+
+
+O teste $06$ foi conduzido em uma malha composta por $400$ neurônios, $1000$ épocas, $400$ neurônios vitoriosos e um custo computacional de $153,82$s em tempo de máquina. o conjunto de mapas apresentados na Fig. \ref{SOMt05}.
+
+
+\begin{figure}[H]
+	\centering
+	\subfigure[ref1][Início]{\includegraphics[width=7.0cm]{Imagens/SOM1t04.pdf}}
+	\qquad
+	\subfigure[ref2][Metade]{\includegraphics[width=7.0cm]{Imagens/SOM3t04.pdf}}
+	\qquad
+	\subfigure[ref3][Final]{\includegraphics[width=7.0cm]{Imagens/SOM2t04.pdf}}
 	\qquad
 	\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $20$X$20$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
 	\label{SOMt06}
 \end{figure}
+
+A convergência do teste $06$ indica queda próximo a época $1000$. A Fig \ref{Conv06}. 
+
+\begin{figure}[H]
+	\centering
+	\setlength{\fboxsep}{8pt}
+	\setlength{\fboxrule}{0.1pt}
+	\fbox{
+		\includegraphics[scale=0.3]{Imagens/conv06.png}
+	}
+	\caption{Convergência do teste $06$.}
+	\label{Conv06}
+\end{figure} 
+
+\section{Dado Real: identificação}
+
+A seguir são apresentados os resultados de classificação da rede para os seis testes realizados. As rochas presentes nos poços analisados são identificadas através de códigos numéricos de acordo com a Tab. \ref{codigosreal}. 
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c|c}
+		
+		Litologia                    & Código numérico \\ % Note a separação de col. e a quebra de linhas
+		\hline                                                             % para uma linha horizontal
+		Calcilutito                   &  6              \\
+		Calcarenito  		          &  8              \\
+		Diabásio    	              &  65              \\
+		Conglomerado                  &  42              \\
+		Diamictito                    &  44              \\
+		Arenito                       &  49              \\
+		Siltito                       &  54              \\
+		Folhelho                      &  57              \\
+		Meta-siltito                  &  76              \\
+		Calcário Cristalino           &  2              \\
+		% não é preciso quebrar a última linha
+		
+	\end{tabular}
+	\label{codigosreal}
+	\caption{Tabela de referência para conversão do padrão numérico em litologia.}
+\end{table}
+
+A Fig. \ref{IDt01} apresenta os resultados de identificação da rede para o teste $01$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Imagens/result01.png}
+	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt01}
+\end{figure} 
+
+A Tab. \ref{Estatistica do teste $01$} mostra o resumo da identificação realizada no teste $01$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $01$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $01$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 10       \\
+		Erros                       & 2229       \\
+		Neurônios da Rede           & 1600       \\
+		Neurônios vitoriosos        & 976       \\
+		Neurônios sem uso           & 624         \\
+		Tempo de máquina            & 6,388 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+
+A Fig. \ref{IDt02} apresenta os resultados de identificação da rede para o teste $02$.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=0.4]{Imagens/result02.png}
+	\caption{Identificação do teste 02. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt02}
+\end{figure} 
+
+A Tab. \ref{Estatistica do teste $02$} mostra o resumo da identificação realizada no teste $02$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $02$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $02$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 100       \\
+		Erros                       & 2242       \\
+		Neurônios da Rede           & 1600       \\
+		Neurônios vitoriosos        & 1600       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 62,01 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+
+A Fig. \ref{IDt03} apresenta os resultados de identificação da rede para o teste $03$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Imagens/result03.png}
+	\caption{Identificação do teste 03. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt03}
+\end{figure} 
+
+
+A Tab. \ref{Estatistica do teste $03$} mostra o resumo da identificação realizada no teste $03$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $03$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $03$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 1000       \\
+		Erros                       & 2226       \\
+		Neurônios da Rede           & 1600       \\
+		Neurônios vitoriosos        & 1600       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 610,12 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+
+A Fig. \ref{IDt04} apresenta os resultados de identificação da rede para o teste $04$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Imagens/result04.png}
+	\caption{Identificação do teste 04. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt04}
+\end{figure} 
+
+A Tab. \ref{Estatistica do teste $04$} mostra o resumo da identificação realizada no teste $04$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $04$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $04$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 10       \\
+		Erros                       & 2219       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 1,45 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+
+A Fig. \ref{IDt05} apresenta os resultados de identificação da rede para o teste $05$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Imagens/result05.png}
+	\caption{Identificação do teste 05. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt05}
+\end{figure} 
+
+A Tab. \ref{Estatistica do teste $05$} mostra o resumo da identificação realizada no teste $05$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $05$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $05$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 100       \\
+		Erros                       & 2408       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 15,60 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+
+
+A Fig. \ref{IDt06} apresenta os resultados de identificação da rede para o teste $06$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{Imagens/result01.png}
+	\caption{Identificação do teste 06. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\label{IDt06}
+\end{figure} 
+
+A Tab. \ref{Estatistica do teste $06$} mostra o resumo da identificação realizada no teste $06$.
+
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $06$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $06$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 1000       \\
+		Erros                       & 2240       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 153,82 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+

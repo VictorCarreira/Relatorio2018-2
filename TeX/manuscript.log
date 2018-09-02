@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.27)  2 SEP 2018 03:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.27)  2 SEP 2018 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,12 +1450,12 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 73.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ON-logo.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<ON-logo.pdf, id=130, 532.95615pt x 168.19116pt>
+<ON-logo.pdf, id=134, 532.95615pt x 168.19116pt>
 File: ON-logo.pdf Graphic file (type pdf)
 <use ON-logo.pdf>
 Package pdftex.def Info: ON-logo.pdf  used on input line 73.
 (pdftex.def)             Requested size: 142.26378pt x 44.8938pt.
-<DIPPG-logo.png, id=131, 165.61874pt x 61.1886pt>
+<DIPPG-logo.png, id=135, 165.61874pt x 61.1886pt>
 File: DIPPG-logo.png Graphic file (type png)
 <use DIPPG-logo.png>
 Package pdftex.def Info: DIPPG-logo.png  used on input line 73.
@@ -1500,7 +1500,15 @@ l.81   \include{resumo}
 [1
 
 
-] (./manuscript.toc)
+] (./manuscript.toc
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+ [2
+
+
+])
 \tf@toc=\write6
 \openout6 = `manuscript.toc'.
 
@@ -1508,10 +1516,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 84.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 84.
- [2
-
-
-]
+ [3]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 84.
  (./manuscript.lof
@@ -1524,9 +1529,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 34.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 34.
-[3
+[4
 
-])
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 74.
+ [5])
 \tf@lof=\write7
 \openout7 = `manuscript.lof'.
 
@@ -1534,7 +1544,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
- [4]
+ [6]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
  (./manuscript.lot)
@@ -1545,7 +1555,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 92.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 92.
- [5
+ [7
 
 ]
 \openout2 = `chap01.aux'.
@@ -1580,7 +1590,7 @@ Package epstopdf Info: Source file: <Imagens/McCulloch.eps>
 erted-to.pdf Imagens/McCulloch.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<Imagens/McCulloch-eps-converted-to.pdf, id=403, 456.70625pt x 111.41624pt>
+<Imagens/McCulloch-eps-converted-to.pdf, id=467, 456.70625pt x 111.41624pt>
 File: Imagens/McCulloch-eps-converted-to.pdf Graphic file (type pdf)
 <use Imagens/McCulloch-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/McCulloch-eps-converted-to.pdf  used on input 
@@ -1598,7 +1608,7 @@ Package babel Info: Redefining portuges shorthand "|
 [3]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 58.
-<Imagens/hiperplano.png, id=424, 570.933pt x 380.622pt>
+<Imagens/hiperplano.png, id=488, 570.933pt x 380.622pt>
 File: Imagens/hiperplano.png Graphic file (type png)
 <use Imagens/hiperplano.png>
 Package pdftex.def Info: Imagens/hiperplano.png  used on input line 88.
@@ -1627,7 +1637,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.114 
        <./Imagens/hiperplano.png>]
-<Imagens/homunculo.png, id=475, 379.8993pt x 311.0019pt>
+<Imagens/homunculo.png, id=541, 379.8993pt x 311.0019pt>
 File: Imagens/homunculo.png Graphic file (type png)
 <use Imagens/homunculo.png>
 Package pdftex.def Info: Imagens/homunculo.png  used on input line 126.
@@ -1678,7 +1688,7 @@ df>
 s-converted-to.pdf Imagens/clusteranalise1.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
-<Imagens/clusteranalise1-eps-converted-to.pdf, id=505, 1662.21pt x 1445.4pt>
+<Imagens/clusteranalise1-eps-converted-to.pdf, id=569, 1662.21pt x 1445.4pt>
 File: Imagens/clusteranalise1-eps-converted-to.pdf Graphic file (type pdf)
 <use Imagens/clusteranalise1-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise1-eps-converted-to.pdf  used on 
@@ -1717,7 +1727,7 @@ df>
 s-converted-to.pdf Imagens/clusteranalise2.eps>
 (epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
-<Imagens/clusteranalise2-eps-converted-to.pdf, id=553, 1662.21pt x 1445.4pt>
+<Imagens/clusteranalise2-eps-converted-to.pdf, id=617, 1662.21pt x 1445.4pt>
 File: Imagens/clusteranalise2-eps-converted-to.pdf Graphic file (type pdf)
 <use Imagens/clusteranalise2-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise2-eps-converted-to.pdf  used on 
@@ -1745,7 +1755,7 @@ df>
 s-converted-to.pdf Imagens/clusteranalise3.eps>
 (epstopdf)             \includegraphics on input line 355.
 Package epstopdf Info: Output file is already uptodate.
-<Imagens/clusteranalise3-eps-converted-to.pdf, id=595, 1662.21pt x 1156.32pt>
+<Imagens/clusteranalise3-eps-converted-to.pdf, id=660, 1662.21pt x 1156.32pt>
 File: Imagens/clusteranalise3-eps-converted-to.pdf Graphic file (type pdf)
 <use Imagens/clusteranalise3-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise3-eps-converted-to.pdf  used on 
@@ -1810,7 +1820,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-<Imagens/BaciaParana.jpg, id=673, 844.8363pt x 597.6729pt>
+<Imagens/BaciaParana.jpg, id=738, 844.8363pt x 597.6729pt>
 File: Imagens/BaciaParana.jpg Graphic file (type jpg)
 <use Imagens/BaciaParana.jpg>
 Package pdftex.def Info: Imagens/BaciaParana.jpg  used on input line 20.
@@ -1994,7 +2004,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<Imagens/poco.png, id=721, 2354.0748pt x 1823.3721pt>
+<Imagens/poco.png, id=785, 2354.0748pt x 1823.3721pt>
 File: Imagens/poco.png Graphic file (type png)
 <use Imagens/poco.png>
 Package pdftex.def Info: Imagens/poco.png  used on input line 17.
@@ -2044,7 +2054,7 @@ Overfull \hbox (7.49846pt too wide) in paragraph at lines 89--89
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
-<Imagens/Modelo.png, id=761, 819.06pt x 475.5366pt>
+<Imagens/Modelo.png, id=827, 819.06pt x 475.5366pt>
 File: Imagens/Modelo.png Graphic file (type png)
 <use Imagens/Modelo.png>
 Package pdftex.def Info: Imagens/Modelo.png  used on input line 101.
@@ -2065,7 +2075,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.105 
       ]
-<Imagens/PocoT1.png, id=776, 721.9773pt x 409.53pt>
+<Imagens/PocoT1.png, id=842, 721.9773pt x 409.53pt>
 File: Imagens/PocoT1.png Graphic file (type png)
 <use Imagens/PocoT1.png>
 Package pdftex.def Info: Imagens/PocoT1.png  used on input line 118.
@@ -2081,7 +2091,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.122 
        <./Imagens/Modelo.png>]
-<Imagens/PocoC1.png, id=787, 720.7728pt x 409.2891pt>
+<Imagens/PocoC1.png, id=852, 720.7728pt x 409.2891pt>
 File: Imagens/PocoC1.png Graphic file (type png)
 <use Imagens/PocoC1.png>
 Package pdftex.def Info: Imagens/PocoC1.png  used on input line 131.
@@ -2103,14 +2113,14 @@ l.137
                                                   \fi \fi 
 l.137 
        <./Imagens/PocoT1.png> <./Imagens/PocoC1.png>]
-<Imagens/PocoC2.png, id=797, 719.5683pt x 409.53pt>
+<Imagens/PocoC2.png, id=862, 719.5683pt x 409.53pt>
 File: Imagens/PocoC2.png Graphic file (type png)
 <use Imagens/PocoC2.png>
 Package pdftex.def Info: Imagens/PocoC2.png  used on input line 144.
 (pdftex.def)             Requested size: 359.78326pt x 204.7645pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 149.
-<Imagens/Pocos.jpg, id=799, 853.1875pt x 664.4825pt>
+<Imagens/Pocos.jpg, id=864, 853.1875pt x 664.4825pt>
 File: Imagens/Pocos.jpg Graphic file (type jpg)
 <use Imagens/Pocos.jpg>
 Package pdftex.def Info: Imagens/Pocos.jpg  used on input line 163.
@@ -2133,7 +2143,7 @@ l.167
        <./Imagens/PocoC2.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
-<Imagens/locmap02.pdf, id=808, 565.87411pt x 346.89601pt>
+<Imagens/locmap02.pdf, id=872, 565.87411pt x 346.89601pt>
 File: Imagens/locmap02.pdf Graphic file (type pdf)
 <use Imagens/locmap02.pdf>
 Package pdftex.def Info: Imagens/locmap02.pdf  used on input line 188.
@@ -2154,22 +2164,22 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.192 
        <./Imagens/Pocos.jpg>]
-<Imagens/legenda.png, id=819, 197.7789pt x 168.99135pt>
+<Imagens/legenda.png, id=883, 197.7789pt x 168.99135pt>
 File: Imagens/legenda.png Graphic file (type png)
 <use Imagens/legenda.png>
 Package pdftex.def Info: Imagens/legenda.png  used on input line 202.
 (pdftex.def)             Requested size: 71.13094pt x 71.13316pt.
-<Imagens/1BN0002SC_lit2.png, id=820, 216.81pt x 1445.4pt>
+<Imagens/1BN0002SC_lit2.png, id=884, 216.81pt x 1445.4pt>
 File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
 <use Imagens/1BN0002SC_lit2.png>
 Package pdftex.def Info: Imagens/1BN0002SC_lit2.png  used on input line 204.
 (pdftex.def)             Requested size: 79.66927pt x 341.43344pt.
-<Imagens/1BN0002SC_SP.png, id=821, 361.35pt x 1445.4pt>
+<Imagens/1BN0002SC_SP.png, id=885, 361.35pt x 1445.4pt>
 File: Imagens/1BN0002SC_SP.png Graphic file (type png)
 <use Imagens/1BN0002SC_SP.png>
 Package pdftex.def Info: Imagens/1BN0002SC_SP.png  used on input line 206.
 (pdftex.def)             Requested size: 85.35826pt x 341.43344pt.
-<Imagens/1BN0002SC_res.png, id=822, 361.35pt x 1445.4pt>
+<Imagens/1BN0002SC_res.png, id=886, 361.35pt x 1445.4pt>
 File: Imagens/1BN0002SC_res.png Graphic file (type png)
 <use Imagens/1BN0002SC_res.png>
 Package pdftex.def Info: Imagens/1BN0002SC_res.png  used on input line 208.
@@ -2193,12 +2203,12 @@ File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
 <use Imagens/1BN0002SC_lit2.png>
 Package pdftex.def Info: Imagens/1BN0002SC_lit2.png  used on input line 219.
 (pdftex.def)             Requested size: 79.66927pt x 341.43344pt.
-<Imagens/1BN0002SC_TTI.png, id=834, 361.35pt x 1445.4pt>
+<Imagens/1BN0002SC_TTI.png, id=899, 361.35pt x 1445.4pt>
 File: Imagens/1BN0002SC_TTI.png Graphic file (type png)
 <use Imagens/1BN0002SC_TTI.png>
 Package pdftex.def Info: Imagens/1BN0002SC_TTI.png  used on input line 221.
 (pdftex.def)             Requested size: 85.35826pt x 341.43344pt.
-<Imagens/1BN0002SC_TOT.png, id=835, 361.35pt x 1445.4pt>
+<Imagens/1BN0002SC_TOT.png, id=900, 361.35pt x 1445.4pt>
 File: Imagens/1BN0002SC_TOT.png Graphic file (type png)
 <use Imagens/1BN0002SC_TOT.png>
 Package pdftex.def Info: Imagens/1BN0002SC_TOT.png  used on input line 223.
@@ -2233,7 +2243,7 @@ l.102   \include{chap04}
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<Imagens/cluterpocoT1.png, id=860, 722.7pt x 722.7pt>
+<Imagens/cluterpocoT1.png, id=924, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoT1.png Graphic file (type png)
 <use Imagens/cluterpocoT1.png>
 Package pdftex.def Info: Imagens/cluterpocoT1.png  used on input line 11.
@@ -2253,7 +2263,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.17 
       <./Imagens/cluterpocoT1.png>]
-<Imagens/cluterpocoC1.png, id=867, 722.7pt x 722.7pt>
+<Imagens/cluterpocoC1.png, id=931, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoC1.png Graphic file (type png)
 <use Imagens/cluterpocoC1.png>
 Package pdftex.def Info: Imagens/cluterpocoC1.png  used on input line 28.
@@ -2269,7 +2279,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.37 
       <./Imagens/cluterpocoC1.png>]
-<Imagens/cluterpocoC2.png, id=874, 722.7pt x 722.7pt>
+<Imagens/cluterpocoC2.png, id=938, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoC2.png Graphic file (type png)
 <use Imagens/cluterpocoC2.png>
 Package pdftex.def Info: Imagens/cluterpocoC2.png  used on input line 44.
@@ -2287,22 +2297,22 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.54 
       <./Imagens/cluterpocoC2.png>]
-<Imagens/SOM1_2d.pdf, id=883, 518.17589pt x 460.35991pt>
+<Imagens/SOM1_2d.pdf, id=948, 518.17589pt x 460.35991pt>
 File: Imagens/SOM1_2d.pdf Graphic file (type pdf)
 <use Imagens/SOM1_2d.pdf>
 Package pdftex.def Info: Imagens/SOM1_2d.pdf  used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 176.94759pt.
-<Imagens/SOM5_2d.pdf, id=884, 516.73048pt x 441.56972pt>
+<Imagens/SOM5_2d.pdf, id=949, 516.73048pt x 441.56972pt>
 File: Imagens/SOM5_2d.pdf Graphic file (type pdf)
 <use Imagens/SOM5_2d.pdf>
 Package pdftex.def Info: Imagens/SOM5_2d.pdf  used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 170.19688pt.
-<Imagens/SOM100_2d.pdf, id=885, 502.27649pt x 433.62pt>
+<Imagens/SOM100_2d.pdf, id=950, 502.27649pt x 433.62pt>
 File: Imagens/SOM100_2d.pdf Graphic file (type pdf)
 <use Imagens/SOM100_2d.pdf>
 Package pdftex.def Info: Imagens/SOM100_2d.pdf  used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 171.94298pt.
-<Imagens/SOM1000_2d.pdf, id=886, 492.1587pt x 431.45189pt>
+<Imagens/SOM1000_2d.pdf, id=951, 492.1587pt x 431.45189pt>
 File: Imagens/SOM1000_2d.pdf Graphic file (type pdf)
 <use Imagens/SOM1000_2d.pdf>
 Package pdftex.def Info: Imagens/SOM1000_2d.pdf  used on input line 63.
@@ -2336,7 +2346,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM100_2d.pdf): PDF inclusion
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM1000_2d.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<Imagens/conv070917.png, id=923, 1445.4pt x 722.7pt>
+<Imagens/conv070917.png, id=989, 1445.4pt x 722.7pt>
 File: Imagens/conv070917.png Graphic file (type png)
 <use Imagens/conv070917.png>
 Package pdftex.def Info: Imagens/conv070917.png  used on input line 101.
@@ -2365,12 +2375,12 @@ l.113
                                                   \fi \fi 
 l.113 
        <./Imagens/conv070917.png>]
-<Imagens/IDC1020118.png, id=931, 799.0653pt x 396.7623pt>
+<Imagens/IDC1020118.png, id=997, 799.0653pt x 396.7623pt>
 File: Imagens/IDC1020118.png Graphic file (type png)
 <use Imagens/IDC1020118.png>
 Package pdftex.def Info: Imagens/IDC1020118.png  used on input line 121.
 (pdftex.def)             Requested size: 399.53168pt x 198.38066pt.
-<Imagens/IDC2020118.png, id=934, 799.5471pt x 396.2805pt>
+<Imagens/IDC2020118.png, id=1000, 799.5471pt x 396.2805pt>
 File: Imagens/IDC2020118.png Graphic file (type png)
 <use Imagens/IDC2020118.png>
 Package pdftex.def Info: Imagens/IDC2020118.png  used on input line 136.
@@ -2405,17 +2415,17 @@ l.168 \section
               {Dado Real: treinamento} <./Imagens/IDC2020118.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
-<Imagens/SOM1t01.pdf, id=950, 661.74602pt x 515.55421pt>
+<Imagens/SOM1t01.pdf, id=1014, 661.74602pt x 515.55421pt>
 File: Imagens/SOM1t01.pdf Graphic file (type pdf)
 <use Imagens/SOM1t01.pdf>
 Package pdftex.def Info: Imagens/SOM1t01.pdf  used on input line 176.
 (pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM2t01.pdf, id=951, 661.74602pt x 515.55421pt>
+<Imagens/SOM2t01.pdf, id=1015, 661.74602pt x 515.55421pt>
 File: Imagens/SOM2t01.pdf Graphic file (type pdf)
 <use Imagens/SOM2t01.pdf>
 Package pdftex.def Info: Imagens/SOM2t01.pdf  used on input line 178.
 (pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM3t01.pdf, id=952, 661.74602pt x 515.55421pt>
+<Imagens/SOM3t01.pdf, id=1016, 661.74602pt x 515.55421pt>
 File: Imagens/SOM3t01.pdf Graphic file (type pdf)
 <use Imagens/SOM3t01.pdf>
 Package pdftex.def Info: Imagens/SOM3t01.pdf  used on input line 180.
@@ -2425,32 +2435,26 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 185.
  [39]
-<Imagens/SOM1t02.pdf, id=959, 661.74602pt x 515.55421pt>
-File: Imagens/SOM1t02.pdf Graphic file (type pdf)
-<use Imagens/SOM1t02.pdf>
-Package pdftex.def Info: Imagens/SOM1t02.pdf  used on input line 190.
-(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM2t02.pdf, id=960, 661.74602pt x 515.55421pt>
-File: Imagens/SOM2t02.pdf Graphic file (type pdf)
-<use Imagens/SOM2t02.pdf>
-Package pdftex.def Info: Imagens/SOM2t02.pdf  used on input line 192.
-(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM3t02.pdf, id=961, 661.74602pt x 515.55421pt>
-File: Imagens/SOM3t02.pdf Graphic file (type pdf)
-<use Imagens/SOM3t02.pdf>
-Package pdftex.def Info: Imagens/SOM3t02.pdf  used on input line 194.
-(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 199.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 199.
+<Imagens/conv01.png, id=1023, 1445.4pt x 722.7pt>
+File: Imagens/conv01.png Graphic file (type png)
+<use Imagens/conv01.png>
+Package pdftex.def Info: Imagens/conv01.png  used on input line 194.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 194--195
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 198.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 198.
 [40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.199 
+l.198 
        <./Imagens/SOM1t01.pdf> <./Imagens/SOM2t01.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t01.pdf): PDF inclusion: 
@@ -2460,20 +2464,20 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t01.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-<Imagens/SOM1t03.pdf, id=1124, 661.74602pt x 515.55421pt>
-File: Imagens/SOM1t03.pdf Graphic file (type pdf)
-<use Imagens/SOM1t03.pdf>
-Package pdftex.def Info: Imagens/SOM1t03.pdf  used on input line 204.
+<Imagens/SOM1t02.pdf, id=1186, 661.74602pt x 515.55421pt>
+File: Imagens/SOM1t02.pdf Graphic file (type pdf)
+<use Imagens/SOM1t02.pdf>
+Package pdftex.def Info: Imagens/SOM1t02.pdf  used on input line 204.
 (pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM2t03.pdf, id=1125, 661.74602pt x 515.55421pt>
-File: Imagens/SOM2t03.pdf Graphic file (type pdf)
-<use Imagens/SOM2t03.pdf>
-Package pdftex.def Info: Imagens/SOM2t03.pdf  used on input line 206.
+<Imagens/SOM3t02.pdf, id=1187, 661.74602pt x 515.55421pt>
+File: Imagens/SOM3t02.pdf Graphic file (type pdf)
+<use Imagens/SOM3t02.pdf>
+Package pdftex.def Info: Imagens/SOM3t02.pdf  used on input line 206.
 (pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
-<Imagens/SOM3t03.pdf, id=1126, 661.74602pt x 515.55421pt>
-File: Imagens/SOM3t03.pdf Graphic file (type pdf)
-<use Imagens/SOM3t03.pdf>
-Package pdftex.def Info: Imagens/SOM3t03.pdf  used on input line 208.
+<Imagens/SOM2t02.pdf, id=1188, 661.74602pt x 515.55421pt>
+File: Imagens/SOM2t02.pdf Graphic file (type pdf)
+<use Imagens/SOM2t02.pdf>
+Package pdftex.def Info: Imagens/SOM2t02.pdf  used on input line 208.
 (pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 213.
@@ -2485,110 +2489,409 @@ Package babel Info: Redefining portuges shorthand "|
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.213 
-       <./Imagens/SOM1t02.pdf> <./Imagens/SOM2t02.pdf
+       <./Imagens/conv01.png>]
+<Imagens/conv02.png, id=1197, 1445.4pt x 722.7pt>
+File: Imagens/conv02.png Graphic file (type png)
+<use Imagens/conv02.png>
+Package pdftex.def Info: Imagens/conv02.png  used on input line 222.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t02.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
-> <./Imagens/SOM3t02.pdf
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t02.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
-<Imagens/SOM1t04.pdf, id=1288, 656.14508pt x 515.55421pt>
-File: Imagens/SOM1t04.pdf Graphic file (type pdf)
-<use Imagens/SOM1t04.pdf>
-Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 216.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-<Imagens/SOM2t04.pdf, id=1289, 656.14508pt x 515.55421pt>
-File: Imagens/SOM2t04.pdf Graphic file (type pdf)
-<use Imagens/SOM2t04.pdf>
-Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 218.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-<Imagens/SOM3t04.pdf, id=1290, 656.14508pt x 515.55421pt>
-File: Imagens/SOM3t04.pdf Graphic file (type pdf)
-<use Imagens/SOM3t04.pdf>
-Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 220.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 225.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-10}) has been already used, duplicate ignored
+(babel)             in language  on input line 226.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.225 
-       <./Imagens/SOM1t03.pdf> <./Imagens/SOM2t03.pdf
+l.226 
+       <./Imagens/SOM1t02.pdf> <./Imagens/SOM3t02.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t03.pdf): PDF inclusion: 
+pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t02.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
-> <./Imagens/SOM3t03.pdf
+> <./Imagens/SOM2t02.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t03.pdf): PDF inclusion: 
+pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t02.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-File: Imagens/SOM1t04.pdf Graphic file (type pdf)
-<use Imagens/SOM1t04.pdf>
-Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 228.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-File: Imagens/SOM2t04.pdf Graphic file (type pdf)
-<use Imagens/SOM2t04.pdf>
-Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 230.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-File: Imagens/SOM3t04.pdf Graphic file (type pdf)
-<use Imagens/SOM3t04.pdf>
-Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 232.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+<Imagens/SOM1t03.pdf, id=1360, 661.74602pt x 515.55421pt>
+File: Imagens/SOM1t03.pdf Graphic file (type pdf)
+<use Imagens/SOM1t03.pdf>
+Package pdftex.def Info: Imagens/SOM1t03.pdf  used on input line 231.
+(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
+<Imagens/SOM3t03.pdf, id=1361, 661.74602pt x 515.55421pt>
+File: Imagens/SOM3t03.pdf Graphic file (type pdf)
+<use Imagens/SOM3t03.pdf>
+Package pdftex.def Info: Imagens/SOM3t03.pdf  used on input line 233.
+(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
+<Imagens/SOM2t03.pdf, id=1362, 661.74602pt x 515.55421pt>
+File: Imagens/SOM2t03.pdf Graphic file (type pdf)
+<use Imagens/SOM2t03.pdf>
+Package pdftex.def Info: Imagens/SOM2t03.pdf  used on input line 235.
+(pdftex.def)             Requested size: 199.16928pt x 155.17091pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 240.
  [43pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 
-       <./Imagens/SOM1t04.pdf> <./Imagens/SOM2t04.pdf
+l.240 
+       <./Imagens/conv02.png>]
+<Imagens/conv03.png, id=1369, 1445.4pt x 722.7pt>
+File: Imagens/conv03.png Graphic file (type png)
+<use Imagens/conv03.png>
+Package pdftex.def Info: Imagens/conv03.png  used on input line 250.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t04.pdf): PDF inclusion: 
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 250--251
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 254.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 254.
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 
+       <./Imagens/SOM1t03.pdf> <./Imagens/SOM3t03.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t03.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
-> <./Imagens/SOM3t04.pdf
+> <./Imagens/SOM2t03.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t03.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+<Imagens/SOM1t04.pdf, id=1532, 656.14508pt x 515.55421pt>
+File: Imagens/SOM1t04.pdf Graphic file (type pdf)
+<use Imagens/SOM1t04.pdf>
+Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 259.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+<Imagens/SOM3t04.pdf, id=1533, 656.14508pt x 515.55421pt>
+File: Imagens/SOM3t04.pdf Graphic file (type pdf)
+<use Imagens/SOM3t04.pdf>
+Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 261.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+<Imagens/SOM2t04.pdf, id=1534, 656.14508pt x 515.55421pt>
+File: Imagens/SOM2t04.pdf Graphic file (type pdf)
+<use Imagens/SOM2t04.pdf>
+Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 263.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 268.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 268.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.268 
+       <./Imagens/conv03.png>]
+<Imagens/conv04.png, id=1541, 1445.4pt x 722.7pt>
+File: Imagens/conv04.png Graphic file (type png)
+<use Imagens/conv04.png>
+Package pdftex.def Info: Imagens/conv04.png  used on input line 277.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 277--278
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 281.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 281.
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281 
+       <./Imagens/SOM1t04.pdf> <./Imagens/SOM3t04.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t04.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./Imagens/SOM2t04.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM2t04.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
 File: Imagens/SOM1t04.pdf Graphic file (type pdf)
 <use Imagens/SOM1t04.pdf>
-Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 240.
-(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-File: Imagens/SOM2t04.pdf Graphic file (type pdf)
-<use Imagens/SOM2t04.pdf>
-Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 242.
+Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 287.
 (pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
 File: Imagens/SOM3t04.pdf Graphic file (type pdf)
 <use Imagens/SOM3t04.pdf>
-Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 244.
+Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 289.
 (pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
-)
+File: Imagens/SOM2t04.pdf Graphic file (type pdf)
+<use Imagens/SOM2t04.pdf>
+Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 291.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 296.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
- [44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-12}) has been already used, duplicate ignored
+(babel)             in language  on input line 296.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.103   \include{chap05}
-                        ]
+l.296 
+       <./Imagens/conv04.png>]
+<Imagens/conv05.png, id=1706, 1445.4pt x 722.7pt>
+File: Imagens/conv05.png Graphic file (type png)
+<use Imagens/conv05.png>
+Package pdftex.def Info: Imagens/conv05.png  used on input line 305.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 305--306
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 309.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 309.
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.309 
+      ]
+File: Imagens/SOM1t04.pdf Graphic file (type pdf)
+<use Imagens/SOM1t04.pdf>
+Package pdftex.def Info: Imagens/SOM1t04.pdf  used on input line 316.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+File: Imagens/SOM3t04.pdf Graphic file (type pdf)
+<use Imagens/SOM3t04.pdf>
+Package pdftex.def Info: Imagens/SOM3t04.pdf  used on input line 318.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+File: Imagens/SOM2t04.pdf Graphic file (type pdf)
+<use Imagens/SOM2t04.pdf>
+Package pdftex.def Info: Imagens/SOM2t04.pdf  used on input line 320.
+(pdftex.def)             Requested size: 199.16928pt x 156.49252pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 325.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 325.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.325 
+       <./Imagens/conv05.png>]
+<Imagens/conv06.png, id=1721, 1445.4pt x 722.7pt>
+File: Imagens/conv06.png Graphic file (type png)
+<use Imagens/conv06.png>
+Package pdftex.def Info: Imagens/conv06.png  used on input line 334.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+Overfull \hbox (30.86526pt too wide) in paragraph at lines 334--335
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 338.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 338.
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.338 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 339.
+<Imagens/result01.png, id=1731, 361.35pt x 1445.4pt>
+File: Imagens/result01.png Graphic file (type png)
+<use Imagens/result01.png>
+Package pdftex.def Info: Imagens/result01.png  used on input line 370.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 374.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 374.
+ [51pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.374 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.374 
+       <./Imagens/conv06.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.393 
+       <./Imagens/result01.png>]
+<Imagens/result02.png, id=1744, 361.35pt x 1445.4pt>
+File: Imagens/result02.png Graphic file (type png)
+<use Imagens/result02.png>
+Package pdftex.def Info: Imagens/result02.png  used on input line 398.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 402.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 402.
+ [53pdfTeX warning (ext4): destination with the same identifier (name{table.5.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.402 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 421.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 421.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.421 
+       <./Imagens/result02.png>]
+<Imagens/result03.png, id=1757, 361.35pt x 1445.4pt>
+File: Imagens/result03.png Graphic file (type png)
+<use Imagens/result03.png>
+Package pdftex.def Info: Imagens/result03.png  used on input line 426.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{table.5.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.430 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 450.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 450.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.450 
+       <./Imagens/result03.png>]
+<Imagens/result04.png, id=1769, 361.35pt x 1445.4pt>
+File: Imagens/result04.png Graphic file (type png)
+<use Imagens/result04.png>
+Package pdftex.def Info: Imagens/result04.png  used on input line 455.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 459.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 459.
+ [57pdfTeX warning (ext4): destination with the same identifier (name{table.5.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.459 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 478.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 478.
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.478 
+       <./Imagens/result04.png>]
+<Imagens/result05.png, id=1781, 361.35pt x 1445.4pt>
+File: Imagens/result05.png Graphic file (type png)
+<use Imagens/result05.png>
+Package pdftex.def Info: Imagens/result05.png  used on input line 483.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 487.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 487.
+ [59pdfTeX warning (ext4): destination with the same identifier (name{table.5.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.487 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 506.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 506.
+ [60pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.506 
+       <./Imagens/result05.png>]
+File: Imagens/result01.png Graphic file (type png)
+<use Imagens/result01.png>
+Package pdftex.def Info: Imagens/result01.png  used on input line 512.
+(pdftex.def)             Requested size: 144.53743pt x 578.14977pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 516.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 516.
+ [61pdfTeX warning (ext4): destination with the same identifier (name{table.5.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.516 
+      ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 535.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 535.
+ [62pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.535 
+      ])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 103.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 103.
- [45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-13}) has been already used, duplicate ignored
+ [63pdfTeX warning (ext4): destination with the same identifier (name{table.5.9
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2604,16 +2907,26 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
-[46
+[64
 
 
 
-])
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+ [65])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 104.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 104.
- [47]
+ [66]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 104.
+ [67]
 \openout2 = `chap07.aux'.
 
  (./chap07.tex
@@ -2629,7 +2942,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
-[48
+[68
 
 
 
@@ -2649,7 +2962,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 105.
- [49pdfTeX warning (ext4): destination with the same identifier (name{table.7.2
+ [69pdfTeX warning (ext4): destination with the same identifier (name{table.7.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2669,7 +2982,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
- [50
+ [70
 
 
 
@@ -2727,7 +3040,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
-[51]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 175--182
 \OT1/cmtt/m/n/12 doi / abs / 10 . 1198 / jasa . 2005 . s54{%}5Cnhttp : / / www 
 . cambridge . org /
@@ -2737,13 +3050,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 226.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 226.
-[52]
+[72]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 303.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 303.
- [53])
-<carreiraEAGE2018.pdf, id=1697, 597.6729pt x 845.55902pt>
+ [73])
+<carreiraEAGE2018.pdf, id=1923, 597.6729pt x 845.55902pt>
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf>
 Package pdftex.def Info: carreiraEAGE2018.pdf  used on input line 120.
@@ -2752,7 +3065,7 @@ File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf>
 Package pdftex.def Info: carreiraEAGE2018.pdf  used on input line 120.
 (pdftex.def)             Requested size: 597.67143pt x 845.55696pt.
-<carreiraEAGE2018.pdf, id=1700, page=1, 597.6729pt x 845.55902pt>
+<carreiraEAGE2018.pdf, id=1926, page=1, 597.6729pt x 845.55902pt>
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 1>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page1 used on input line 120.
@@ -2765,7 +3078,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 120.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 120.
- [54]
+ [74]
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 1>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page1 used on input line 120.
@@ -2782,8 +3095,8 @@ File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 1>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page1 used on input line 120.
 (pdftex.def)             Requested size: 597.69879pt x 845.59566pt.
- [55 <./carreiraEAGE2018.pdf>]
-<carreiraEAGE2018.pdf, id=1750, page=2, 597.6729pt x 845.55902pt>
+ [75 <./carreiraEAGE2018.pdf>]
+<carreiraEAGE2018.pdf, id=1975, page=2, 597.6729pt x 845.55902pt>
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 2>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page2 used on input line 120.
@@ -2800,8 +3113,8 @@ File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 2>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page2 used on input line 120.
 (pdftex.def)             Requested size: 597.69879pt x 845.59566pt.
- [56 <./carreiraEAGE2018.pdf>]
-<carreiraEAGE2018.pdf, id=1771, page=3, 597.6729pt x 845.55902pt>
+ [76 <./carreiraEAGE2018.pdf>]
+<carreiraEAGE2018.pdf, id=1996, page=3, 597.6729pt x 845.55902pt>
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 3>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page3 used on input line 120.
@@ -2819,8 +3132,8 @@ File: carreiraEAGE2018.pdf Graphic file (type pdf)
 Package pdftex.def Info: carreiraEAGE2018.pdf , page3 used on input line 120.
 (pdftex.def)             Requested size: 597.69879pt x 845.59566pt.
 
-[57 <./carreiraEAGE2018.pdf>]
-<carreiraEAGE2018.pdf, id=1785, page=4, 597.6729pt x 845.55902pt>
+[77 <./carreiraEAGE2018.pdf>]
+<carreiraEAGE2018.pdf, id=2011, page=4, 597.6729pt x 845.55902pt>
 File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 4>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page4 used on input line 120.
@@ -2837,7 +3150,7 @@ File: carreiraEAGE2018.pdf Graphic file (type pdf)
 <use carreiraEAGE2018.pdf, page 4>
 Package pdftex.def Info: carreiraEAGE2018.pdf , page4 used on input line 120.
 (pdftex.def)             Requested size: 597.69879pt x 845.59566pt.
- [58 <./carreiraEAGE2018.pdf>]
+ [78 <./carreiraEAGE2018.pdf>]
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
@@ -2849,14 +3162,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: D9E789257345EF75D64D91893E5FB832;1597.
+(rerunfilecheck)             Checksum: 96000AED664161EC483A2D6A4A64E86F;1674.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 32244 strings out of 492982
- 645355 string characters out of 6134896
- 745890 words of memory out of 5000000
- 34931 multiletter control sequences out of 15000+600000
+ 32361 strings out of 492982
+ 647158 string characters out of 6134896
+ 751086 words of memory out of 5000000
+ 34995 multiletter control sequences out of 15000+600000
  542078 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,73p,10437b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2880,10 +3193,10 @@ pe1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on manuscript.pdf (64 pages, 21967795 bytes).
+Output written on manuscript.pdf (86 pages, 22831045 bytes).
 PDF statistics:
- 1896 PDF objects out of 2073 (max. 8388607)
- 1112 compressed objects within 12 object streams
- 231 named destinations out of 1000 (max. 500000)
- 568 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2131 PDF objects out of 2487 (max. 8388607)
+ 1301 compressed objects within 14 object streams
+ 273 named destinations out of 1000 (max. 500000)
+ 631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
