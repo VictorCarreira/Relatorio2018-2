@@ -1,0 +1,169 @@
+\begin{thebibliography}{}
+
+\bibitem[Artero, 2008]{Artero2009}
+Artero, A.~O. (2008).
+\newblock {\em {Inteligência Artificial Teórica e Prática}}.
+\newblock Livraria da Física, {São Paulo}, 1st edition.
+
+\bibitem[Assine and Milani, 1994]{assine_1994}
+Assine, M.~L. and Milani, E.~J. (1994).
+\newblock Sequ\^encias tectono-sedimentares mesopaleoz\'{o}icas da {Bacia} do
+  {Paran\'a}, sul do {Brasil}.
+\newblock {\em Revista Brasileira de Geoci\^encias}, 2(24):12.
+
+\bibitem[Benaouda et~al., 1999]{Benaouda1999}
+Benaouda, D., Wadge, G., Whitmarsh, R.~B., Rothwell, R.~G., and MacLeod, C.
+  (1999).
+\newblock {Inferring the lithology of borehole rocks by applying neural network
+  classifiers to downhole logs: An example from the Ocean Drilling Program}.
+\newblock {\em Geophysical Journal International}, 136(2):477--491.
+
+\bibitem[Borghi, 2002]{borghi_2002}
+Borghi, L. (2002).
+\newblock A {Bacia} do {Paran\'a}.
+\newblock {\em Anu\'ario do Instituto de Geoci\^encias - IGEO, Departamentno de
+  Geologia}.
+
+\bibitem[Cat{\'e} et~al., 2017]{Gloaguen2017}
+Cat{\'e}, A., Perozzi, L., Glouguen, E., and Blouin, M. (2017).
+\newblock Machine learning as a tool for geologists.
+\newblock {\em The Leading Edge}, 36(6):215--219.
+
+\bibitem[Chakravarthy et~al., 1999]{Chakravarthy1999}
+Chakravarthy, S., Chunduru, R., Fanini, O., and Mezzatesta, A. (1999).
+\newblock {Detection of layer boundaries from array induction tool responses
+  using neural networks}.
+\newblock {\em 69th Ann. Internat. Mtg}, pages 140--143.
+
+\bibitem[Cordani et~al., 1984]{cordani_1984}
+Cordani, G., Neves, B., and Fuck, R. (1984).
+\newblock Estudo preliminar de integra\c{c}\~ao do pr\'e-cambriano com os
+  eventos tect\^onicos da bacias sedimentares brasileiras.
+\newblock {\em Revista Ci\^encia T\'ecnica do Petr\'oleo}, 27(4):70p.
+
+\bibitem[Hall et~al., 2014]{Hall2014}
+Hall, P., Dean, J., Kabul, I.~K., and Silva, J. (2014).
+\newblock {An Overview of Machine Learning with SAS {\textregistered}
+  Enterprise Miner ™}.
+\newblock (Rosenblatt 1958):1--24.
+
+\bibitem[Hopfield, 1982]{Hopfield1982}
+Hopfield, J.~J. (1982).
+\newblock {Computational Abilities}.
+\newblock {\em Biophysics}, 79(April):2554--2558.
+
+\bibitem[Kohonen, 1989]{Kohonen1989}
+Kohonen, T. (1989).
+\newblock {Biological Cybernetics 9 1989}.
+\newblock 425:139--145.
+
+\bibitem[Levy, 1997]{Levy1997}
+Levy, S. (1997).
+\newblock {The Computer}.
+\newblock {\em Newsweek}, 130(22):28.
+
+\bibitem[MacKay, 2005]{MacKay2005}
+MacKay, D. J.~C. (2005).
+\newblock {\em {Information Theory, Inference, and Learning Algorithms David
+  J.C. MacKay}}, volume 100.
+
+\bibitem[Mao, 1996]{Mao1996}
+Mao, J. (1996).
+\newblock {Why artificial neural networks?}
+\newblock {\em Communications}, 29:31--44.
+
+\bibitem[McCulloch and Pitts, 1943]{McCulloch1943}
+McCulloch, W.~S. and Pitts, W. (1943).
+\newblock {A logical calculus of the ideas immanent in nervous activity}.
+\newblock {\em The Bulletin of Mathematical Biophysics}, 5(4):115--133.
+
+\bibitem[Michie et~al., 1994]{Michie1994}
+Michie, E.~D., Spiegelhalter, D.~J., and Taylor, C.~C. (1994).
+\newblock {Machine Learning , Neural and Statistical Classification}.
+\newblock {\em Technometrics}, 37(4):459.
+
+\bibitem[Milani et~al., 2007]{boletim_2007}
+Milani, E., Spadini, A., Terra, G., Silva, E., and Bueno, G. (2007).
+\newblock {\em Boletim de geoci\^encias da {Petrobras}}, volume v. 15.
+\newblock Cenpes.
+
+\bibitem[Milani and Ramos, 1998]{milani_orogenias_1998}
+Milani, E.~J. and Ramos, V.~A. (1998).
+\newblock Orogenias paleoz\'oicas no dom\'inio sul-ocidental do {Gondwana} e os
+  ciclos de subsid\^encia da {Bacia} do {Paran\'a}.
+\newblock {\em Brazilian Journal of Geology}, 28(4):473--484.
+
+\bibitem[Milani and Zalan, 1999]{milani_outline_1999}
+Milani, E.~J. and Zalan, P.~V. (1999).
+\newblock {An outline of the geology and petroleum systems of the Paleozoic
+  interior basins of South America}.
+\newblock {\em Milani1999}, 22:199--205.
+
+\bibitem[Minsky and Papert, 1969]{Minsky1969}
+Minsky, M. and Papert, S. (1969).
+\newblock {\em Perceptrons}.
+\newblock 2 edition.
+
+\bibitem[Mohriak et~al., 2008]{Sal2008}
+Mohriak, W., Szatmari, P., and Anjos, S. (2008).
+\newblock {\em Sal: Geologia e Tect{\^o}nica. Exemplos nas Bacias Brasileiras}.
+\newblock Beca, S{\~a}o Paulo, SP., 1 edition.
+
+\bibitem[Poulton, 2002]{Poulton2002}
+Poulton, M.~M. (2002).
+\newblock {Neural networks as an intelligence amplification tool: A review of
+  applications}.
+\newblock {\em Geophysics}, 67(3):979.
+
+\bibitem[Rosenblatt, 1962]{Rosenblatt1962}
+Rosenblatt, F. (1962).
+\newblock {Principles of Neurodynamics. Perceptrons and the Theory of Brain
+  Mechanisms.}
+\newblock {\em Archives of General Psychiatry}, 7:218--219.
+
+\bibitem[Saljooghi and Hezarkhani, 2014]{Saljooghi2014}
+Saljooghi, B.~S. and Hezarkhani, A. (2014).
+\newblock {Comparison of WAVENET and ANN for predicting the porosity obtained
+  from well log data}.
+\newblock {\em Journal of Petroleum Science and Engineering}, 123:172--182.
+
+\bibitem[Schneider et~al., 1974]{Schneider_1974}
+Schneider, R., Muhlmann, H., Tommasi, E., Medeiros, R., Daemon, R., and
+  Nogeira, A. (1974).
+\newblock Revis\~ao estratigr\'afica da {Bacia} do {Paran\'a}.
+\newblock volume~4. Anais do {Congresso} {Brasileiro} de {Geologia}.
+
+\bibitem[Schott, 1993]{Schott1993}
+Schott, G.~D. (1993).
+\newblock {Penfield's homunculus: a note on cerebral cartography.}
+\newblock {\em Journal of neurology, neurosurgery, and psychiatry},
+  56(4):329--333.
+
+\bibitem[Vail et~al., 1977]{Vail_1977}
+Vail, P.~R., Mitchum, R.~M., and Thompson, S. (1977).
+\newblock {\em Seismic stratigraphy and global changes of sea level}.
+\newblock Seismic stratigraphy: applications to hydrocarbon exploration. APPG.
+
+\bibitem[Yan et~al., 2014]{Yan2014}
+Yan, Z., Xiaodong, Z., Jiaotong, L., and Corporation, G. (2014).
+\newblock {Lithology identification research based on self-organizing map of
+  data mining method}.
+
+\bibitem[YANG et~al., 2009]{YANG2009}
+YANG, C.~T., MARSOOLI, R., and AALAMI, M.~T. (2009).
+\newblock {Evaluation of total load sediment transport formulas using ANN}.
+\newblock {\em International Journal of Sediment Research}, 24(3):274--286.
+
+\bibitem[Zalan and Wolf, 1987]{zalan_p._v._tectonica_1987}
+Zalan, P.~V. and Wolf, S. (1987).
+\newblock Tect\^onica e sedimenta\c{c}\~ao da {Bacia} do {Paran\'a}.
+\newblock In {\em Simp\'osio sul-brasileiro de geologia, SBG, 3, Atas,
+  Curitiba-PR.}, volume~1, pages 441--477.
+
+\bibitem[Zhang et~al., 1999]{Zhang1999}
+Zhang, L., Poulton, M., Zhang, Z., Chakravarthy, S., and Mezzatesta, A. (1999).
+\newblock {Fast forward modeling simulation of resistivity well logs using
+  neural network}.
+\newblock {\em 69th Ann. Internat. Mtg}, pages 124--127.
+
+\end{thebibliography}
