@@ -41,11 +41,10 @@ Cordani, G., Neves, B., and Fuck, R. (1984).
   eventos tect\^onicos da bacias sedimentares brasileiras.
 \newblock {\em Revista Ci\^encia T\'ecnica do Petr\'oleo}, 27(4):70p.
 
-\bibitem[Hall et~al., 2014]{Hall2014}
-Hall, P., Dean, J., Kabul, I.~K., and Silva, J. (2014).
-\newblock {An Overview of Machine Learning with SAS {\textregistered}
-  Enterprise Miner ™}.
-\newblock (Rosenblatt 1958):1--24.
+\bibitem[Haykin, 1999]{Haykin1999}
+Haykin, S. (1999).
+\newblock {\em Neural Networks: a comprehensive foundation}.
+\newblock Prentice Hall Inc., Porto Alegre, 2 edition.
 
 \bibitem[Hopfield, 1982]{Hopfield1982}
 Hopfield, J.~J. (1982).
@@ -57,25 +56,20 @@ Kohonen, T. (1989).
 \newblock {Biological Cybernetics 9 1989}.
 \newblock 425:139--145.
 
-\bibitem[Levy, 1997]{Levy1997}
-Levy, S. (1997).
-\newblock {The Computer}.
-\newblock {\em Newsweek}, 130(22):28.
-
 \bibitem[MacKay, 2005]{MacKay2005}
 MacKay, D. J.~C. (2005).
 \newblock {\em {Information Theory, Inference, and Learning Algorithms David
   J.C. MacKay}}, volume 100.
 
-\bibitem[Mao, 1996]{Mao1996}
-Mao, J. (1996).
-\newblock {Why artificial neural networks?}
-\newblock {\em Communications}, 29:31--44.
-
 \bibitem[McCulloch and Pitts, 1943]{McCulloch1943}
 McCulloch, W.~S. and Pitts, W. (1943).
 \newblock {A logical calculus of the ideas immanent in nervous activity}.
 \newblock {\em The Bulletin of Mathematical Biophysics}, 5(4):115--133.
+
+\bibitem[Michel and Deza, 2016]{Michel2016}
+Michel, M.~D. and Deza, E. (2016).
+\newblock {\em Encyclopedia of Distances}.
+\newblock 4 edition.
 
 \bibitem[Michie et~al., 1994]{Michie1994}
 Michie, E.~D., Spiegelhalter, D.~J., and Taylor, C.~C. (1994).
@@ -104,6 +98,10 @@ Minsky, M. and Papert, S. (1969).
 \newblock {\em Perceptrons}.
 \newblock 2 edition.
 
+\bibitem[Mitchell, 1997]{Mitchell1997}
+Mitchell, T.~M. (1997).
+\newblock {Decision Tree Learning}.
+
 \bibitem[Mohriak et~al., 2008]{Sal2008}
 Mohriak, W., Szatmari, P., and Anjos, S. (2008).
 \newblock {\em Sal: Geologia e Tect{\^o}nica. Exemplos nas Bacias Brasileiras}.
@@ -114,6 +112,13 @@ Poulton, M.~M. (2002).
 \newblock {Neural networks as an intelligence amplification tool: A review of
   applications}.
 \newblock {\em Geophysics}, 67(3):979.
+
+\bibitem[Roberts et~al., 2002]{Roberts2002}
+Roberts, D.~A., Numata, I., Holmes, K., Batista, G., Krug, T., Monteiro, A.,
+  Powell, B., and Chadwick, O.~A. (2002).
+\newblock {Large area mapping of land-cover change in Rond??nia using
+  multitemporal spectral mixture analysis and decision tree classifiers}.
+\newblock {\em Journal of Geophysical Research D: Atmospheres}, 107(20).
 
 \bibitem[Rosenblatt, 1962]{Rosenblatt1962}
 Rosenblatt, F. (1962).
@@ -139,20 +144,17 @@ Schott, G.~D. (1993).
 \newblock {\em Journal of neurology, neurosurgery, and psychiatry},
   56(4):329--333.
 
+\bibitem[Simard et~al., 2000]{Simard2000}
+Simard, M., Saatchi, S.~S., and {De Grandi}, G. (2000).
+\newblock {The use of decision tree and multiscale texture for classification
+  of JERS-1 SAR data over tropical forest}.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, 38(5
+  I):2310--2321.
+
 \bibitem[Vail et~al., 1977]{Vail_1977}
 Vail, P.~R., Mitchum, R.~M., and Thompson, S. (1977).
 \newblock {\em Seismic stratigraphy and global changes of sea level}.
 \newblock Seismic stratigraphy: applications to hydrocarbon exploration. APPG.
-
-\bibitem[Yan et~al., 2014]{Yan2014}
-Yan, Z., Xiaodong, Z., Jiaotong, L., and Corporation, G. (2014).
-\newblock {Lithology identification research based on self-organizing map of
-  data mining method}.
-
-\bibitem[YANG et~al., 2009]{YANG2009}
-YANG, C.~T., MARSOOLI, R., and AALAMI, M.~T. (2009).
-\newblock {Evaluation of total load sediment transport formulas using ANN}.
-\newblock {\em International Journal of Sediment Research}, 24(3):274--286.
 
 \bibitem[Zalan and Wolf, 1987]{zalan_p._v._tectonica_1987}
 Zalan, P.~V. and Wolf, S. (1987).

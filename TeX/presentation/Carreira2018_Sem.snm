@@ -1,25 +1,48 @@
-\beamer@slide {toro}{31}
-\beamer@slide {hiperplano}{31}
-\beamer@slide {inicio}{32}
-\beamer@slide {euclidiana}{33}
-\beamer@slide {ajuste de pesos}{37}
-\beamer@slide {aprendizado}{40}
-\beamer@slide {ajuste de pesos}{44}
-\beamer@slide {penfield}{48}
-\beamer@slide {mapa geologico}{64}
-\beamer@slide {real}{65}
-\beamer@slide {parametros}{72}
-\beamer@slide {modelo}{77}
-\beamer@slide {T1}{78}
-\beamer@slide {C1}{79}
-\beamer@slide {C2}{80}
-\beamer@slide {clusterT1}{81}
-\beamer@slide {clusterT1}{86}
-\beamer@slide {clusterC1}{87}
-\beamer@slide {clusterC2}{93}
-\beamer@slide {SOMd}{102}
-\beamer@slide {convergencia}{103}
-\beamer@slide {Class C1}{104}
-\beamer@slide {Class C2}{105}
-\beamer@slide {t1_cronograma}{113}
-\beamer@slide {t2_cronograma}{114}
+\beamer@slide {penfield}{24}
+\beamer@slide {mapa geologico}{40}
+\beamer@slide {real}{41}
+\beamer@slide {loc02}{46}
+\beamer@slide {1BN0002SCa}{47}
+\beamer@slide {1BN0002SCb}{48}
+\beamer@slide {modelo}{55}
+\beamer@slide {Tab1}{56}
+\beamer@slide {T1}{61}
+\beamer@slide {C1}{62}
+\beamer@slide {C2}{63}
+\beamer@slide {eq4}{65}
+\beamer@slide {eq5}{73}
+\beamer@slide {eq2}{94}
+\beamer@slide {eq3}{94}
+\beamer@slide {toro}{97}
+\beamer@slide {hiperplano}{97}
+\beamer@slide {vencedor1}{99}
+\beamer@slide {vencedor2}{100}
+\beamer@slide {SOMd}{104}
+\beamer@slide {convergencia}{105}
+\beamer@slide {Class C1}{106}
+\beamer@slide {Class C2}{107}
+\beamer@slide {Estatistica da rede}{108}
+\beamer@slide {SOMt01}{109}
+\beamer@slide {Conv01}{110}
+\beamer@slide {SOMt02}{111}
+\beamer@slide {Conv02}{112}
+\beamer@slide {SOMt03}{113}
+\beamer@slide {Conv03}{114}
+\beamer@slide {SOMt04}{115}
+\beamer@slide {SOMt05}{117}
+\beamer@slide {Conv05}{118}
+\beamer@slide {SOMt06}{119}
+\beamer@slide {codigosreal}{121}
+\beamer@slide {IDt01}{122}
+\beamer@slide {Estatistica do teste $01$}{123}
+\beamer@slide {IDt02}{124}
+\beamer@slide {Estatistica do teste $02$}{125}
+\beamer@slide {IDt03}{126}
+\beamer@slide {Estatistica do teste $03$}{127}
+\beamer@slide {IDt04}{128}
+\beamer@slide {Estatistica do teste $04$}{129}
+\beamer@slide {IDt05}{130}
+\beamer@slide {Estatistica do teste $05$}{131}
+\beamer@slide {Estatistica do teste $06$}{133}
+\beamer@slide {t1_cronograma}{141}
+\beamer@slide {t2_cronograma}{142}

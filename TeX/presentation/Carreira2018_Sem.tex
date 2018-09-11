@@ -10,6 +10,7 @@
 \usepackage[portuguese, english]{babel}
 \usepackage[round]{natbib}
 \usepackage{hyperref} 
+\usepackage{tcolorbox}
 \usepackage{graphicx} % Required for including images
 \usepackage{graphics}
 \graphicspath{{Imagens/}} % Location of the graphics files
@@ -93,11 +94,11 @@
 \hypersetup{pdfpagemode=FullScreen}
 \usepackage{ragged2e}
 \justifying
-\addtobeamertemplate{headline}{} 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=south west, inner sep=0.4cm]  at (current page.south west)
-	{\includegraphics[height=0.4cm]{Imagens/ON-logo.eps}};
-	\end{tikzpicture}}
+%\addtobeamertemplate{headline}{} 
+%{\begin{tikzpicture}[remember picture, overlay]
+%	\node [anchor=south west, inner sep=0.4cm]  at (current page.south west)
+%	{\includegraphics[height=0.4cm]{Imagens/ON-logo.eps}};
+%	\end{tikzpicture}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%PRESENTATION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
@@ -129,8 +130,8 @@
 %
 %\end{frame} }
 
-
-
+\section{Introdução}
+\subsection{Motivação}
 
 {%
 	\usebackgroundtemplate{
@@ -161,105 +162,43 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introdução}
-\begin{frame}
-\frametitle{Introdução}
-\transboxin%efeito de transição	
-\begin{block}{Por que utilizar as redes neuronais?}
-	\begin{itemize}
-		\pause
-		\item Estratégia computacional para a solução de problemas cujo reconhecimento de padrões seja o foco principal \citep{MacKay2005};
-		\pause
-		\item Capacidade de melhorarem a si próprios automaticamente \citep{Michie1994,Levy1997};
-		\pause
-		\item Permite lidar com uma grande quantidade de informação \citep{Mao1996,Hall2014}.
-	\end{itemize}	
-\end{block}
+\subsection{Definições}
 
+\begin{frame}
+	\frametitle{Definições}
+	\begin{columns}
+		\column{0.55\textwidth}
+		\footnotesize
+		\justifying
+		\begin{itemize}
+			\item[Inteligência Artificial:] todo programa computacional que tem a capacidade de melhorar a si mesmo por meio da experiência.
+			\pause
+			\item[Grupos de IA:]
+			\begin{enumerate}
+				{\tiny 
+					\item  Redes Neuronais Artificiais \citep{Minsky1969,Michie1994,MacKay2005};
+					\item Árvores de Decisão \citep{Mitchell1997,Simard2000,Roberts2002};
+					\item Classificadores Estatísticos \citep{Michel2016};
+					\item Mapas auto-organizados \citep{Kohonen1989,Haykin1999};
+				}
+			\end{enumerate}
+			\pause
+			\item[Classificadores:] usam o conceito de distância no espaço de atributos;
+			\pause
+			\item[C. Euclideano:] calcula um centroide no espaço de atributos.
+			\pause
+			\item[C. de Mahalanobis:] leva em consideração a forma do agrupamento.
+			\pause
+			\item[Mapas auto-organizados:] inspirados funcionamento do córtex neuronal são baseados em um grafo orientado que funciona como uma rede interconectada. 
+		\end{itemize}
+	\end{columns}
 \end{frame}
-\subsection{Definição}
-\begin{frame}
-\frametitle{O que vem a ser uma rede neuronal artificial?}
-\pause
-\color{blue} É um sistema artificial que visa simular numericamente os processos do realizados pelo sistema nervoso central para a solução de um problema matemático sem que se conheça a sua formulação matemática (funcional geofísico). 
-\pause
-\begin{itemize}
-\item Desponta como uma alternativa ao paradigma computacional de Von Neumann (instruções de programação sequencial);
-\pause
-\item Inspirada na neurociência, contudo não é realística em detalhe;
-\pause
-\item Aplicações em medicina ciência da computação, engenharia, geologia e geofísica. 
-\end{itemize}
-\end{frame}
 
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$  neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/neuronio.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/dendrito.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/nucleo.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/soma.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/axonio.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   neurônios}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/cone.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{O cérebro humano contém cerca de \\ aproximadamente $10^{11}$   de vários tipos}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[scale=0.2]{Imagens/terminal.png} 
-%		\caption{Ilustração esquemática de um neurônio.}
-%	\end{figure}
-%\end{frame}
 
-\subsection{Histórico}
+\subsection{Pesquisa bibliográfica}
 
 \begin{frame}
-\frametitle{Um breve histórico...}
+\frametitle{Um breve histórico sobre as redes neuronais artificiais}
 \pause
 \begin{small}
 \smartdiagram[flow diagram:horizontal]{\textcolor{blue}{\cite{McCulloch1943}}}
@@ -271,7 +210,7 @@
 
 
 \begin{frame}
-\frametitle{Um breve histórico...}
+\frametitle{Um breve histórico sobre as redes neuronais artificiais.}
 \begin{small}
 \smartdiagram[flow diagram:horizontal]{\citet{McCulloch1943}, \textcolor{blue}{\citet{Rosenblatt1962}}}
 \end{small}
@@ -281,7 +220,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Um breve histórico...}
+\frametitle{Um breve histórico sobre as redes neuronais artificiais}
 \begin{small}
 \smartdiagram[flow diagram:horizontal]{\citet{McCulloch1943}, \citet{Rosenblatt1962}, \textcolor{blue}{\cite{Minsky1969}}}
 \end{small}
@@ -291,7 +230,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Um breve histórico...}
+\frametitle{Um breve histórico sobre as redes neuronais artificiais}
 \begin{small}
 \smartdiagram[flow diagram:horizontal]{\citet{McCulloch1943}, \citet{Rosenblatt1962}, \cite{Minsky1969}, \textcolor{blue}{\cite{Hopfield1982}}}
 \end{small}
@@ -302,7 +241,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Um breve histórico...}
+\frametitle{Um breve histórico sobre as redes neuronais artificiais}
 \begin{small}
 \smartdiagram[flow diagram:horizontal]{\citet{Rosenblatt1962}, \cite{Minsky1969}, \cite{Hopfield1982}, \textcolor{blue}{\cite{Kohonen1989}}}
 \end{small}
@@ -311,9 +250,6 @@
 %\item The collective properties of this model produce a content-addressable memory which correctly yields an entire	memory from any subpart of sufficient size.
 \end{itemize}
 \end{frame}
-
-
-\subsection{Estado da arte}
 
 \begin{frame}
 \frametitle{Estado da arte}
@@ -327,8 +263,6 @@
 \begin{flushleft}
 \citep{Poulton2002, Artero2009}
 \end{flushleft}
-
-
 
 \end{frame}
 
@@ -391,134 +325,6 @@
 \end{itemize}
 \end{frame}
 
-\subsection{A rede de Kohonen}
-
-\begin{frame}
-  \frametitle{Kohonen - SOM}
-  	 \includegraphics[scale=0.5]{Imagens/IntroKoho1.png} 
-\end{frame}
-
-
-\begin{frame}
- \frametitle{Kohonen - SOM}
- \includegraphics[scale=0.5]{Imagens/IntroKoho2.png} 
-\end{frame}
-
-
-\begin{frame}
- \frametitle{Kohonen - SOM}
- \includegraphics[scale=0.5]{Imagens/IntroKoho3.png} 
-\end{frame}
-
-\begin{frame}
- \frametitle{Kohonen - SOM}
- \includegraphics[scale=0.5]{Imagens/IntroKoho4.png} 
-\end{frame}
-
-
-\begin{frame}
-\frametitle{A geometria da rede}
-
-\begin{figure}[H]
-\flushleft
-\includegraphics[scale=0.2]{Imagens/toro.png}
-\label{toro}
-\end{figure}
-\begin{figure}[H]
-\flushright
-\includegraphics[scale=0.35]{Imagens/hiperplano.png}
-\label{hiperplano}
-\end{figure}
-
-\end{frame}
-
-\begin{frame}
-\frametitle{Treinamento}
-
-\begin{block}{Vetor de propriedades}
-\begin{displaymath}
-\mathbf{X}=\left(\begin{array}{r}
-x_{1}\\
-x_{2}\\
-x_{3}\\
-\vdots \\
-x_{m}
-\end{array}\right)
-\label{inicio}
-\end{displaymath}
-\end{block}
-\end{frame}
-
-\begin{frame}
-\frametitle{Treinamento}
-\begin{block}{Escolha do neurônio vencedor}
-\begin{eqnarray}
-d(t)= \sqrt{\sum^{n}_{i=1}[x(t)-w_{i,j}(t)]^{2}} \hspace{1cm}  (j = {1,..,m}) \nonumber
-\label{euclidiana}
-\end{eqnarray}
-Onde:
-\end{block}
-\begin{itemize}
-\pause
-\item $d(t)$, distância 
-\pause
-\item $x(t)$, vetor de propriedades
-\pause
-\item $w_{i,j}(t)$, matriz de pesos
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Treinamento}
-\begin{block}{Atualização do neurônio vencedor}
-\begin{equation}
-w_{i,j}(t+1)=w_{i,j}(t)+\eta(t)[x(t)-w_{i,j}(t)] \nonumber
-\label{ajuste de pesos}
-\end{equation}
-\end{block}
-\begin{itemize}
-\pause
-\item $w_{i,j}(t+1)$, matriz de pesos atualizada
-\pause
-\item $\eta(t)$,  taxa de aprendizado
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Treinamento}
-\begin{block}{Aprendizado}
-\begin{equation}
-\eta(t)=\eta(0)    ( 1 -  \frac{t}{T}  )  \nonumber
-\label{aprendizado}
-\end{equation}
-\end{block}
-\begin{itemize}
-\pause
-\item $T$, número de ciclos do treinamento,
-\pause
-\item $t$, número de iterações.
-\pause
-\item ajusta-se $t=t+1$ e retorna para o início do processo até que $t=T$ \citep{YANG2009,Yan2014}.
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Treinamento}
-\begin{block}{Atualização das vizinhanças}
-\begin{equation}
-w_{v}(t+1)=w_{i,j}(t)+\eta(t)_{v}[x(t)-w_{i,j}(t)] \nonumber
-\label{ajuste de pesos}
-\end{equation}
-\end{block}
-\begin{itemize}
-\pause
-\item $w_{v}$, Peso do neurônio vizinho. %Ele se realaciona com todos os vizinhos de $w_{i,j}$
-\pause
-\item $\eta(t)_{v}$, taxa de aprendizado dos vizinhos% <$\eta(t)$
-\pause
-\end{itemize}
-\end{frame}
 
 \subsection{Treinamento não-supervisionado}
 
@@ -577,7 +383,7 @@ w_{v}(t+1)=w_{i,j}(t)+\eta(t)_{v}[x(t)-w_{i,j}(t)] \nonumber
 \end{figure}
 \end{column}
 
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 Bauru $\Longleftrightarrow$  sequência neocretácea\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
@@ -603,7 +409,7 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramabauru.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 \textcolor{green}{Bauru $\Longleftrightarrow$  sequência neocretácea}\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
@@ -626,7 +432,7 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramagondwanaiii.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 Bauru $\Longleftrightarrow$  sequência neocretácea.\\
 \textcolor{purple}{Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea}\\
@@ -649,7 +455,7 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramagondwanaii.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 Bauru $\Longleftrightarrow$  sequência neocretácea.\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
@@ -672,8 +478,9 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramagondwanai.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
+
 Bauru $\Longleftrightarrow$  sequência neocretácea.\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
 Gondwana II $\Longleftrightarrow$ sequência neotriássica \\
@@ -695,7 +502,7 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramaparana.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 Bauru $\Longleftrightarrow$  sequência neocretácea.\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
@@ -718,7 +525,7 @@ Rio Ivaí $\Longleftrightarrow$ sequência ordovício-siluriana\\
 \includegraphics[scale=0.36]{Imagens/diagramarioivai.png}
 \end{figure}
 \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{block}{As $6$ supersequências}
 Bauru $\Longleftrightarrow$  sequência neocretácea.\\
 Gondwana III $\Longleftrightarrow$ sequência jurássica-eocretácea\\
@@ -754,11 +561,59 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Dado}
+\frametitle{Os dados reais}
+\begin{enumerate}
+	\item Os primeiros poços devem estar localizados próximos para garantir um controle inicial no que tange as litologias presentes no poço de treinamento. 
+	\pause
+	\item O poço de treinamento deve possuir a maior quantidade possível de dados por litologia
+	\pause
+	\item As entradas da rede devem ser compostas das mesmas propriedades físicas
+	\pause
+	\item Propriedades que definem litologia devem ser priorizadas quando possível.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.12]{Imagens/poco.png}
-\caption{Dado de perfilagem }
+		\includegraphics[scale=0.5]{Imagens/locmap02.pdf}
+	\caption{Localização dos poços escolhidos.}
+	\label{loc02}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais: o poço de classificação}
+\begin{figure}[H]
+	\centering
+	\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
+	\qquad                                                           
+	\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
+	\qquad                                                             
+	\subfigure[ref2][SP]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_SP.png}}
+	\qquad
+	\subfigure[ref3][RLAT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_res.png}}
+	\qquad
+	%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) o potencial espontâneo e em (d) a resistividade lateral.   } 
+	\label{1BN0002SCa}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais: o poço de classificação}
+\begin{figure}[H]
+	\centering                                                         
+	\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
+	\qquad                                                           
+	\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
+	\qquad                                                             
+	\subfigure[ref4][TTI]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TTI.png}}
+	\qquad
+	\subfigure[ref5][TOT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TOT.png}}
+	\qquad
+	%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) \textit{Transient Time Integrator} e em (d) TOT.}
+	\label{1BN0002SCb}
 \end{figure}
 \end{frame}
 
@@ -768,18 +623,25 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 \section{Objetivo}
 
 \begin{frame}
-\frametitle{Objetivo}
-\begin{itemize}
-\item Desenvolver uma rede neuronal artificial otimizada que classifique tipos litológicos distintos;
-\pause
-\item  Aplicar a rede na identificação de rochas da Bacia do Paraná. 
-\end{itemize}
+	\frametitle{Objetivo}
+	\begin{columns}\footnotesize 
+		\justifying
+		\column{0.55\textwidth}
+		\begin{itemize}
+			\item[Problema Geofísico:] Identificação de rochas em dados de perfilagem da Bacia do Paraná nos termos de inteligência artificial;
+			\pause
+			\item[Maneira de resolver:] utilizando um mapa auto-organizado (SOM)  e dois classificadores estatísticos e escolher o melhor destes para aplicar no dado real;
+			\pause
+			\item[Estratégia:] Comparar o resultado dos três métodos em dados sintéticos, Kohonen (SOM),  e os classificadores euclideanos e de mahalanobis. E aplicar a melhor metodologia aos dados reais. 
+		\end{itemize}
+	\end{columns}
 \end{frame}
 
 
-\section{Metodologia}
 
-\subsection{Dados Sintéticos}
+\section{O programa da Rede}
+
+\subsection{Fluxograma de criação dos dados sintéticos}
 \begin{frame}
 \frametitle{Fluxograma de criação dos dados sintéticos}
 \begin{footnotesize}
@@ -802,7 +664,7 @@ start chain=going below,]
 \end{footnotesize}	
 \end{frame}
 
-\subsection{Treinamento da rede}
+\subsection{Fluxograma de Treinamento da rede}
 \begin{frame}
 \frametitle{Fluxograma de treinamento}
 \begin{scriptsize}
@@ -828,7 +690,7 @@ start chain=going below,]
 \end{frame}
 
 
-\subsection{Classificação da rede}
+\subsection{Fluxograma de classificação da rede}
 \begin{frame}
 \frametitle{Fluxograma de classificação}
 \begin{small}
@@ -862,7 +724,7 @@ start chain=going below,]
 %---------------------------NATUREZA DO DADO--------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Modelo proposto}
+
 
 %\begin{frame}
 %	\frametitle{Modelo proposto}
@@ -934,28 +796,48 @@ start chain=going below,]
 %	\end{scriptsize}
 %\end{frame}
 
+\section{Metodologia}
+
+\begin{frame}
+	\frametitle{Modelo proposto}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.35]{Imagens/Modelo.png}
+		\caption{Modelo Simplificado baseado em \cite{Sal2008}.}
+		\label{modelo}
+	\end{figure}
+\end{frame}
+
+
 \begin{frame}
 \frametitle{Parâmetros do modelo}
-\begin{scriptsize}
-\begin{table}[H]
-\centering
-\label{parametros}
-\begin{tabular}{@{}ccccccccccc@{}}
-\toprule
-Rocha        & Densidade ($g/cm^{3}$) & Raios-Gama ($Ci/g$) & Resistividade ($\Omega .m$)&  Velocidade ($Km/s$) &\\ \midrule
-Conglomerado &       $2,30$ 		  &       $100,0$       &           $6000$           &			$2$   		   	&\\
-Folhelho 	 &       $2,55$           &       $100,0$       &           $1000$           &     		$3$		 &\\
-Dolomita     &       $2,72$           &       $8,30$        &           $3,5 \times 10^{3}$           &  	$6$    			 &\\
-Diabásio     &       $2,91$           &       $30,0$        &           $15 \times 10^{7}$           &      $5,5$				 &\\
-Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \times 10^{6}$           & 		$5$		     &\\ \bottomrule
-\end{tabular}
+\begin{table}[H]\tiny
+	\caption{Propriedades físicas do modelo.}
+	\begin{tabular}{@{}ccccccccccc@{}}
+		\toprule
+		Rocha & Densidade ($g/cm^{3}$) & Raio Gama ($Ci/g$) & Resistividade ($\Omega.m$)& Velocidade ($Km/s$) &\\ \midrule
+		Conglomerado &     $2.30$ 		  &       $100.0$       &           $6000$           &			$2$   		   	&\\
+		Folhelho	 &       $2.55$           &       $100.0$       &           $1000$           &     		$3$		 &\\
+		Dolomita     &       $2.72$           &       $8.30$        &           $3.5 \times 10^{3}$           &  	$6$    			 &\\
+		Diabásio    &       $2.91$           &       $30.0$        &           $15 \times 10^{7}$           &      $5.5$				 &\\
+		Embasamento  &       $2.80$           &       $0.7$         &           $1.3 \times 10^{6}$           & 		$5$		     &\\ \bottomrule
+	\end{tabular}
+	
+	\label{Tab1}
 \end{table}
-\end{scriptsize}
-
+\begin{columns}
+	\column{0.55\textwidth}
+	\footnotesize
+	\justifying
+	\begin{itemize}\footnotesize
+		\item[Taxa de amostragem:] $0.1$ observações/metro 
+		\item[Contaminação:] $5$\% Ruído Gaussiano Randômico.
+	\end{itemize}
+\end{columns}
 \end{frame}
 
 \begin{frame}
-\frametitle{Modelo prosposto}
+\frametitle{Modelo proposto}
 \framesubtitle{Descrição do modelo}
 \begin{itemize}
 \item modelo realístico com variação de $4$ propriedades físicas;
@@ -967,17 +849,6 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \item dados de propriedades previamente publicados quando encontrados.
 \end{itemize}
 
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Modelo proposto}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.35]{Imagens/Modelo.png}
-\caption{Modelo Simplificado baseado em \cite{Sal2008}.}
-\label{modelo}
-\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -1011,173 +882,380 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \end{figure}
 \end{frame}
 
-\subsection{Clusterização}
 \begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/cluterpocoT1.png}
-\caption{Agrupamento de dados do poço T1.}
-\label{clusterT1}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/conglomerado.png}
-\caption{Agrupamento de dados do poço T1.}
-\end{figure} 
-\end{frame}
-\begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/folhelho.png}
-\caption{Agrupamento de dados do poço T1.}
-\end{figure} 
-\end{frame}
-\begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/dolomita.png}
-\caption{Agrupamento de dados do poço T1.}
-
-\end{figure} 
-\end{frame}
-\begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/diabasio.png}
-\caption{Agrupamento de dados do poço T1.}
-\end{figure} 
-\end{frame}
-\begin{frame}
-\frametitle{Clusterização do poço T1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/embasamento.png}
-\caption{Agrupamento de dados do poço T1.}
-\label{clusterT1}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/cluterpocoC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\label{clusterC1}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/conglomeradoC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/folhelhoC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/dolomitaC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/diabasioC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/embasamentoC1.png}
-\caption{Agrupamento de dados do poço C1.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/cluterpocoC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\label{clusterC2}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/conglomeradoC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/folhelhoC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/dolomitaC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/diabasioC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\end{figure} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Clusterização do poço C2}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{Imagens/embasamentoC2.png}
-\caption{Agrupamento de dados do poço C2.}
-\end{figure} 
+	\frametitle{Metodologia}
+	\smartdiagram[priority descriptive diagram]{
+		Geração do modelo de hipóteses,
+		Poço T1 treinamento da rede e distâncias dos classificadores,
+		Predição dos poços C1 e C2 com o SOM e os classificadores,
+		Compara os resultados e aplica ao dado real.	}
 \end{frame}
 
 
+\subsubsection{Classificador euclideano}
+
+\begin{frame}
+	\frametitle{Classificador euclideano}
+	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
+		\begin{equation}
+		Ed_{i} =  \Arrowvert \textbf{X}-\bar{\textbf{X}}_{i}  \Arrowvert_{2} \nonumber
+		\label{eq4}
+		\end{equation}  
+	\end{tcolorbox}
+	\pause
+	\begin{itemize}
+		\centering
+		\item[$\textbf{X}$], vetor de atributos (entrada)
+		\pause
+		\item[$\bar{\textbf{X}}_{i}$], vetor média
+	\end{itemize}
+	
+\end{frame}
 
 
+\begin{frame}
+	\frametitle{Classificador euclideano}
+	\begin{figure}[H]
+		\includegraphics[scale=0.1]{Imagens/clusteranalise1.eps}
+	\end{figure}
+	
+	\begin{columns}
+		\column{1\textwidth}
+		\footnotesize
+		\justifying
+		\begin{itemize}
+			\footnotesize
+			\item  Todos os centroides são equidistantes 
+			\pause
+			\item P$(20,5)$ pode ser um membro de todos os grupos do ponto de vista euclideano  
+		\end{itemize}
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Classificador euclideano}
+	\begin{figure}[H]
+		\includegraphics[scale=0.12]{Imagens/clusteranalise3.eps}
+	\end{figure}
+	
+	\begin{columns}
+		\column{1\textwidth}
+		\footnotesize
+		\justifying
+		\begin{itemize}
+			\item O agrupamento azul continua com o mesmo centroide
+			\pause 
+			\item A problemática jaz em definir qual agrupamento o ponto  P$(20,5)$ pertencerá 
+			\pause
+			\item Como resolve-se esta problemática?
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsubsection{Classificador de mahalanobis}
+
+\begin{frame}
+	\frametitle{Classificador de mahalanobis}
+	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
+		\begin{equation}
+		Md_{i}=\Arrowvert(\textbf{X}-\bar{\textbf{X}}_{i})^{T}\textbf{C}_{i}^{-1}(\textbf{X}-\bar{\textbf{X}}_{i})\Arrowvert_{2}\nonumber
+		\label{eq5}
+		\end{equation}
+	\end{tcolorbox}
+	\pause
+	\begin{itemize}
+		\centering
+		\item[$\textbf{X}$], vetor de atributos (entrada)
+		\pause
+		\item[$\bar{\textbf{X}}_{i}$], vetor média
+		\pause
+		\item[$\textbf{C}_{i}$], matriz de covariância 
+	\end{itemize}
+\end{frame}
+
+
+%\begin{frame}
+%\frametitle{Mahalanobis Classifier}
+%
+%\begin{equation}
+%\textbf{C}_{i}=\frac{1}{n_{i}-1}\sum_{X \in \omega_{i}}(\textbf{X}-\bar{\textbf{X}}_{i})(\textbf{X}-\bar{\textbf{X}}_{i})^{T}
+%\label{eq6}
+%\end{equation}
+%\pause
+%\begin{itemize}
+%	\centering
+%	\item[$n_{i}$], number of elements  
+%	\pause
+%	\item[$\omega_{i}$], space of attributes
+%\end{itemize}
+%\end{frame}
+
+\begin{frame}
+	\frametitle{Classificador Euclideano}
+	\begin{figure}[H]
+		\includegraphics[scale=0.14]{Imagens/clusteranalise3blue.pdf}
+	\end{figure}
+	
+	\begin{columns}
+		\column{1\textwidth}
+		\footnotesize
+		\justifying
+		\begin{itemize}
+			\item Agora, P$(20,5)$ pertence ao  \textcolor{blue}{agrupamento $1$}.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\begin{huge}
+		\centering
+		Voltando ao problema ...
+	\end{huge}
+\end{frame}
+
+\subsubsection{Agrupamento e o espaço de atributos}
+
+\begin{frame}
+	\frametitle{Analise de agrupamento: poço T1}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\footnotesize
+		\justifying
+		\begin{figure}
+			%\centering
+			\includegraphics[scale=0.268]{Imagens/cluterpocoT1.png}
+		\end{figure}
+		
+		\column{0.3\textwidth}
+		\begin{itemize}
+			\footnotesize
+			\item Análise de dispersão em pares de propriedades ($6$ gráficos);
+			\pause
+			\item as cores representam, a variação das propriedades físicas;
+			\pause
+			\item alguns agrupamentos elongados;
+			\pause
+			\item outros misturados.
+		\end{itemize}
+		
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Análise de agrupamento: poço C1}
+	
+	\begin{columns}
+		\column{0.5\textwidth}
+		\footnotesize
+		\justifying
+		\begin{figure}
+			%\centering
+			\includegraphics[scale=0.268]{Imagens/cluterpocoC1.png}
+		\end{figure}
+		
+		\column{0.3\textwidth}
+		\begin{itemize}
+			\footnotesize
+			\item Agrupamentos bem definidos;
+			\pause
+			\item Difere do poço de treinamento
+		\end{itemize}
+		
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Análise de agrupamento: poço C2}
+	
+	\begin{columns}
+		\column{0.5\textwidth}
+		\footnotesize
+		\justifying
+		\begin{figure}
+			%\centering
+			\includegraphics[scale=0.268]{Imagens/cluterpocoC2.png}
+		\end{figure}
+		
+		\column{0.3\textwidth}
+		\begin{itemize}
+			\footnotesize
+			\item Similar ao poço C1
+		\end{itemize}
+		
+	\end{columns}
+\end{frame}
+
+\subsubsection{Kohonen - SOM}
+
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Organização}
+	\includegraphics[scale=0.5]{Imagens/Introkoho1.png} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Organização}
+	\includegraphics[scale=0.5]{Imagens/Introkoho2.png} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Adaptação sináptica (Processo de treinamento)}
+	\includegraphics[scale=0.5]{Imagens/Introkoho3.png} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Classificação}
+	\includegraphics[scale=0.5]{Imagens/Introkoho4.png} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Organização}
+	
+	\begin{eqnarray}
+	\textbf{x}=[x_{1}, x_{2}, x_{3}, ..., x_{m}]^{T} \nonumber
+	\end{eqnarray}
+	\pause
+	\begin{itemize}
+		\centering
+		\item[x], dado de entrada 
+		\pause
+	\end{itemize}
+	\begin{eqnarray}
+	\textbf{w}_{i,j}= [w_{j1}, w_{j2}, w_{j3}, ..., w_{jm}]^{T} \nonumber
+	\end{eqnarray}
+	\pause
+	\begin{itemize}
+		\centering
+		\item[w], matriz de atributo neuronal 
+	\end{itemize}
+	\begin{eqnarray}
+	j=1,2,3,\hdots,l \nonumber
+	\end{eqnarray}
+\end{frame}
+
+%\begin{frame}
+%    \frametitle{Kohonen - SOM}
+%    \framesubtitle{Cooperation and winner neuron}
+%	\begin{eqnarray}
+%	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+%	\end{eqnarray}
+%%	 or 
+%%	\begin{eqnarray}
+%%	d(t)= \sqrt{\sum^{n}_{i=1}[x(t)-w_{i,j}(t)]^{2}} \hspace{1cm}  (j = {1,..,m}), \nonumber
+%%	\label{eq1}
+%%	\end{eqnarray}
+%	
+%	\begin{itemize}
+%		\centering
+%		\item[i(x)], distance or identity of a neuron i
+%	\end{itemize}
+%
+%\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Kohonen - SOM}
+	\framesubtitle{Processo de adaptação sináptica ou Treinamento}
+	%Neuron changes the value of the surrounding neurons inside a quartet geometry
+	%
+	
+	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
+		\begin{equation}
+		w_{i,j}(t+1)=w_{i,j}(t)+\eta(t)[x(t)-w_{i,j}(t)] \nonumber
+		\label{eq2}
+		\end{equation}  
+	\end{tcolorbox}
+	
+	\pause
+	
+	\begin{itemize}
+		\centering
+		\item[$w_{i,j}(t+1)$],  atualização da matriz de atributos neuronais
+		\item[$\eta(t)$], taxa de aprendizado
+	\end{itemize}
+	\pause
+	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
+		\begin{equation}
+		\eta(t)=\eta(0)    ( 1 -  \frac{t}{T}  ) \nonumber
+		\label{eq3}
+		\end{equation}  
+	\end{tcolorbox}
+	
+	\begin{itemize}
+		\centering
+		\item[$T$], número de ciclos de treinamento
+		%	\pause
+		\item[$t$], número de iterações
+		%\pause
+		%\item A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors \citep{YANG2009,Yan2014}.
+	\end{itemize}
+	
+	%Where $T$ is the number of training cyles and $t$ is the number of iteractions. A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors.
+	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{A geometria da rede}
+	
+	\begin{columns}
+		\column{0.2\textwidth}
+		\begin{figure}[H]
+			\flushleft
+			\includegraphics[scale=0.2]{Imagens/toro.png}
+			\label{toro}
+		\end{figure}
+		\column{0.5\textwidth}
+		\begin{figure}
+			\flushright
+			\includegraphics[scale=0.3]{Imagens/hiperplano.png}
+			\label{hiperplano}
+		\end{figure}
+	\end{columns}
+	\pause
+	\begin{itemize}
+		\footnotesize
+		\centering
+		\item[Toroide], é uma forma eficiente de conetar todos os neurônios
+		\item[Hiperplano], aonde localizam-se as informações dos atributos
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Neurônio vencedor e a vizinhança}	
+	\begin{eqnarray}
+	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+	\end{eqnarray}
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.33]{Imagens/hiperplano.png}
+		\label{vencedor1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Neurônio vencedor e a vizinhança}
+	\begin{eqnarray}
+	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+	\end{eqnarray}
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.33]{Imagens/winner.png}
+		\label{vencedor2}
+	\end{figure}
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1186,7 +1264,7 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 
 \section{Resultados e Discussões}
 
-\subsection{Treinamento}
+\subsection{Dado Sintético}
 
 \begin{frame}
 \frametitle{Treinamento}
@@ -1229,7 +1307,7 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \frametitle{Treinamento}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.23]{Imagens/conv070917.png}
+\includegraphics[scale=0.2]{Imagens/conv070917.png}
 \caption{Teste de convergência da rede.}
 \label{convergencia}
 \end{figure} 
@@ -1241,7 +1319,7 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \frametitle{Identificação}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{Imagens/IDC1.png}
+\includegraphics[scale=0.3]{Imagens/IDC1020118.png}
 \caption{Dado de saída da rede para o poço de classificação C1.}
 \label{Class C1}
 \end{figure} 
@@ -1251,13 +1329,398 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \frametitle{Identificação}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{Imagens/IDC2.png}
+\includegraphics[scale=0.3]{Imagens/IDC2020118.png}
 \caption{Dado de saída da rede para o poço de classificação C2.}
 \label{Class C2}
 \end{figure} 
 \end{frame}
 
+\begin{frame}
+	\frametitle{Identificação}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica da rede}
+	\begin{tabular}{@{}lcc@{}}
+		\toprule
+		\multicolumn{3}{c}{Estatística da Rede}         \\ \midrule
+		Dados                       & Poço C1 & Poço C2 \\
+		Dados de treinamento        & 697     & 697     \\
+		Dados a serem classificados & 699     & 698     \\
+		Neurônios da Rede           & 400     & 400     \\
+		Neurônios vitoriosos        & 400     & 400     \\
+		Neurônios sem uso           & 0       & 0       \\
+		Erro                        & 11      & 5       \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
 
+\subsection{Dado Real}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 01}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t01.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t01.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t01.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt01}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 01}
+	\begin{figure}[H]
+		\centering
+			\includegraphics[scale=0.2]{Imagens/conv01.png}
+		%\caption{Convergência do teste $01$. Inicialmente a curva aproxima-se de uma função exponencial.}
+		\label{Conv01}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 02}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t02.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t02.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t02.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt02}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 02}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Imagens/conv02.png}
+		%\caption{Convergência do teste $02$. Inicialmente a curva aproxima-se de uma função exponencial.}
+		\label{Conv02}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 03}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t03.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t03.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t03.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt03}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 03}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Imagens/conv03.png}
+		%\caption{Convergência do teste $03$. Inicialmente a curva aproxima-se de uma função exponencial.}
+		\label{Conv03}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 04}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t04.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t04.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t04.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt04}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 04}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Imagens/conv04.png}
+		%\caption{Convergência do teste $04$. Inicialmente a curva aproxima-se de uma função exponencial.}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 05}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t05.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t05.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t05.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt05}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 05}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Imagens/conv05.png}
+		%\caption{Convergência do teste $05$. Inicialmente a curva aproxima-se de uma função exponencial.}
+		\label{Conv05}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Dado Real: teste 06}
+	\begin{figure}[H]
+		\centering
+		\subfigure[ref1][Início]{\includegraphics[width=4.0cm]{Imagens/SOM1t06.pdf}}
+		\qquad
+		\subfigure[ref2][Metade]{\includegraphics[width=4.0cm]{Imagens/SOM2t06.pdf}}
+		\qquad
+		\subfigure[ref3][Final]{\includegraphics[width=4.0cm]{Imagens/SOM3t06.pdf}}
+		\qquad
+		%\caption{Mapas auto-organizáveis e sua evolução temporal. A figura (a) mostra a rede com $40$X$40$ neurônios no início do processo de treinamento. A figura (b) apresenta a rede no meio do processo de treinamento e (c) a rede no final do processo de treinamento.}
+		\label{SOMt06}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Dado Real: teste 06}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Imagens/conv06.png}
+		%\caption{Convergência do teste $06$. Inicialmente a curva aproxima-se de uma função exponencial.}
+	\end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação do dado Real}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{c|c}
+			
+			Litologia                    & Código numérico \\ % Note a separação de col. e a quebra de linhas
+			\hline                                                             % para uma linha horizontal
+			Calcilutito                   &  6              \\
+			Calcarenito  		          &  8              \\
+			Diabásio    	              &  65              \\
+			Conglomerado                  &  42              \\
+			Diamictito                    &  44              \\
+			Arenito                       &  49              \\
+			Siltito                       &  54              \\
+			Folhelho                      &  57              \\
+			Meta-siltito                  &  76              \\
+			Calcário Cristalino           &  2              \\
+			% não é preciso quebrar a última linha
+			
+		\end{tabular}
+		\label{codigosreal}
+		\caption{Tabela de referência para conversão do padrão numérico em litologia.}
+	\end{table}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 01}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result01.png}
+	%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+		\label{IDt01}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 01}
+	\begin{table}[H]
+		\centering
+		\caption{}
+		\label{Estatistica do teste $01$}
+		\begin{tabular}{@{}lc@{}}
+			\toprule
+			\multicolumn{2}{c}{Estatística do Teste $01$}         \\ \midrule
+			Parâmetros                  & 1BN0002SC \\
+			Época                       & 10       \\
+			Erros                       & 2229       \\
+			Neurônios da Rede           & 1600       \\
+			Neurônios vitoriosos        & 976       \\
+			Neurônios sem uso           & 624         \\
+			Tempo de máquina            & 6,388 s   \\ \bottomrule
+		\end{tabular}
+	\end{table} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 02}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result02.png}
+		%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+		\label{IDt02}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 02}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $02$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $02$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 100       \\
+		Erros                       & 2242       \\
+		Neurônios da Rede           & 1600       \\
+		Neurônios vitoriosos        & 1600       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 62,01 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 03}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result03.png}
+		%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+		\label{IDt03}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 03}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $03$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $03$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 1000       \\
+		Erros                       & 2226       \\
+		Neurônios da Rede           & 1600       \\
+		Neurônios vitoriosos        & 1600       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 610,12 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 04}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result04.png}
+		%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+		\label{IDt04}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 04}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $04$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $04$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 10       \\
+		Erros                       & 2219       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 1,45 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 05}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result05.png}
+		%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+		\label{IDt05}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 05}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $05$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $05$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 100       \\
+		Erros                       & 2408       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 15,60 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Identificação: teste 06}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.18]{Imagens/result06.png}
+		%	\caption{Identificação do teste 01. São apresentados dois gráficos. A esquerda encontra-se o resultado de classificação da rede e a direita o dado do poço original.}
+	\end{figure} 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Identificação: teste 06}
+\begin{table}[H]
+	\centering
+	\caption{}
+	\label{Estatistica do teste $06$}
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{2}{c}{Estatística do Teste $06$}         \\ \midrule
+		Parâmetros                  & 1BN0002SC \\
+		Época                       & 1000       \\
+		Erros                       & 2240       \\
+		Neurônios da Rede           & 400       \\
+		Neurônios vitoriosos        & 400       \\
+		Neurônios sem uso           & 0         \\
+		Tempo de máquina            & 153,82 s   \\ \bottomrule
+	\end{tabular}
+\end{table} 
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-------------------------CONCLUSÕES---------------------------------------
@@ -1298,36 +1761,35 @@ Embasamento  &       $2,80$           &       $0,7$         &           $1,3 \ti
 \section{Cronograma}		
 \begin{frame}
 \begin{table}[H]
-
-\flushleft
-
-% definindo o tamanho da fonte para small
-% outros possíveis tamanhos: footnotesize, scriptsize
-\begin{footnotesize}
-
-% redefinindo o espaçamento das colunas
-\setlength{\tabcolsep}{1pt}
-
-% \cline é semelhante ao \hline, porém é possível indicar as colunas que terão essa a linha horizontal
-% \multicolumn{10}{c|}{Meses} indica que dez colunas serão mescladas e a palavra Meses estará centralizada dentro delas.
-\rotatebox{0}{
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline
-& \multicolumn{24}{c|}{Meses}\\ \cline{2-25}
-\raisebox{1.5ex}{Etapa} & 01 & 02 & 03 & 04 & 05 & 06 & 07 & 08 & {\color{red}09} & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 \\ \hline
-
-Pesquisa na Literatura & X & X & X & X & X & X & X & X & {\color{red}X} & X & X & X & X & X & X & X & X & X & X & X & X & X & X & X\\ \hline
-Disciplinas & & & X & X & X & X & X & X &  {\color{red}X} & X & X & X & & & X & X & X & X & X & X & X & X & X & X \\ \hline
-Formulação da Rede & & & & & & & & X &  {\color{red}X} & X & X & X & X & X & X & X & & & & & & & & \\ \hline
-Treino & & & & & & & & & & & & & X & X & X & X & X & X & X & X & X & X & X & X \\ \hline
-Resultado & & & & & & & & & & & & & & & & & & & & X & X & X & X & X \\ \hline
-Artigo 1 & & & & & & & & & & & & & & & & & & & & & & & X & X \\ \hline
-Artigo 2 & & & & & & & & & & & & & & & & & & & & & & & & \\ \hline
-Tese & & & & & & & & & & & & & & & & & & & & & & & & \\ \hline
-\end{tabular}
-}
-\end{footnotesize}
-\caption{Cronograma das atividades previstas para o primeiro biênio. Em  {\color{red}vermelho} encontra-se o mês de setembro.}
-\label{t1_cronograma}
+%	\centering
+	\flushleft
+	
+	% definindo o tamanho da fonte para small
+	% outros possíveis tamanhos: footnotesize, scriptsize
+	\begin{scriptsize}
+		
+		% redefinindo o espaçamento das colunas
+		\setlength{\tabcolsep}{.5pt}
+		
+		% \cline é semelhante ao \hline, porém é possível indicar as colunas que terão essa a linha horizontal
+		% \multicolumn{10}{c|}{Meses} indica que dez colunas serão mescladas e a palavra Meses estará centralizada dentro delas.
+		\rotatebox{0}{
+			\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}\hline
+				& \multicolumn{24}{c|}{Meses}\\ \cline{2-25}
+				\raisebox{1.5ex}{Etapa} & 01 & 02 & 03 & 04 & 05 & 06 & 07 & 08 & 09 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & \textcolor{red}{21} & 22 & 23 & 24 \\ \hline	
+				Pesquisa na Literatura     & X & X & X & X & X & X & X & X & X& X & X & X & X & X & X & X & X & X & X & X & \textcolor{red}{X} & X & X & X\\ \hline
+				Disciplinas                        & & & X & X & X & X & X & X &  X & X & X & X & & & X & X & X & X & X & X & \textcolor{red}{X} & X & X & X \\ \hline
+				Formulação da Rede        & & & & & & & & X &  X & X & X & X & X & X & X & X & & & & & & & & \\ \hline
+				Treino                               & & & & & & & & & & & & & X & X & X & X & X & X & X & X & \textcolor{red}{X} & X & X & X \\ \hline
+				Resultado                         & & & & & & & & & & & & & & & & & & & & X & \textcolor{red}{X} & X & X & X \\ \hline
+				Artigo 1                            & & & & & & & & & & & & & & & & & & & & & & & X & X \\ \hline
+				Artigo 2                            & & & & & & & & & & & & & & & & & & & & & & & & \\ \hline
+				Tese                                  & & & & & & & & & & & & & & & & & & & & & & & & \\ \hline
+			\end{tabular}
+		}
+	\end{scriptsize}
+	\caption{Cronograma das atividades previstas para o primeiro biênio. Em  {\color{red}vermelho} encontra-se o mês de setembro de 2018.}
+	\label{t1_cronograma}
 \end{table}
 
 \end{frame}
@@ -1339,10 +1801,10 @@ Tese & & & & & & & & & & & & & & & & & & & & & & & & \\ \hline
 
 % definindo o tamanho da fonte para small
 % outros possíveis tamanhos: footnotesize, scriptsize
-\begin{footnotesize}
+\begin{scriptsize}
 
 % redefinindo o espaçamento das colunas
-\setlength{\tabcolsep}{1pt}
+\setlength{\tabcolsep}{.5pt}
 
 % \cline é semelhante ao \hline, porém é possível indicar as colunas que terão essa a linha horizontal
 % \multicolumn{10}{c|}{Meses} indica que dez colunas serão mescladas e a palavra Meses estará centralizada dentro delas.
@@ -1362,7 +1824,7 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 
 \end{tabular}
 }
-\end{footnotesize}
+\end{scriptsize}
 \caption{Cronograma das atividades previstas para o segundo biênio.}
 \label{t2_cronograma}
 \end{table}
@@ -1372,79 +1834,135 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\begin{frame}
-%\frametitle{Introduction}
+%\section{Introduction}
 %
-%\begin{itemize}
-%	\item Machine learning approaches computer program's that have the capability of automatically improve themselves through experience \citep{Michie1994, Levy1997, MacKay2005}.
-%	\pause
-%	\item Classification techniques uses distances attributes \citep{Michel2016}.
-%	\pause
-%	\item Euclidean classifier calculates a centroid in the space of attributes.
-%	\pause
-%	\item Mahalanobis classifier takes into consideration the shape of attributes space.
-%	\pause
-%	\item A Self Organizing Map (SOM) is inspired by neural cortex \citep{Kohonen1989} and based oriented graph \citep{Haykin1999} working as an interconnected network. 
+%\subsection{Motivation}
+%
+%
+%{%
+%	\usebackgroundtemplate{
+%		\centering
+%		\includegraphics[width=\paperwidth,height=\paperheight]{Imagens/stonerange.jpg}
+%	}
 %	
-%\end{itemize}
+%	% Frame 3: plano de fundo
+%	\begin{frame}
+%		\frametitle{\textcolor{yellow}{Changing seasons}}
+%		%\flushbottom\color{yellow}{\normalsize Changing seasons}
+%		
+%	\end{frame}
+%}
 %
+%{%
+%	\usebackgroundtemplate{
+%		\centering
+%		\includegraphics[width=\paperwidth,height=\paperheight]{Imagens/varvite.jpg}
+%	}
+%	
+%	% Frame 3: plano de fundo
+%	\begin{frame}
+%		\frametitle{\textcolor{yellow}{Varvite (Itu - São Paulo)}}
+%		%\flushbottom\color{yellow}{\normalsize Changing seasons}
+%		
+%	\end{frame}
+%}
+%
+%
+%\begin{frame}
+%	\frametitle{Introduction}
+%	\begin{columns}
+%		\column{0.55\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{itemize}
+%			\item[Machine learning:] computer program with capability of automatic improvement trought experience.
+%			\pause
+%			\item[Machine learning groups:]
+%			\begin{enumerate}
+%				{\tiny 
+%					\item  Artifitial Neural Networks \citep{Minsky1969,Michie1994,MacKay2005};
+%					\item Decision trees \citep{Mitchell1997,Simard2000,Roberts2002};
+%					\item Statistical Classifiers \citep{Michel2016};
+%					\item Self-Organizing Maps \citep{Kohonen1989,Haykin1999};
+%				}
+%			\end{enumerate}
+%			\pause
+%			\item[Classifiers:] uses the concept of distance in the space of attributes;
+%			\pause
+%			\item[Euclidean classifier:] calculates a centroid in the space of attributes.
+%			\pause
+%			\item[Mahalanobis classifier:] takes into consideration the shape of attributes space.
+%			\pause
+%			\item[Self-Organizing Map:] inspired by neural cortex and based oriented graph that works as an interconnected network. 
+%		\end{itemize}
+%	\end{columns}
 %\end{frame}
 %
 %\subsection{Objective}
-%
 %\begin{frame}
-%\frametitle{Objective}
-%	\begin{itemize}
-%		\item Define comparisons between a Kohonen (SOM), an euclidean and a mahalanobean classifiers.
-%		\pause
-%		\item Using synthetic log data in a controlled situation.
-%	\end{itemize}
+%	\frametitle{Objective of this work}
+%	\begin{columns}\footnotesize 
+%		\justifying
+%		\column{0.55\textwidth}
+%		\begin{itemize}
+%			\item[Geosphysical problem:] Identify rocks from well log data by means of machine learning and statistical classifiers;
+%			\pause
+%			\item[Way to solve it:] use self-organizing map (SOM) and two statistical classifers;
+%			\pause
+%			\item[Strategy:] Compare the results for the three explored methods, Kohonen (SOM), euclidean and mahalanobean classifiers for a synthetic scenarium.
+%		\end{itemize}
+%	\end{columns}
 %\end{frame}
 %
 %
 %\section{Methodology}
 %
-%\begin{frame}
-%	\frametitle{Methodology}
-%	\smartdiagram[priority descriptive diagram]{
-%		Generates the hypothesis model,
-%	    Uses T1 well data to train the Kohonen (SOM) and make the statistical of classifiers,
-%		Uses C1 and C2 to make predictions using SOM and the classifiers,
-%		Compare the results					}
-%\end{frame}
-%
 %\subsection{Synthetic Sedimentary Basin}
 %
 %\begin{frame}
 %	\frametitle{Synthetic Sedimentary Basin}
-%\begin{figure}[H]
-%	\centering
+%	\begin{figure}[H]
+%		\centering
 %		\includegraphics[scale=0.34]{Imagens/Basin.eps}
-%	\caption{Synthetic Sedimentary Basin by \cite{Sal2008}  T1, C1 and C2 are training and classifing wells respectively.}
-%	\label{Model}
-%\end{figure}
+%		\caption{\footnotesize Synthetic Sedimentary Basin by \cite{Sal2008}  T1, C1 and C2 are training and classifing wells respectively.}
+%		\label{Model}
+%	\end{figure}
 %\end{frame}
 %
 %\begin{frame}
-%\frametitle{Synthetic Sedimentary Basin}
-%\begin{table}[H]\tiny
-%	\caption{Physical properties and rock types.}
-%\begin{tabular}{@{}ccccccccccc@{}}
-%	\toprule
-%	Rock & Density ($g/cm^{3}$) & Gamma ray ($Ci/g$) & Resistivity ($\Omega.m$)& Velocity ($Km/s$) &\\ \midrule
-%	Conglomerate &     $2.30$ 		  &       $100.0$       &           $6000$           &			$2$   		   	&\\
-%	Shale	 &       $2.55$           &       $100.0$       &           $1000$           &     		$3$		 &\\
-%	Dolomite     &       $2.72$           &       $8.30$        &           $3.5 \times 10^{3}$           &  	$6$    			 &\\
-%	Diabase    &       $2.91$           &       $30.0$        &           $15 \times 10^{7}$           &      $5.5$				 &\\
-%	Crystalline  &       $2.80$           &       $0.7$         &           $1.3 \times 10^{6}$           & 		$5$		     &\\ \bottomrule
-%\end{tabular}
+%	\frametitle{Synthetic Sedimentary Basin}
+%	\begin{table}[H]\tiny
+%		\caption{Physical properties and rock types.}
+%		\begin{tabular}{@{}ccccccccccc@{}}
+%			\toprule
+%			Rock & Density ($g/cm^{3}$) & Gamma ray ($Ci/g$) & Resistivity ($\Omega.m$)& Velocity ($Km/s$) &\\ \midrule
+%			Conglomerate &     $2.30$ 		  &       $100.0$       &           $6000$           &			$2$   		   	&\\
+%			Shale	 &       $2.55$           &       $100.0$       &           $1000$           &     		$3$		 &\\
+%			Dolomite     &       $2.72$           &       $8.30$        &           $3.5 \times 10^{3}$           &  	$6$    			 &\\
+%			Diabase    &       $2.91$           &       $30.0$        &           $15 \times 10^{7}$           &      $5.5$				 &\\
+%			Crystalline  &       $2.80$           &       $0.7$         &           $1.3 \times 10^{6}$           & 		$5$		     &\\ \bottomrule
+%		\end{tabular}
+%		
+%		\label{Tab1}
+%	\end{table}
+%	\begin{columns}
+%		\column{0.55\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{itemize}\footnotesize
+%			\item[Sample rate:] $0.01$ observation/meter 
+%			\item[Contamination error:] $5$\% Radom Gaussian noise.
+%		\end{itemize}
+%	\end{columns}
+%\end{frame}
 %
-%\label{Tab1}
-%\end{table}
-%
-%\begin{itemize}\footnotesize
-%	\item  The sample rate for the well data is $0.01$ observation/meter with contamination of $5$\% Gaussian noise.
-%\end{itemize}
+%\begin{frame}
+%	\frametitle{Methodology}
+%	\smartdiagram[priority descriptive diagram]{
+%		Generates the hypothesis model,
+%		Uses T1 well data to train the Kohonen (SOM) and make the statistical of classifiers,
+%		Uses C1 and C2 to make predictions using SOM and the classifiers,
+%		Compare the results					}
 %\end{frame}
 %
 %\subsection{Training and Similarities}
@@ -1457,31 +1975,31 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 %		\caption{Synthetic training well T$1$.}
 %		\label{T1}
 %	\end{figure}
-%\pause
-%\begin{itemize}\footnotesize
-%	\item Four divisions describes the normal fault by decreasing the amount of conglomerate in comparison to crystalline basement.
-%\end{itemize}
-%
+%	\pause
+%	\begin{itemize}\footnotesize
+%		\item Four divisions describes the normal fault by decreasing the amount of conglomerate in comparison to crystalline basement.
+%	\end{itemize}
+%	
 %\end{frame}
 %
 %\begin{frame}
-%\frametitle{Training and Similarities}
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[scale=0.39]{Imagens/Pococ1.eps}
-%	\caption{Classification well C$1$}
-%	\label{C1}
-%\end{figure}
+%	\frametitle{Training and Similarities}
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[scale=0.39]{Imagens/Pococ1.eps}
+%		\caption{Classification well C$1$}
+%		\label{C1}
+%	\end{figure}
 %\end{frame}
 %
 %\begin{frame}
-%\frametitle{Training and Similarities}
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[scale=0.39]{Imagens/Pococ1.eps}
-%	\caption{Classification well C$2$}
-%	\label{C2}
-%\end{figure}
+%	\frametitle{Training and Similarities}
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[scale=0.39]{Imagens/Pococ2.eps}
+%		\caption{Classification well C$2$}
+%		\label{C2}
+%	\end{figure}
 %\end{frame}
 %
 %
@@ -1490,55 +2008,77 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 %
 %\begin{frame}
 %	\frametitle{Euclidean Classifier}
-%	
-%	\begin{equation}
-%	Ed_{i} =  \Arrowvert \textbf{X}-\bar{\textbf{X}}_{i}  \Arrowvert^{\frac{1}{2}}, 
-%	\label{eq4}
-%	\end{equation}  
-%	 \pause
+%	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definition]
+%		\begin{equation}
+%		Ed_{i} =  \Arrowvert \textbf{X}-\bar{\textbf{X}}_{i}  \Arrowvert_{2} \nonumber
+%		\label{eq4}
+%		\end{equation}  
+%	\end{tcolorbox}
+%	\pause
 %	\begin{itemize}
 %		\centering
-%		\item[$\textbf{X}$], input vector 
+%		\item[$\textbf{X}$], input vector (attribute data)
 %		\pause
 %		\item[$\bar{\textbf{X}}_{i}$], mean vector
 %	\end{itemize}
 %	
 %\end{frame}
-%  
+%
 %
 %\begin{frame}
-%  \frametitle{Euclidean Classifier}
-%  
-%    \begin{figure}[H]
-%    	
-%    	\includegraphics[scale=0.13]{Imagens/clusteranalise1.eps}
-%    \end{figure}
-%  
+%	\frametitle{Euclidean Classifier}
+%	\begin{figure}[H]
+%		\includegraphics[scale=0.1]{Imagens/clusteranalise1.eps}
+%	\end{figure}
+%	
+%	\begin{columns}
+%		\column{1\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{itemize}
+%			\footnotesize
+%			\item All centroid are equidistant
+%			\pause
+%			\item P$(20,5)$ could be a member of all groups from a euclidean point of view 
+%		\end{itemize}
+%	\end{columns}
+%	
 %\end{frame}
 %
 %\begin{frame}
-%\frametitle{Euclidean Classifier}
-%
-%\begin{figure}[H]
+%	\frametitle{Euclidean Classifier}
+%	\begin{figure}[H]
+%		\includegraphics[scale=0.12]{Imagens/clusteranalise3.eps}
+%	\end{figure}
 %	
-%	\includegraphics[scale=0.13]{Imagens/clusteranalise3.eps}
-%\end{figure}
-%
+%	\begin{columns}
+%		\column{1\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{itemize}
+%			\item Blue cluster still have the same centroid
+%			\pause 
+%			\item Problematic to define which cluster point P$(20,5)$ should be member of 
+%			\pause
+%			\item How could we handle this problem?
+%		\end{itemize}
+%	\end{columns}
 %\end{frame}
 %
 %\subsubsection{Mahalanobis Classifier}
 %
 %\begin{frame}
 %	\frametitle{Mahalanobis Classifier}
-%	
-%	\begin{equation}
-%	Md_{i}=[(\textbf{X}-\bar{\textbf{X}}_{i})^{T}\textbf{C}_{i}^{-1}(\textbf{X}-\bar{\textbf{X}}_{i})]^{\frac{1}{2}}.
-%	\label{eq5}
-%	\end{equation}
-%	 \pause
+%	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definition]
+%		\begin{equation}
+%		Md_{i}=\Arrowvert(\textbf{X}-\bar{\textbf{X}}_{i})^{T}\textbf{C}_{i}^{-1}(\textbf{X}-\bar{\textbf{X}}_{i})\Arrowvert_{2}\nonumber
+%		\label{eq5}
+%		\end{equation}
+%	\end{tcolorbox}
+%	\pause
 %	\begin{itemize}
 %		\centering
-%    	\item[$\textbf{X}$], input vector 
+%		\item[$\textbf{X}$], input vector 
 %		\pause
 %		\item[$\bar{\textbf{X}}_{i}$], mean vector
 %		\pause
@@ -1547,243 +2087,413 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 %\end{frame}
 %
 %
-%\begin{frame}
-%\frametitle{Mahalanobis Classifier}
+%%\begin{frame}
+%%\frametitle{Mahalanobis Classifier}
+%%
+%%\begin{equation}
+%%\textbf{C}_{i}=\frac{1}{n_{i}-1}\sum_{X \in \omega_{i}}(\textbf{X}-\bar{\textbf{X}}_{i})(\textbf{X}-\bar{\textbf{X}}_{i})^{T}
+%%\label{eq6}
+%%\end{equation}
+%%\pause
+%%\begin{itemize}
+%%	\centering
+%%	\item[$n_{i}$], number of elements  
+%%	\pause
+%%	\item[$\omega_{i}$], space of attributes
+%%\end{itemize}
+%%\end{frame}
 %
-%\begin{equation}
-%\textbf{C}_{i}=\frac{1}{n_{i}-1}\sum_{X \in \omega_{i}}(\textbf{X}-\bar{\textbf{X}}_{i})(\textbf{X}-\bar{\textbf{X}}_{i})^{T}
-%\label{eq6}
-%\end{equation}
-%\pause
-%\begin{itemize}
-%	\centering
-%	\item[$n_{i}$], number of elements  
-%	\pause
-%	\item[$\omega_{i}$], space of attributes
-%\end{itemize}
+%\begin{frame}
+%	\frametitle{Euclidean Classifier}
+%	\begin{figure}[H]
+%		\includegraphics[scale=0.14]{Imagens/clusteranalise3blue.pdf}
+%	\end{figure}
+%	
+%	\begin{columns}
+%		\column{1\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{itemize}
+%			\item Now, P$(20,5)$ belongs to  \textcolor{blue}{cluster $1$}.
+%		\end{itemize}
+%	\end{columns}
+%\end{frame}
+%
+%\begin{frame}
+%	\begin{huge}
+%		\centering
+%		Back to the problem ...
+%	\end{huge}
 %\end{frame}
 %
 %\subsubsection{Clusters and Space of Attributes}
 %
 %\begin{frame}
-%	\frametitle{Clusters and Space of Attributes - T1 well}
-%	    
-%	\begin{figure}
-%	 %\centering
-%	 \includegraphics[scale=0.29]{Imagens/cluterpocoT1.png}
-%	\end{figure}
+%	\frametitle{Cluster analysis for the syntetic example: T1 well}
+%	\begin{columns}
+%		\column{0.5\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{figure}
+%			%\centering
+%			\includegraphics[scale=0.268]{Imagens/cluterpocoT1.png}
+%		\end{figure}
+%		
+%		\column{0.3\textwidth}
+%		\begin{itemize}
+%			\footnotesize
+%			\item Scatter plot in pairs ($6$ plots);
+%			\pause
+%			\item colors represents the variation rate of physical properties;
+%			\pause
+%			\item some elongated clusters;
+%			\pause
+%			\item some mixed clusters.
+%		\end{itemize}
+%		
+%	\end{columns}
+%\end{frame}
+%
+%
+%\begin{frame}
+%	\frametitle{Clusters analysis for the example: C1 well}
 %	
+%	\begin{columns}
+%		\column{0.5\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{figure}
+%			%\centering
+%			\includegraphics[scale=0.268]{Imagens/cluterpocoC1.png}
+%		\end{figure}
+%		
+%		\column{0.3\textwidth}
+%		\begin{itemize}
+%			\footnotesize
+%			\item Defined clusters;
+%			\pause
+%			\item Different from training well
+%		\end{itemize}
+%		
+%	\end{columns}
 %\end{frame}
 %
-%
 %\begin{frame}
-%\frametitle{Clusters and Space of Attributes - C1 well}
-%
-%\begin{figure}
-%	%\centering
-%	\includegraphics[scale=0.29]{Imagens/cluterpocoC1.png}
-%\end{figure}
-%
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{Clusters and Space of Attributes - C2 well}
-%
-%\begin{figure}
-%	%\centering
-%	\includegraphics[scale=0.29]{Imagens/cluterpocoC2.png}
-%\end{figure}
-%
+%	\frametitle{Clusters analysis for the example: C2 well}
+%	
+%	\begin{columns}
+%		\column{0.5\textwidth}
+%		\footnotesize
+%		\justifying
+%		\begin{figure}
+%			%\centering
+%			\includegraphics[scale=0.268]{Imagens/cluterpocoC2.png}
+%		\end{figure}
+%		
+%		\column{0.3\textwidth}
+%		\begin{itemize}
+%			\footnotesize
+%			\item Similar to C1 well
+%		\end{itemize}
+%		
+%	\end{columns}
 %\end{frame}
 %
 %\subsubsection{Kohonen - SOM}
 %
 %
 %\begin{frame}
-%  \frametitle{Kohonen - SOM}
-%  	 \includegraphics[scale=0.5]{Imagens/IntroKoho1.png} 
+%	\frametitle{Kohonen - SOM}
+%	\framesubtitle{Organization}
+%	\includegraphics[scale=0.5]{Imagens/Introkoho1.png} 
 %\end{frame}
 %
 %
 %\begin{frame}
-% \frametitle{Kohonen - SOM}
-% \includegraphics[scale=0.5]{Imagens/IntroKoho2.png} 
+%	\frametitle{Kohonen - SOM}
+%	\framesubtitle{Organization}
+%	\includegraphics[scale=0.5]{Imagens/Introkoho2.png} 
 %\end{frame}
 %
 %
 %\begin{frame}
-% \frametitle{Kohonen - SOM}
-% \includegraphics[scale=0.5]{Imagens/IntroKoho3.png} 
+%	\frametitle{Kohonen - SOM}
+%	\framesubtitle{Synaptic adaptation (Training process)}
+%	\includegraphics[scale=0.5]{Imagens/Introkoho3.png} 
 %\end{frame}
 %
+%
 %\begin{frame}
-% \frametitle{Kohonen - SOM}
-% \includegraphics[scale=0.5]{Imagens/IntroKoho4.png} 
+%	\frametitle{Kohonen - SOM}
+%	\framesubtitle{Training}
+%	\includegraphics[scale=0.5]{Imagens/Introkoho4.png} 
 %\end{frame}
 %
 %\begin{frame}
 %	\frametitle{Kohonen - SOM}
 %	\framesubtitle{Organization}
-%
+%	
 %	\begin{eqnarray}
 %	\textbf{x}=[x_{1}, x_{2}, x_{3}, ..., x_{m}]^{T} \nonumber
 %	\end{eqnarray}
 %	\pause
+%	\begin{itemize}
+%		\centering
+%		\item[x], input data 
+%		\pause
+%	\end{itemize}
 %	\begin{eqnarray}
-%	\textbf{w}_{j}= [w_{j1}, w_{j2}, w_{j3}, ..., w_{jm}]^{T} \nonumber
+%	\textbf{w}_{i,j}= [w_{j1}, w_{j2}, w_{j3}, ..., w_{jm}]^{T} \nonumber
 %	\end{eqnarray}
 %	\pause
+%	\begin{itemize}
+%		\centering
+%		\item[w], neuron atribute matrix 
+%	\end{itemize}
 %	\begin{eqnarray}
 %	j=1,2,3,\hdots,l \nonumber
 %	\end{eqnarray}
 %\end{frame}
 %
+%%\begin{frame}
+%%    \frametitle{Kohonen - SOM}
+%%    \framesubtitle{Cooperation and winner neuron}
+%%	\begin{eqnarray}
+%%	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+%%	\end{eqnarray}
+%%%	 or 
+%%%	\begin{eqnarray}
+%%%	d(t)= \sqrt{\sum^{n}_{i=1}[x(t)-w_{i,j}(t)]^{2}} \hspace{1cm}  (j = {1,..,m}), \nonumber
+%%%	\label{eq1}
+%%%	\end{eqnarray}
+%%	
+%%	\begin{itemize}
+%%		\centering
+%%		\item[i(x)], distance or identity of a neuron i
+%%	\end{itemize}
+%%
+%%\end{frame}
+%
+%
+%
 %\begin{frame}
-%    \frametitle{Kohonen - SOM}
-%    \framesubtitle{Cooperation}
-%	\begin{eqnarray}
-%	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{j} \parallel \nonumber
-%	\end{eqnarray}
+%	\frametitle{Kohonen - SOM}
+%	\framesubtitle{Synaptic adaption or Training process}
+%	%Neuron changes the value of the surrounding neurons inside a quartet geometry
+%	%
 %	
-%	\begin{eqnarray}
-%	d(t)= \sqrt{\sum^{n}_{i=1}[x(t)-w_{i,j}(t)]^{2}} \hspace{1cm}  (j = {1,..,m}), \nonumber
-%	\label{eq1}
-%	\end{eqnarray}
+%	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definition]
+%		\begin{equation}
+%		w_{i,j}(t+1)=w_{i,j}(t)+\eta(t)[x(t)-w_{i,j}(t)] \nonumber
+%		\label{eq2}
+%		\end{equation}  
+%	\end{tcolorbox}
+%	
+%	\pause
 %	
 %	\begin{itemize}
 %		\centering
-%		\item[d(t)] distance or identity of a neuron i
+%		\item[$w_{i,j}(t+1)$],  updated neuron attribute matrix
+%		\item[$\eta(t)$], learning rate
 %	\end{itemize}
-%
-%\end{frame}
-%
-%
-%
-%\begin{frame}
-% \frametitle{Kohonen - SOM}
-% \framesubtitle{Synaptic adaption or Training process}
-%%Neuron changes the value of the surrounding neurons inside a quartet geometry
-%%
-%\begin{equation}
-%w_{i,j}(t+1)=w_{i,j}(t)+\eta(t)[x(t)-w_{i,j}(t)] \nonumber
-%\label{eq2}
-%\end{equation}  
-%
-%\pause
-%
-%\begin{itemize}
-%	\centering
-%	\item[$w_{i,j}(t+1)$],  updated weight matrix 
-%	\item[$\eta(t)$], learning rate
-%\end{itemize}
-%
-%\begin{equation}
-%\eta(t)=\eta(0)    ( 1 -  \frac{t}{T}  ) \nonumber
-%\label{eq3}
-%\end{equation}  
-%
-%\begin{itemize}
-%	\centering
-%	\item[$T$], number of training cyles
 %	\pause
-%	\item[$t$], number of iteractions
-%	\pause
-%	\item A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors \citep{YANG2009,Yan2014}.
-%\end{itemize}
-%
-%%Where $T$ is the number of training cyles and $t$ is the number of iteractions. A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors.
-%
-%\end{frame}
-%
-%
-%\begin{frame}
-%\frametitle{The geometry}
-%
-%\begin{figure}[H]
-%\flushleft
-%\includegraphics[scale=0.2]{Imagens/toro.png}
-%\label{toro}
-%\end{figure}
-%\begin{figure}
-%\flushright
-%\includegraphics[scale=0.33]{Imagens/hiperplano.png}
-%\label{hiperplano}
-%\end{figure}
-%\end{frame}
-%
-%
-%\begin{frame}
-%\frametitle{A hyperplane with $400$ neurons}
-%\centering
-%\includegraphics[scale=0.47]{Imagens/SOM1_2d.pdf} 
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{A hyperplane with $400$ neurons}
-%\centering
-%\includegraphics[scale=0.47]{Imagens/SOM5_2d.pdf} 
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{A hyperplane with $400$ neurons}
-%\centering
-%\includegraphics[scale=0.47]{Imagens/SOM100_2d.pdf} 
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{A hyperplane with $400$ neurons}
-%\centering
-%\includegraphics[scale=0.47]{Imagens/SOM1000_2d.pdf} 
-%\end{frame}
-%
-%
-%\begin{frame}
-%	\frametitle{A hyperplane with $400$ neurons}
-%	\begin{table}[H]
+%	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definition]
+%		\begin{equation}
+%		\eta(t)=\eta(0)    ( 1 -  \frac{t}{T}  ) \nonumber
+%		\label{eq3}
+%		\end{equation}  
+%	\end{tcolorbox}
+%	
+%	\begin{itemize}
 %		\centering
-%		\begin{tabular}{c|c}
-%			
-%			Lithology                   & Normalization \\ % Note a separação de col. e a quebra de linhas
-%			\hline                                                             % para uma linha horizontal
-%			Shale 2                 &  1\\
-%			Dolomite  		            &  2 \\
-%			Diabase    	            &  3 \\
-%			Conglomerate          &  4 \\
-%			Conglomerate 80\% &  5  \\
-%			Conglomerate 60\%&  6 \\
-%			Conglomerate 40\%&  7\\
-%			Conglomerate 20\%&  8 \\
-%			Crystalline Basement          &  9 \\
-%			% não é preciso quebrar a última linha
-%			
-%		\end{tabular}
-%		\label{codigos}
-%		%\caption{Tabela de referência para conversão do padrão numérico em litologia.}
-%	\end{table}
+%		\item[$T$], number of training cyles
+%		%	\pause
+%		\item[$t$], number of iteractions
+%		%\pause
+%		%\item A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors \citep{YANG2009,Yan2014}.
+%	\end{itemize}
+%	
+%	%Where $T$ is the number of training cyles and $t$ is the number of iteractions. A iteractive process $t=t+1$ goes on until $t \approx  T$. Once the process ends for one neuron it repeats it self for the surrounding neighbors.
+%	
 %\end{frame}
+%
+%
+%\begin{frame}
+%	\frametitle{The geometry}
+%	
+%	\begin{columns}
+%		\column{0.2\textwidth}
+%		\begin{figure}[H]
+%			\flushleft
+%			\includegraphics[scale=0.2]{Imagens/toro.png}
+%			\label{toro}
+%		\end{figure}
+%		\column{0.5\textwidth}
+%		\begin{figure}
+%			\flushright
+%			\includegraphics[scale=0.3]{Imagens/hiperplano.png}
+%			\label{hiperplano}
+%		\end{figure}
+%	\end{columns}
+%	\pause
+%	\begin{itemize}
+%		\footnotesize
+%		\centering
+%		\item[Toroid], efficient way to connect all cells
+%		\item[Hyperplane], all attribute data goes here
+%	\end{itemize}
+%\end{frame}
+%
+%
+%\begin{frame}
+%	\frametitle{Winner neuron and neighborhood}	
+%	\begin{eqnarray}
+%	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+%	\end{eqnarray}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[scale=0.33]{Imagens/hiperplano.png}
+%		\label{vencedor1}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Winner neuron and neighborhood}
+%	\begin{eqnarray}
+%	i(\textbf{x})= argmin_{j}  \parallel \textbf{x} - \textbf{w}_{i,j} \parallel_{2} \nonumber
+%	\end{eqnarray}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[scale=0.33]{Imagens/winner.png}
+%		\label{vencedor2}
+%	\end{figure}
+%\end{frame}
+%
+%%\begin{frame}
+%%	\frametitle{A hyperplane with $400$ neurons}
+%%	\begin{table}[H]
+%%		\centering
+%%		\begin{tabular}{c|c}
+%%			
+%%			Lithology                   & Normalization \\ % Note a separação de col. e a quebra de linhas
+%%			\hline                                                             % para uma linha horizontal
+%%			Shale 2              &  1 \\
+%%			Dolomite  		     &  2 \\
+%%			Diabase    	         &  3 \\
+%%			Conglomerate         &  4 \\
+%%			Conglomerate 80\%    &  5 \\
+%%			Conglomerate 60\%    &  6 \\
+%%			Conglomerate 40\%    &  7 \\
+%%			Conglomerate 20\%    &  8 \\
+%%			Crystalline Basement &  9 \\
+%%			% não é preciso quebrar a última linha
+%%			
+%%		\end{tabular}
+%%		\label{codigos}
+%%		%\caption{Tabela de referência para conversão do padrão numérico em litologia.}
+%%	\end{table}
+%%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Training process for the synthetic case}
+%	\framesubtitle{Epoch $5$}
+%	\centering
+%	\includegraphics[scale=0.3]{Imagens/SOM5.pdf} 
+%	\pause
+%	\begin{itemize}
+%		\footnotesize
+%		%\centering
+%		\item $400$ neurons comprising the hyperplane
+%		\pause
+%		\item Epoch = iteraction in the training process
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Training process for the synthetic case}
+%	\framesubtitle{Epoch $500$}
+%	\centering
+%	\includegraphics[scale=0.3]{Imagens/SOM100.pdf} 
+%	\pause
+%	\begin{itemize}
+%		\footnotesize
+%		%\centering
+%		\item Shale is the predominant rock in this stage
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Training process for the synthetic case}
+%	\framesubtitle{Epoch $1000$}
+%	\centering
+%	\includegraphics[scale=0.3]{Imagens/SOM1000.pdf} 
+%	\pause
+%	\begin{itemize}
+%		\footnotesize
+%		%\centering
+%		\item Final stage.
+%	\end{itemize}
+%\end{frame}
+%
+%%\begin{frame}
+%%\frametitle{Training process for the synthetic case}
+%%\framesubtitle{Convergence}
+%%%\centering
+%%\includegraphics[scale=0.2]{Imagens/convEAGE18.png} 
+%%\end{frame}
+%
+%
+%
 %
 %\section{Results}
 %
 %\begin{frame}
-%\frametitle{Results}
-%\framesubtitle{Classifications C1}
+%	\frametitle{Results}
+%	\framesubtitle{Classifications C1}
 %	\begin{figure}[H]
 %		\centering
-%		 \includegraphics[scale=0.35]{Imagens/IDC1020118.eps}
-%	%	\caption{Comparison between the classifiers and SOM for C1 well data. }
+%		\includegraphics[scale=0.35]{Imagens/IDC1020118.eps}
+%		\caption{$700$ data measured in each well}
 %		\label{C1}
 %	\end{figure}
+%	\pause
+%	\begin{eqnarray}
+%	Error=Lithology(z)-classification(z) \nonumber
+%	\end{eqnarray}
 %\end{frame}
 %
 %\begin{frame}
-%\frametitle{Results}
-%\framesubtitle{Classifications C2}
+%	\frametitle{Results}
+%	\framesubtitle{Classifications C2}
 %	\begin{figure}[H]
 %		\centering
 %		\includegraphics[scale=0.35]{Imagens/IDC2020118.eps}
-%	%	\caption{Comparison between the classifiers and SOM for C2 well data. }
+%		\caption{$700$ data measured in each well}
 %		\label{C2}
 %	\end{figure}
+%	\pause
+%	\begin{eqnarray}
+%	Error=Lithology(z)-classification(z) \nonumber
+%	\end{eqnarray}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Results}
+%	\framesubtitle{Comparative table}
+%	\begin{table}[H]
+%		\centering
+%		\begin{tabular}{||c|c|c|c||}
+%			\hline
+%			Well &  SOM($\%$) & Euclidean($\%$) & Mahalanobis($\%$)\\ [0.5ex] \hline\hline 
+%			C$1$	  &  1.57      &     6           &    11.28   \\
+%			\hline
+%			C$2$     &  0.71      &    1.71         &    18.28    \\ [1ex] 
+%			\hline
+%			% não é preciso quebrar a última linha
+%		\end{tabular}
+%		\label{codigos}
+%		%\caption{Tabela de referência para conversão do padrão numérico em litologia.}
+%	\end{table}
 %\end{frame}
 %
 %\section{Conclusions}
@@ -1791,18 +2501,17 @@ Tese & & & & & & & & & & & & & X&X & X & X & X & X & X & X & X & & & \\ \hline
 %\begin{frame}
 %	\frametitle{Conclusions}
 %	\begin{itemize}
-%		\item SOM algorithm overperformed the euclidean and mahalanobis classifiers with an error of $0.71\%$
+%		%	\item SOM algorithm overperformed the euclidean and mahalanobis classifiers with an error of $0.71\%$
+%		%	\pause
+%		\item The complex distribution of features in the space of properties led to errors of $18.28\%$ (mahalanobis) and $1.71\%$ (euclidean) in the best scenario (C$2$ well).
 %		\pause
-%		\item The complex distribution of features on the space of properties led to an increase of errors on classifiers of $18.28\%$ (mahalanobis) and $1.74\%$ (euclidean)
+%		\item Classifiers could not perform classification of bell patterns in well data. 
 %		\pause
-%		\item Classifiers can not perform classification of bell patterns in well data. 
+%		\item Box patterns could be solved by euclidean classifier but not by mahalanobis
 %		\pause
-%		\item Box patterns could be solved with euclidean classifier but not in mahalanobis
-%		\pause
-%		\item Kohonen - SOM showed the bests results concerning classification of mixture of rocks or the bell pattern
+%		\item Kohonen SOM showed better performance concerning classification of mixture of rocks or the bell pattern
 %	\end{itemize}
 %\end{frame}
-%
 
 %\section{References}
 
