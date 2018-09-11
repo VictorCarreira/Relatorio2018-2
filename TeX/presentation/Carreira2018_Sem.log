@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.6)  11 SEP 2018 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.6)  11 SEP 2018 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1886,51 +1886,33 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 103.
  (./Carreira2018_Sem.nav)
-<Imagens/logonvertical.jpg, id=94, 344.9688pt x 293.898pt>
+<Imagens/logonvertical.jpg, id=90, 344.9688pt x 293.898pt>
 File: Imagens/logonvertical.jpg Graphic file (type jpg)
 
 <use Imagens/logonvertical.jpg>
 Package pdftex.def Info: Imagens/logonvertical.jpg used on input line 114.
 (pdftex.def)             Requested size: 137.98506pt x 117.5571pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/logonvertical.jpg>] [2
 
+] (./Carreira2018_Sem.toc) [3
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
- <./Imagens/logonvertical.jpg>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[2
-
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[3
-
-] <Imagens/stonerange.jpg, id=205, 549.05125pt x 366.36874pt>
+]
+<Imagens/stonerange.jpg, id=196, 549.05125pt x 366.36874pt>
 File: Imagens/stonerange.jpg Graphic file (type jpg)
 
 <use Imagens/stonerange.jpg>
 Package pdftex.def Info: Imagens/stonerange.jpg used on input line 147.
 (pdftex.def)             Requested size: 364.20131pt x 273.16026pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[4
+ [4
 
  <./Imagens/stonerange.jpg>]
-<Imagens/varvite.jpg, id=230, 752.8125pt x 401.5pt>
+<Imagens/varvite.jpg, id=220, 752.8125pt x 401.5pt>
 File: Imagens/varvite.jpg Graphic file (type jpg)
  <use Imagens/varvite.jpg>
 Package pdftex.def Info: Imagens/varvite.jpg used on input line 161.
 (pdftex.def)             Requested size: 364.20615pt x 273.1634pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [5
 
@@ -1948,19 +1930,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [6
 
 ]
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [7
 
@@ -1968,19 +1942,11 @@ Overfull \vbox (5.83327pt too high) has occurred while \output is active []
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [8
 
 ]
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [9
 
@@ -1988,54 +1954,26 @@ Overfull \vbox (5.83327pt too high) has occurred while \output is active []
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [10
 
 ]
 Overfull \vbox (2.83499pt too high) detected at line 195
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [11
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [12
 
+] [13
 
-[12
+] [14
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[13
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[14
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[15
+] [15
 
 ]
 Overfull \hbox (10.31087pt too wide) in paragraph at lines 241--241
 [][]
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [16
 
@@ -2044,38 +1982,18 @@ Overfull \hbox (10.31087pt too wide) in paragraph at lines 252--252
 [][]
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [17
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [18
 
+] [19
 
-[18
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[19
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[20
+] [20
 
 ]
 Overfull \hbox (2.71461pt too wide) in paragraph at lines 290--290
  [][][]\T1/ptm/m/n/10 Chakravarthy 
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [21
 
@@ -2083,10 +2001,6 @@ Overfull \vbox (5.83327pt too high) has occurred while \output is active []
 Overfull \hbox (2.71461pt too wide) in paragraph at lines 302--302
  [][]\T1/ptm/m/n/10 Chakravarthy 
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [22
 
@@ -2100,10 +2014,6 @@ Overfull \hbox (10.31087pt too wide) in paragraph at lines 314--314
 [][]
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [23
 
 ]
@@ -2116,591 +2026,232 @@ Overfull \hbox (10.31087pt too wide) in paragraph at lines 326--326
 [][]
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
 [24
 
-] <Imagens/penfield.png, id=727, 370.7451pt x 443.4969pt>
-File: Imagens/penfield.png Graphic file (type png)
+] [25
 
-<use Imagens/penfield.png>
-Package pdftex.def Info: Imagens/penfield.png used on input line 350.
-(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 350.
+] [26
 
-Overfull \vbox (20.30482pt too high) detected at line 350
- []
+] [27
 
+] (./Carreira2018_Sem.toc) [28
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [29
 
+] [30
 
-[25
+] [31
 
- <./Imagens/penfield.png>]
-File: Imagens/penfield.png Graphic file (type png)
- <use Imagens/penfield.png>
-Package pdftex.def Info: Imagens/penfield.png used on input line 350.
-(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
+] [32
 
-Overfull \vbox (20.30482pt too high) detected at line 350
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[26
+] [33
 
 ]
-File: Imagens/penfield.png Graphic file (type png)
- <use Imagens/penfield.png>
-Package pdftex.def Info: Imagens/penfield.png used on input line 350.
-(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
-
-Overfull \vbox (20.30482pt too high) detected at line 350
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[27
-
-]
-File: Imagens/penfield.png Graphic file (type png)
- <use Imagens/penfield.png>
-Package pdftex.def Info: Imagens/penfield.png used on input line 350.
-(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
-
-Overfull \vbox (20.30482pt too high) detected at line 350
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[28
-
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[29
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[30
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[31
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[32
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[33
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[34
-
-] <Imagens/diagrama.png, id=992, 308.5929pt x 561.5379pt>
+<Imagens/diagrama.png, id=923, 308.5929pt x 561.5379pt>
 File: Imagens/diagrama.png Graphic file (type png)
 
 <use Imagens/diagrama.png>
-Package pdftex.def Info: Imagens/diagrama.png used on input line 401.
+Package pdftex.def Info: Imagens/diagrama.png used on input line 396.
 (pdftex.def)             Requested size: 123.43497pt x 224.61118pt.
 
-Overfull \hbox (11.90182pt too wide) in paragraph at lines 401--401
+Overfull \hbox (11.90182pt too wide) in paragraph at lines 396--396
  [] 
  []
 
 
-Overfull \vbox (11.90591pt too high) detected at line 401
+Overfull \vbox (11.90591pt too high) detected at line 396
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[35
+[34
 
  <./Imagens/diagrama.png>]
-<Imagens/diagramabauru.png, id=1019, 342.881pt x 623.931pt>
+<Imagens/diagramabauru.png, id=950, 342.881pt x 623.931pt>
 File: Imagens/diagramabauru.png Graphic file (type png)
 
 <use Imagens/diagramabauru.png>
-Package pdftex.def Info: Imagens/diagramabauru.png used on input line 424.
+Package pdftex.def Info: Imagens/diagramabauru.png used on input line 419.
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 424--424
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 419--419
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 424
+Overfull \vbox (11.90973pt too high) detected at line 419
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[36
+[35
 
  <./Imagens/diagramabauru.png>]
-<Imagens/diagramagondwanaiii.png, id=1046, 342.881pt x 623.931pt>
+<Imagens/diagramagondwanaiii.png, id=975, 342.881pt x 623.931pt>
 File: Imagens/diagramagondwanaiii.png Graphic file (type png)
 
 <use Imagens/diagramagondwanaiii.png>
-Package pdftex.def Info: Imagens/diagramagondwanaiii.png used on input line 447
+Package pdftex.def Info: Imagens/diagramagondwanaiii.png used on input line 442
 .
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 447--447
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 442--442
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 447
+Overfull \vbox (11.90973pt too high) detected at line 442
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[37
+[36
 
  <./Imagens/diagramagondwanaiii.png>]
-<Imagens/diagramagondwanaii.png, id=1073, 342.881pt x 623.931pt>
+<Imagens/diagramagondwanaii.png, id=1000, 342.881pt x 623.931pt>
 File: Imagens/diagramagondwanaii.png Graphic file (type png)
 
 <use Imagens/diagramagondwanaii.png>
-Package pdftex.def Info: Imagens/diagramagondwanaii.png used on input line 470.
+Package pdftex.def Info: Imagens/diagramagondwanaii.png used on input line 465.
 
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 470--470
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 465--465
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 470
+Overfull \vbox (11.90973pt too high) detected at line 465
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[38
+[37
 
  <./Imagens/diagramagondwanaii.png>]
-<Imagens/diagramagondwanai.png, id=1099, 342.881pt x 623.931pt>
+<Imagens/diagramagondwanai.png, id=1026, 342.881pt x 623.931pt>
 File: Imagens/diagramagondwanai.png Graphic file (type png)
 
 <use Imagens/diagramagondwanai.png>
-Package pdftex.def Info: Imagens/diagramagondwanai.png used on input line 494.
+Package pdftex.def Info: Imagens/diagramagondwanai.png used on input line 489.
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 494--494
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 489--489
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 494
+Overfull \vbox (11.90973pt too high) detected at line 489
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[39
+[38
 
  <./Imagens/diagramagondwanai.png>]
-<Imagens/diagramaparana.png, id=1125, 342.881pt x 623.931pt>
+<Imagens/diagramaparana.png, id=1052, 342.881pt x 623.931pt>
 File: Imagens/diagramaparana.png Graphic file (type png)
 
 <use Imagens/diagramaparana.png>
-Package pdftex.def Info: Imagens/diagramaparana.png used on input line 517.
+Package pdftex.def Info: Imagens/diagramaparana.png used on input line 512.
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 517--517
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 512--512
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 517
+Overfull \vbox (11.90973pt too high) detected at line 512
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[40
+[39
 
  <./Imagens/diagramaparana.png>]
-<Imagens/diagramarioivai.png, id=1152, 342.881pt x 623.931pt>
+<Imagens/diagramarioivai.png, id=1077, 342.881pt x 623.931pt>
 File: Imagens/diagramarioivai.png Graphic file (type png)
 
 <use Imagens/diagramarioivai.png>
-Package pdftex.def Info: Imagens/diagramarioivai.png used on input line 540.
+Package pdftex.def Info: Imagens/diagramarioivai.png used on input line 535.
 (pdftex.def)             Requested size: 123.43706pt x 224.61499pt.
 
-Overfull \hbox (11.90392pt too wide) in paragraph at lines 540--540
+Overfull \hbox (11.90392pt too wide) in paragraph at lines 535--535
  [] 
  []
 
 
-Overfull \vbox (11.90973pt too high) detected at line 540
+Overfull \vbox (11.90973pt too high) detected at line 535
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[41
+[40
 
  <./Imagens/diagramarioivai.png>]
-<Imagens/BaciaParana.jpg, id=1178, 844.8363pt x 597.6729pt>
+<Imagens/BaciaParana.jpg, id=1102, 844.8363pt x 597.6729pt>
 File: Imagens/BaciaParana.jpg Graphic file (type jpg)
 
 <use Imagens/BaciaParana.jpg>
-Package pdftex.def Info: Imagens/BaciaParana.jpg used on input line 551.
+Package pdftex.def Info: Imagens/BaciaParana.jpg used on input line 546.
 (pdftex.def)             Requested size: 253.45285pt x 179.30325pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[42
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 546.
+ [41
 
  <./Imagens/BaciaParana.jpg>]
-<Imagens/Pocos2.png, id=1204, 1162.3425pt x 709.65125pt>
-File: Imagens/Pocos2.png Graphic file (type png)
+(./Carreira2018_Sem.toc) [42
 
-<use Imagens/Pocos2.png>
-Package pdftex.def Info: Imagens/Pocos2.png used on input line 561.
-(pdftex.def)             Requested size: 290.58492pt x 177.41237pt.
+]
+<Imagens/Modelo.png, id=1167, 819.06pt x 475.5366pt>
+File: Imagens/Modelo.png Graphic file (type png)
+ <use Imagens/Modelo.png>
+Package pdftex.def Info: Imagens/Modelo.png used on input line 651.
+(pdftex.def)             Requested size: 286.6753pt x 166.44029pt.
 
-Overfull \hbox (11.74779pt too wide) in paragraph at lines 561--561
+Overfull \hbox (7.83817pt too wide) in paragraph at lines 651--651
  [] 
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [43
 
- <./Imagens/Pocos2.png (PNG copy)>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
+ <./Imagens/Modelo.png>]
+Overfull \hbox (11.80435pt too wide) in paragraph at lines 679--679
+ [] 
+ []
 
 [44
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [45
 
+] [46
 
-[45
+] [47
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [48
 
-
-[46
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[47
-
-] <Imagens/locmap02.pdf, id=1328, 565.87411pt x 346.89601pt>
-File: Imagens/locmap02.pdf Graphic file (type pdf)
-
-<use Imagens/locmap02.pdf>
-Package pdftex.def Info: Imagens/locmap02.pdf used on input line 584.
-(pdftex.def)             Requested size: 282.93636pt x 173.44757pt.
-
-Overfull \hbox (4.09923pt too wide) in paragraph at lines 584--584
- [] 
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[48
-
- <./Imagens/locmap02.pdf>]
-<Imagens/legenda.png, id=1361, 197.7789pt x 168.99135pt>
-File: Imagens/legenda.png Graphic file (type png)
-
-<use Imagens/legenda.png>
-Package pdftex.def Info: Imagens/legenda.png used on input line 601.
-(pdftex.def)             Requested size: 36.98688pt x 36.98738pt.
-
-<Imagens/1BN0002SC_lit2.png, id=1362, 216.81pt x 1445.4pt>
-File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_lit2.png>
-Package pdftex.def Info: Imagens/1BN0002SC_lit2.png used on input line 601.
-(pdftex.def)             Requested size: 54.0601pt x 227.60759pt.
-
-<Imagens/1BN0002SC_SP.png, id=1363, 361.35pt x 1445.4pt>
-File: Imagens/1BN0002SC_SP.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_SP.png>
-Package pdftex.def Info: Imagens/1BN0002SC_SP.png used on input line 601.
-(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
-
-<Imagens/1BN0002SC_res.png, id=1364, 361.35pt x 1445.4pt>
-File: Imagens/1BN0002SC_res.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_res.png>
-Package pdftex.def Info: Imagens/1BN0002SC_res.png used on input line 601.
-(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
-
-Overfull \vbox (21.85075pt too high) detected at line 601
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[49
-
- <./Imagens/legenda.png> <./Imagens/1BN0002SC_lit2.png> <./Imagens/1BN0002SC_SP
-.png> <./Imagens/1BN0002SC_res.png>]
-File: Imagens/legenda.png Graphic file (type png)
- <use Imagens/legenda.png>
-Package pdftex.def Info: Imagens/legenda.png used on input line 618.
-(pdftex.def)             Requested size: 36.98688pt x 36.98738pt.
-File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_lit2.png>
-Package pdftex.def Info: Imagens/1BN0002SC_lit2.png used on input line 618.
-(pdftex.def)             Requested size: 54.0601pt x 227.60759pt.
-
-<Imagens/1BN0002SC_TTI.png, id=1396, 361.35pt x 1445.4pt>
-File: Imagens/1BN0002SC_TTI.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_TTI.png>
-Package pdftex.def Info: Imagens/1BN0002SC_TTI.png used on input line 618.
-(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
-
-<Imagens/1BN0002SC_TOT.png, id=1397, 361.35pt x 1445.4pt>
-File: Imagens/1BN0002SC_TOT.png Graphic file (type png)
-
-<use Imagens/1BN0002SC_TOT.png>
-Package pdftex.def Info: Imagens/1BN0002SC_TOT.png used on input line 618.
-(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
-
-Overfull \vbox (21.85075pt too high) detected at line 618
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[50
-
- <./Imagens/1BN0002SC_TTI.png> <./Imagens/1BN0002SC_TOT.png>]
-(./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[51
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[52
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[53
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[54
-
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[55
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[56
-
-] <Imagens/treinamento.png, id=1604, 644.6484pt x 661.9932pt>
-File: Imagens/treinamento.png Graphic file (type png)
-
-<use Imagens/treinamento.png>
-Package pdftex.def Info: Imagens/treinamento.png used on input line 690.
-(pdftex.def)             Requested size: 225.63033pt x 231.70108pt.
-
-Overfull \vbox (4.39581pt too high) detected at line 690
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[57
-
- <./Imagens/treinamento.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[58
-
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[59
-
-] <Imagens/Modelo.png, id=1695, 819.06pt x 475.5366pt>
-File: Imagens/Modelo.png Graphic file (type png)
-
-<use Imagens/Modelo.png>
-Package pdftex.def Info: Imagens/Modelo.png used on input line 809.
-(pdftex.def)             Requested size: 286.6753pt x 166.44029pt.
-
-Overfull \hbox (7.83817pt too wide) in paragraph at lines 809--809
- [] 
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[60
-
- <./Imagens/Modelo.png>]
-Overfull \hbox (11.80435pt too wide) in paragraph at lines 837--837
- [] 
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[61
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[62
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[63
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[64
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[65
-
-] <Imagens/PocoT1.png, id=1850, 721.9773pt x 409.53pt>
+] <Imagens/PocoT1.png, id=1316, 721.9773pt x 409.53pt>
 File: Imagens/PocoT1.png Graphic file (type png)
 
 <use Imagens/PocoT1.png>
-Package pdftex.def Info: Imagens/PocoT1.png used on input line 862.
+Package pdftex.def Info: Imagens/PocoT1.png used on input line 704.
 (pdftex.def)             Requested size: 267.12741pt x 151.52371pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[66
+ [49
 
  <./Imagens/PocoT1.png>]
-<Imagens/PocoC1.png, id=1877, 720.7728pt x 409.2891pt>
+<Imagens/PocoC1.png, id=1343, 720.7728pt x 409.2891pt>
 File: Imagens/PocoC1.png Graphic file (type png)
 
 <use Imagens/PocoC1.png>
-Package pdftex.def Info: Imagens/PocoC1.png used on input line 873.
+Package pdftex.def Info: Imagens/PocoC1.png used on input line 715.
 (pdftex.def)             Requested size: 266.68175pt x 151.43459pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[67
+ [50
 
  <./Imagens/PocoC1.png>]
-<Imagens/PocoC2.png, id=1905, 719.5683pt x 409.53pt>
+<Imagens/PocoC2.png, id=1369, 719.5683pt x 409.53pt>
 File: Imagens/PocoC2.png Graphic file (type png)
  <use Imagens/PocoC2.png>
-Package pdftex.def Info: Imagens/PocoC2.png used on input line 883.
+Package pdftex.def Info: Imagens/PocoC2.png used on input line 725.
 (pdftex.def)             Requested size: 266.2361pt x 151.52371pt.
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+[51
 
-
-[68
-
- <./Imagens/PocoC2.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[69
+ <./Imagens/PocoC2.png>] [52
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 913.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 755.
+ [53
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [54
 
-
-[70
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[71
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[72
+] [55
 
 ]
 Package epstopdf Info: Source file: <Imagens/clusteranalise1.eps>
@@ -2712,21 +2263,17 @@ df>
 (epstopdf)                    size: 181942 bytes
 (epstopdf)             Command: <repstopdf --outfile=Imagens/clusteranalise1-ep
 s-converted-to.pdf Imagens/clusteranalise1.eps>
-(epstopdf)             \includegraphics on input line 934.
+(epstopdf)             \includegraphics on input line 776.
 Package epstopdf Info: Output file is already uptodate.
 
-<Imagens/clusteranalise1-eps-converted-to.pdf, id=2042, 1663.21375pt x 1446.403
+<Imagens/clusteranalise1-eps-converted-to.pdf, id=1502, 1663.21375pt x 1446.403
 75pt>
 File: Imagens/clusteranalise1-eps-converted-to.pdf Graphic file (type pdf)
  <use Imagens/clusteranalise1-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise1-eps-converted-to.pdf used on i
-nput line 934.
+nput line 776.
 (pdftex.def)             Requested size: 166.33112pt x 144.64885pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[73
+ [56
 
  <./Imagens/clusteranalise1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Imagens/clusteranalise1.eps>
@@ -2738,19 +2285,15 @@ df>
 (epstopdf)                    size: 181942 bytes
 (epstopdf)             Command: <repstopdf --outfile=Imagens/clusteranalise1-ep
 s-converted-to.pdf Imagens/clusteranalise1.eps>
-(epstopdf)             \includegraphics on input line 934.
+(epstopdf)             \includegraphics on input line 776.
 Package epstopdf Info: Output file is already uptodate.
 File: Imagens/clusteranalise1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Imagens/clusteranalise1-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise1-eps-converted-to.pdf used on i
-nput line 934.
+nput line 776.
 (pdftex.def)             Requested size: 166.33112pt x 144.64885pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[74
+ [57
 
 ]
 Package epstopdf Info: Source file: <Imagens/clusteranalise3.eps>
@@ -2762,21 +2305,17 @@ df>
 (epstopdf)                    size: 188393 bytes
 (epstopdf)             Command: <repstopdf --outfile=Imagens/clusteranalise3-ep
 s-converted-to.pdf Imagens/clusteranalise3.eps>
-(epstopdf)             \includegraphics on input line 954.
+(epstopdf)             \includegraphics on input line 796.
 Package epstopdf Info: Output file is already uptodate.
 
-<Imagens/clusteranalise3-eps-converted-to.pdf, id=2102, 1663.21375pt x 1157.323
+<Imagens/clusteranalise3-eps-converted-to.pdf, id=1559, 1663.21375pt x 1157.323
 75pt>
 File: Imagens/clusteranalise3-eps-converted-to.pdf Graphic file (type pdf)
  <use Imagens/clusteranalise3-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise3-eps-converted-to.pdf used on i
-nput line 954.
+nput line 796.
 (pdftex.def)             Requested size: 199.57704pt x 138.87285pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[75
+ [58
 
  <./Imagens/clusteranalise3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Imagens/clusteranalise3.eps>
@@ -2788,19 +2327,15 @@ df>
 (epstopdf)                    size: 188393 bytes
 (epstopdf)             Command: <repstopdf --outfile=Imagens/clusteranalise3-ep
 s-converted-to.pdf Imagens/clusteranalise3.eps>
-(epstopdf)             \includegraphics on input line 954.
+(epstopdf)             \includegraphics on input line 796.
 Package epstopdf Info: Output file is already uptodate.
 File: Imagens/clusteranalise3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Imagens/clusteranalise3-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise3-eps-converted-to.pdf used on i
-nput line 954.
+nput line 796.
 (pdftex.def)             Requested size: 199.57704pt x 138.87285pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[76
+ [59
 
 ]
 Package epstopdf Info: Source file: <Imagens/clusteranalise3.eps>
@@ -2812,494 +2347,507 @@ df>
 (epstopdf)                    size: 188393 bytes
 (epstopdf)             Command: <repstopdf --outfile=Imagens/clusteranalise3-ep
 s-converted-to.pdf Imagens/clusteranalise3.eps>
-(epstopdf)             \includegraphics on input line 954.
+(epstopdf)             \includegraphics on input line 796.
 Package epstopdf Info: Output file is already uptodate.
 File: Imagens/clusteranalise3-eps-converted-to.pdf Graphic file (type pdf)
- <use Imagens/clusteranalise3-eps-converted-to.pdf>
+
+<use Imagens/clusteranalise3-eps-converted-to.pdf>
 Package pdftex.def Info: Imagens/clusteranalise3-eps-converted-to.pdf used on i
-nput line 954.
+nput line 796.
 (pdftex.def)             Requested size: 199.57704pt x 138.87285pt.
+ [60
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [61
 
+] [62
 
-[77
+] [63
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[78
+] [64
 
 ]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[79
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[80
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[81
-
-] <Imagens/clusteranalise3blue.pdf, id=2289, 1663.21375pt x 1157.32375pt>
+<Imagens/clusteranalise3blue.pdf, id=1739, 1663.21375pt x 1157.32375pt>
 File: Imagens/clusteranalise3blue.pdf Graphic file (type pdf)
 
 <use Imagens/clusteranalise3blue.pdf>
-Package pdftex.def Info: Imagens/clusteranalise3blue.pdf used on input line 100
-8.
+Package pdftex.def Info: Imagens/clusteranalise3blue.pdf used on input line 850
+.
 (pdftex.def)             Requested size: 232.84834pt x 162.02422pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[82
+ [65
 
  <./Imagens/clusteranalise3blue.pdf>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+[66
 
-
-[83
-
-] <Imagens/cluterpocoT1.png, id=2402, 722.7pt x 722.7pt>
+] <Imagens/cluterpocoT1.png, id=1850, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoT1.png Graphic file (type png)
 
 <use Imagens/cluterpocoT1.png>
-Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 1043.
+Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 885.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1043--1043
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 885--885
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[84
+[67
 
  <./Imagens/cluterpocoT1.png>]
 File: Imagens/cluterpocoT1.png Graphic file (type png)
  <use Imagens/cluterpocoT1.png>
-Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 1043.
+Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 885.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1043--1043
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 885--885
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[85
+[68
 
 ]
 File: Imagens/cluterpocoT1.png Graphic file (type png)
  <use Imagens/cluterpocoT1.png>
-Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 1043.
+Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 885.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1043--1043
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 885--885
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[86
+[69
 
 ]
 File: Imagens/cluterpocoT1.png Graphic file (type png)
  <use Imagens/cluterpocoT1.png>
-Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 1043.
+Package pdftex.def Info: Imagens/cluterpocoT1.png used on input line 885.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1043--1043
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 885--885
  [] 
  []
 
+[70
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[87
-
-] <Imagens/cluterpocoC1.png, id=2502, 722.7pt x 722.7pt>
+] <Imagens/cluterpocoC1.png, id=1946, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoC1.png Graphic file (type png)
 
 <use Imagens/cluterpocoC1.png>
-Package pdftex.def Info: Imagens/cluterpocoC1.png used on input line 1067.
+Package pdftex.def Info: Imagens/cluterpocoC1.png used on input line 909.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1067--1067
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 909--909
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[88
+[71
 
  <./Imagens/cluterpocoC1.png>]
 File: Imagens/cluterpocoC1.png Graphic file (type png)
  <use Imagens/cluterpocoC1.png>
-Package pdftex.def Info: Imagens/cluterpocoC1.png used on input line 1067.
+Package pdftex.def Info: Imagens/cluterpocoC1.png used on input line 909.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1067--1067
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 909--909
  [] 
  []
 
+[72
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[89
-
-] <Imagens/cluterpocoC2.png, id=2552, 722.7pt x 722.7pt>
+] <Imagens/cluterpocoC2.png, id=1994, 722.7pt x 722.7pt>
 File: Imagens/cluterpocoC2.png Graphic file (type png)
 
 <use Imagens/cluterpocoC2.png>
-Package pdftex.def Info: Imagens/cluterpocoC2.png used on input line 1088.
+Package pdftex.def Info: Imagens/cluterpocoC2.png used on input line 930.
 (pdftex.def)             Requested size: 193.687pt x 193.687pt.
 
-Overfull \hbox (54.26843pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (54.26843pt too wide) in paragraph at lines 930--930
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[90
+[73
 
  <./Imagens/cluterpocoC2.png>]
-<Imagens/Introkoho1.png, id=2578, 149.8398pt x 228.855pt>
+<Imagens/penfield.png, id=2020, 370.7451pt x 443.4969pt>
+File: Imagens/penfield.png Graphic file (type png)
+
+<use Imagens/penfield.png>
+Package pdftex.def Info: Imagens/penfield.png used on input line 954.
+(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
+
+Overfull \vbox (20.30482pt too high) detected at line 954
+ []
+
+[74
+
+ <./Imagens/penfield.png>]
+File: Imagens/penfield.png Graphic file (type png)
+ <use Imagens/penfield.png>
+Package pdftex.def Info: Imagens/penfield.png used on input line 954.
+(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
+
+Overfull \vbox (20.30482pt too high) detected at line 954
+ []
+
+[75
+
+]
+File: Imagens/penfield.png Graphic file (type png)
+ <use Imagens/penfield.png>
+Package pdftex.def Info: Imagens/penfield.png used on input line 954.
+(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
+
+Overfull \vbox (20.30482pt too high) detected at line 954
+ []
+
+[76
+
+]
+File: Imagens/penfield.png Graphic file (type png)
+ <use Imagens/penfield.png>
+Package pdftex.def Info: Imagens/penfield.png used on input line 954.
+(pdftex.def)             Requested size: 111.22438pt x 133.0501pt.
+
+Overfull \vbox (20.30482pt too high) detected at line 954
+ []
+
+[77
+
+] <Imagens/Introkoho1.png, id=2116, 149.8398pt x 228.855pt>
 File: Imagens/Introkoho1.png Graphic file (type png)
 
 <use Imagens/Introkoho1.png>
-Package pdftex.def Info: Imagens/Introkoho1.png used on input line 1097.
+Package pdftex.def Info: Imagens/Introkoho1.png used on input line 960.
 (pdftex.def)             Requested size: 74.91971pt x 114.42722pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[91
+ [78
 
  <./Imagens/Introkoho1.png>]
-<Imagens/Introkoho2.png, id=2606, 565.1514pt x 263.7855pt>
+<Imagens/Introkoho2.png, id=2141, 565.1514pt x 263.7855pt>
 File: Imagens/Introkoho2.png Graphic file (type png)
 
 <use Imagens/Introkoho2.png>
-Package pdftex.def Info: Imagens/Introkoho2.png used on input line 1104.
+Package pdftex.def Info: Imagens/Introkoho2.png used on input line 967.
 (pdftex.def)             Requested size: 282.575pt x 131.89243pt.
 
-Overfull \hbox (3.73787pt too wide) in paragraph at lines 1104--1104
+Overfull \hbox (3.73787pt too wide) in paragraph at lines 967--967
 [][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[92
+[79
 
  <./Imagens/Introkoho2.png>]
-<Imagens/Introkoho3.png, id=2632, 565.1514pt x 335.8146pt>
+<Imagens/Introkoho3.png, id=2168, 565.1514pt x 335.8146pt>
 File: Imagens/Introkoho3.png Graphic file (type png)
 
 <use Imagens/Introkoho3.png>
-Package pdftex.def Info: Imagens/Introkoho3.png used on input line 1111.
+Package pdftex.def Info: Imagens/Introkoho3.png used on input line 974.
 (pdftex.def)             Requested size: 282.575pt x 167.90689pt.
 
-Overfull \hbox (3.73787pt too wide) in paragraph at lines 1111--1111
+Overfull \hbox (3.73787pt too wide) in paragraph at lines 974--974
 [][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[93
+[80
 
  <./Imagens/Introkoho3.png>]
-<Imagens/Introkoho4.png, id=2658, 565.6332pt x 364.4817pt>
+<Imagens/Introkoho4.png, id=2193, 565.6332pt x 364.4817pt>
 File: Imagens/Introkoho4.png Graphic file (type png)
 
 <use Imagens/Introkoho4.png>
-Package pdftex.def Info: Imagens/Introkoho4.png used on input line 1118.
+Package pdftex.def Info: Imagens/Introkoho4.png used on input line 981.
 (pdftex.def)             Requested size: 282.8159pt x 182.2404pt.
 
-Overfull \hbox (3.97878pt too wide) in paragraph at lines 1118--1118
+Overfull \hbox (3.97878pt too wide) in paragraph at lines 981--981
 [][] 
  []
 
+[81
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/Introkoho4.png>] [82
 
+] [83
 
-[94
+] [84
 
- <./Imagens/Introkoho4.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] [85
 
+] [86
 
-[95
+] [87
 
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[96
+] [88
 
 ]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[97
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[98
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[99
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[100
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[101
-
-] <Imagens/toro.png, id=2858, 364.2408pt x 408.5664pt>
+<Imagens/toro.png, id=2385, 364.2408pt x 408.5664pt>
 File: Imagens/toro.png Graphic file (type png)
-
-<use Imagens/toro.png>
-Package pdftex.def Info: Imagens/toro.png used on input line 1233.
+ <use Imagens/toro.png>
+Package pdftex.def Info: Imagens/toro.png used on input line 1096.
 (pdftex.def)             Requested size: 72.84686pt x 81.71182pt.
 
-Overfull \hbox (17.08029pt too wide) in paragraph at lines 1233--1233
+Overfull \hbox (17.08029pt too wide) in paragraph at lines 1096--1096
 [][][][]  
  []
 
-<Imagens/hiperplano.png, id=2859, 573.8238pt x 380.622pt>
+<Imagens/hiperplano.png, id=2386, 573.8238pt x 380.622pt>
 File: Imagens/hiperplano.png Graphic file (type png)
 
 <use Imagens/hiperplano.png>
-Package pdftex.def Info: Imagens/hiperplano.png used on input line 1233.
+Package pdftex.def Info: Imagens/hiperplano.png used on input line 1096.
 (pdftex.def)             Requested size: 172.14847pt x 114.18747pt.
 
-Overfull \hbox (32.7299pt too wide) in paragraph at lines 1233--1233
+Overfull \hbox (32.7299pt too wide) in paragraph at lines 1096--1096
  [][][][]
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[102
+[89
 
  <./Imagens/toro.png> <./Imagens/hiperplano.png>]
 File: Imagens/toro.png Graphic file (type png)
  <use Imagens/toro.png>
-Package pdftex.def Info: Imagens/toro.png used on input line 1233.
+Package pdftex.def Info: Imagens/toro.png used on input line 1096.
 (pdftex.def)             Requested size: 72.84686pt x 81.71182pt.
 
-Overfull \hbox (17.08029pt too wide) in paragraph at lines 1233--1233
+Overfull \hbox (17.08029pt too wide) in paragraph at lines 1096--1096
 [][]  
  []
 
 File: Imagens/hiperplano.png Graphic file (type png)
 <use Imagens/hiperplano.png>
-Package pdftex.def Info: Imagens/hiperplano.png used on input line 1233.
+Package pdftex.def Info: Imagens/hiperplano.png used on input line 1096.
 (pdftex.def)             Requested size: 172.14847pt x 114.18747pt.
 
-Overfull \hbox (32.7299pt too wide) in paragraph at lines 1233--1233
+Overfull \hbox (32.7299pt too wide) in paragraph at lines 1096--1096
  [][]
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[103
+[90
 
 ]
 File: Imagens/hiperplano.png Graphic file (type png)
  <use Imagens/hiperplano.png>
-Package pdftex.def Info: Imagens/hiperplano.png used on input line 1246.
+Package pdftex.def Info: Imagens/hiperplano.png used on input line 1109.
 (pdftex.def)             Requested size: 189.36244pt x 125.60564pt.
+ [91
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[104
-
-] <Imagens/winner.png, id=2939, 573.8238pt x 389.7762pt>
+]
+<Imagens/winner.png, id=2462, 573.8238pt x 389.7762pt>
 File: Imagens/winner.png Graphic file (type png)
 
 <use Imagens/winner.png>
-Package pdftex.def Info: Imagens/winner.png used on input line 1258.
+Package pdftex.def Info: Imagens/winner.png used on input line 1121.
 (pdftex.def)             Requested size: 189.36244pt x 128.62654pt.
+ [92
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/winner.png>] [93
 
+]
+<Imagens/treinamento.png, id=2511, 644.6484pt x 661.9932pt>
+File: Imagens/treinamento.png Graphic file (type png)
 
-[105
+<use Imagens/treinamento.png>
+Package pdftex.def Info: Imagens/treinamento.png used on input line 1171.
+(pdftex.def)             Requested size: 225.63033pt x 231.70108pt.
 
- <./Imagens/winner.png>] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+Overfull \vbox (4.39581pt too high) detected at line 1171
+ []
 
+[94
 
-[106
+ <./Imagens/treinamento.png>] [95
 
-] <Imagens/SOM1_2d.pdf, id=3006, 518.17589pt x 460.35991pt>
+] (./Carreira2018_Sem.toc) [96
+
+]
+<Imagens/SOM1_2d.pdf, id=2598, 518.17589pt x 460.35991pt>
 File: Imagens/SOM1_2d.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1_2d.pdf>
-Package pdftex.def Info: Imagens/SOM1_2d.pdf used on input line 1276.
+Package pdftex.def Info: Imagens/SOM1_2d.pdf used on input line 1216.
 (pdftex.def)             Requested size: 199.16928pt x 176.94759pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[107
+ [97
 
  <./Imagens/SOM1_2d.pdf>]
-<Imagens/SOM5_2d.pdf, id=3038, 516.73048pt x 441.56972pt>
+<Imagens/SOM5_2d.pdf, id=2629, 516.73048pt x 441.56972pt>
 File: Imagens/SOM5_2d.pdf Graphic file (type pdf)
 
 <use Imagens/SOM5_2d.pdf>
-Package pdftex.def Info: Imagens/SOM5_2d.pdf used on input line 1285.
+Package pdftex.def Info: Imagens/SOM5_2d.pdf used on input line 1225.
 (pdftex.def)             Requested size: 199.16928pt x 170.19688pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[108
+ [98
 
  <./Imagens/SOM5_2d.pdf>]
-<Imagens/SOM100_2d.pdf, id=3070, 502.27649pt x 433.62pt>
+<Imagens/SOM100_2d.pdf, id=2660, 502.27649pt x 433.62pt>
 File: Imagens/SOM100_2d.pdf Graphic file (type pdf)
 
 <use Imagens/SOM100_2d.pdf>
-Package pdftex.def Info: Imagens/SOM100_2d.pdf used on input line 1294.
+Package pdftex.def Info: Imagens/SOM100_2d.pdf used on input line 1234.
 (pdftex.def)             Requested size: 199.16928pt x 171.94298pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[109
+ [99
 
  <./Imagens/SOM100_2d.pdf>]
-<Imagens/SOM1000_2d.pdf, id=3103, 492.1587pt x 431.45189pt>
+<Imagens/SOM1000_2d.pdf, id=2691, 492.1587pt x 431.45189pt>
 File: Imagens/SOM1000_2d.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1000_2d.pdf>
-Package pdftex.def Info: Imagens/SOM1000_2d.pdf used on input line 1304.
+Package pdftex.def Info: Imagens/SOM1000_2d.pdf used on input line 1244.
 (pdftex.def)             Requested size: 199.16928pt x 174.5988pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[110
+ [100
 
  <./Imagens/SOM1000_2d.pdf>]
-<Imagens/conv070917.png, id=3136, 1445.4pt x 722.7pt>
+<Imagens/conv070917.png, id=2724, 1445.4pt x 722.7pt>
 File: Imagens/conv070917.png Graphic file (type png)
 
 <use Imagens/conv070917.png>
-Package pdftex.def Info: Imagens/conv070917.png used on input line 1314.
+Package pdftex.def Info: Imagens/conv070917.png used on input line 1254.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1314--1314
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1254--1254
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[111
+[101
 
  <./Imagens/conv070917.png>]
-<Imagens/IDC1020118.png, id=3164, 799.0653pt x 396.7623pt>
+<Imagens/IDC1020118.png, id=2750, 799.0653pt x 396.7623pt>
 File: Imagens/IDC1020118.png Graphic file (type png)
 
 <use Imagens/IDC1020118.png>
-Package pdftex.def Info: Imagens/IDC1020118.png used on input line 1326.
+Package pdftex.def Info: Imagens/IDC1020118.png used on input line 1266.
 (pdftex.def)             Requested size: 239.72144pt x 119.0296pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[112
+ [102
 
  <./Imagens/IDC1020118.png>]
-<Imagens/IDC2020118.png, id=3191, 799.5471pt x 396.2805pt>
+<Imagens/IDC2020118.png, id=2776, 799.5471pt x 396.2805pt>
 File: Imagens/IDC2020118.png Graphic file (type png)
 
 <use Imagens/IDC2020118.png>
-Package pdftex.def Info: Imagens/IDC2020118.png used on input line 1336.
+Package pdftex.def Info: Imagens/IDC2020118.png used on input line 1276.
 (pdftex.def)             Requested size: 239.86598pt x 118.88506pt.
+ [103
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/IDC2020118.png>] [104
 
+]
+<Imagens/Pocos2.png, id=2828, 1162.3425pt x 709.65125pt>
+File: Imagens/Pocos2.png Graphic file (type png)
 
-[113
+<use Imagens/Pocos2.png>
+Package pdftex.def Info: Imagens/Pocos2.png used on input line 1308.
+(pdftex.def)             Requested size: 290.58492pt x 177.41237pt.
 
- <./Imagens/IDC2020118.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+Overfull \hbox (11.74779pt too wide) in paragraph at lines 1308--1308
+ [] 
+ []
 
+[105
 
-[114
+ <./Imagens/Pocos2.png (PNG copy)>] [106
 
-] <Imagens/SOM1t01.pdf, id=3243, 661.74602pt x 515.55421pt>
+] [107
+
+] [108
+
+] [109
+
+]
+<Imagens/locmap02.pdf, id=2946, 565.87411pt x 346.89601pt>
+File: Imagens/locmap02.pdf Graphic file (type pdf)
+
+<use Imagens/locmap02.pdf>
+Package pdftex.def Info: Imagens/locmap02.pdf used on input line 1331.
+(pdftex.def)             Requested size: 282.93636pt x 173.44757pt.
+
+Overfull \hbox (4.09923pt too wide) in paragraph at lines 1331--1331
+ [] 
+ []
+
+[110
+
+ <./Imagens/locmap02.pdf>]
+<Imagens/legenda.png, id=2978, 197.7789pt x 168.99135pt>
+File: Imagens/legenda.png Graphic file (type png)
+
+<use Imagens/legenda.png>
+Package pdftex.def Info: Imagens/legenda.png used on input line 1348.
+(pdftex.def)             Requested size: 36.98688pt x 36.98738pt.
+
+<Imagens/1BN0002SC_lit2.png, id=2979, 216.81pt x 1445.4pt>
+File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_lit2.png>
+Package pdftex.def Info: Imagens/1BN0002SC_lit2.png used on input line 1348.
+(pdftex.def)             Requested size: 54.0601pt x 227.60759pt.
+
+<Imagens/1BN0002SC_SP.png, id=2980, 361.35pt x 1445.4pt>
+File: Imagens/1BN0002SC_SP.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_SP.png>
+Package pdftex.def Info: Imagens/1BN0002SC_SP.png used on input line 1348.
+(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
+
+<Imagens/1BN0002SC_res.png, id=2981, 361.35pt x 1445.4pt>
+File: Imagens/1BN0002SC_res.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_res.png>
+Package pdftex.def Info: Imagens/1BN0002SC_res.png used on input line 1348.
+(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
+
+Overfull \vbox (21.85075pt too high) detected at line 1348
+ []
+
+[111
+
+ <./Imagens/legenda.png> <./Imagens/1BN0002SC_lit2.png> <./Imagens/1BN0002SC_SP
+.png> <./Imagens/1BN0002SC_res.png>]
+File: Imagens/legenda.png Graphic file (type png)
+ <use Imagens/legenda.png>
+Package pdftex.def Info: Imagens/legenda.png used on input line 1365.
+(pdftex.def)             Requested size: 36.98688pt x 36.98738pt.
+File: Imagens/1BN0002SC_lit2.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_lit2.png>
+Package pdftex.def Info: Imagens/1BN0002SC_lit2.png used on input line 1365.
+(pdftex.def)             Requested size: 54.0601pt x 227.60759pt.
+
+<Imagens/1BN0002SC_TTI.png, id=3010, 361.35pt x 1445.4pt>
+File: Imagens/1BN0002SC_TTI.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_TTI.png>
+Package pdftex.def Info: Imagens/1BN0002SC_TTI.png used on input line 1365.
+(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
+
+<Imagens/1BN0002SC_TOT.png, id=3011, 361.35pt x 1445.4pt>
+File: Imagens/1BN0002SC_TOT.png Graphic file (type png)
+
+<use Imagens/1BN0002SC_TOT.png>
+Package pdftex.def Info: Imagens/1BN0002SC_TOT.png used on input line 1365.
+(pdftex.def)             Requested size: 56.9055pt x 227.60759pt.
+
+Overfull \vbox (21.85075pt too high) detected at line 1365
+ []
+
+[112
+
+ <./Imagens/1BN0002SC_TTI.png> <./Imagens/1BN0002SC_TOT.png>]
+<Imagens/SOM1t01.pdf, id=3038, 661.74602pt x 515.55421pt>
 File: Imagens/SOM1t01.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t01.pdf>
-Package pdftex.def Info: Imagens/SOM1t01.pdf used on input line 1373.
+Package pdftex.def Info: Imagens/SOM1t01.pdf used on input line 1380.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM2t01.pdf, id=3244, 661.74602pt x 515.55421pt>
+<Imagens/SOM2t01.pdf, id=3039, 661.74602pt x 515.55421pt>
 File: Imagens/SOM2t01.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t01.pdf>
-Package pdftex.def Info: Imagens/SOM2t01.pdf used on input line 1373.
+Package pdftex.def Info: Imagens/SOM2t01.pdf used on input line 1380.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM3t01.pdf, id=3245, 661.74602pt x 515.55421pt>
+<Imagens/SOM3t01.pdf, id=3040, 661.74602pt x 515.55421pt>
 File: Imagens/SOM3t01.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t01.pdf>
-Package pdftex.def Info: Imagens/SOM3t01.pdf used on input line 1373.
+Package pdftex.def Info: Imagens/SOM3t01.pdf used on input line 1380.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[115
+ [113
 
  <./Imagens/SOM1t01.pdf> <./Imagens/SOM2t01.pdf
 
@@ -3309,48 +2857,40 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t01.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv01.png, id=3426, 1445.4pt x 722.7pt>
+>] <Imagens/conv01.png, id=3220, 1445.4pt x 722.7pt>
 File: Imagens/conv01.png Graphic file (type png)
  <use Imagens/conv01.png>
-Package pdftex.def Info: Imagens/conv01.png used on input line 1384.
+Package pdftex.def Info: Imagens/conv01.png used on input line 1391.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1384--1384
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1391--1391
  [][][][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[116
+[114
 
  <./Imagens/conv01.png>]
-<Imagens/SOM1t02.pdf, id=3453, 661.74602pt x 515.55421pt>
+<Imagens/SOM1t02.pdf, id=3246, 661.74602pt x 515.55421pt>
 File: Imagens/SOM1t02.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t02.pdf>
-Package pdftex.def Info: Imagens/SOM1t02.pdf used on input line 1399.
+Package pdftex.def Info: Imagens/SOM1t02.pdf used on input line 1406.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM2t02.pdf, id=3454, 661.74602pt x 515.55421pt>
+<Imagens/SOM2t02.pdf, id=3247, 661.74602pt x 515.55421pt>
 File: Imagens/SOM2t02.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t02.pdf>
-Package pdftex.def Info: Imagens/SOM2t02.pdf used on input line 1399.
+Package pdftex.def Info: Imagens/SOM2t02.pdf used on input line 1406.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM3t02.pdf, id=3455, 661.74602pt x 515.55421pt>
+<Imagens/SOM3t02.pdf, id=3248, 661.74602pt x 515.55421pt>
 File: Imagens/SOM3t02.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t02.pdf>
-Package pdftex.def Info: Imagens/SOM3t02.pdf used on input line 1399.
+Package pdftex.def Info: Imagens/SOM3t02.pdf used on input line 1406.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[117
+ [115
 
  <./Imagens/SOM1t02.pdf> <./Imagens/SOM2t02.pdf
 
@@ -3360,48 +2900,40 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t02.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv02.png, id=3636, 1445.4pt x 722.7pt>
+>] <Imagens/conv02.png, id=3429, 1445.4pt x 722.7pt>
 File: Imagens/conv02.png Graphic file (type png)
  <use Imagens/conv02.png>
-Package pdftex.def Info: Imagens/conv02.png used on input line 1410.
+Package pdftex.def Info: Imagens/conv02.png used on input line 1417.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1410--1410
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1417--1417
  [][][][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[118
+[116
 
  <./Imagens/conv02.png>]
-<Imagens/SOM1t03.pdf, id=3663, 661.74602pt x 515.55421pt>
+<Imagens/SOM1t03.pdf, id=3455, 661.74602pt x 515.55421pt>
 File: Imagens/SOM1t03.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t03.pdf>
-Package pdftex.def Info: Imagens/SOM1t03.pdf used on input line 1425.
+Package pdftex.def Info: Imagens/SOM1t03.pdf used on input line 1432.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM2t03.pdf, id=3664, 661.74602pt x 515.55421pt>
+<Imagens/SOM2t03.pdf, id=3456, 661.74602pt x 515.55421pt>
 File: Imagens/SOM2t03.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t03.pdf>
-Package pdftex.def Info: Imagens/SOM2t03.pdf used on input line 1425.
+Package pdftex.def Info: Imagens/SOM2t03.pdf used on input line 1432.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
 
-<Imagens/SOM3t03.pdf, id=3665, 661.74602pt x 515.55421pt>
+<Imagens/SOM3t03.pdf, id=3457, 661.74602pt x 515.55421pt>
 File: Imagens/SOM3t03.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t03.pdf>
-Package pdftex.def Info: Imagens/SOM3t03.pdf used on input line 1425.
+Package pdftex.def Info: Imagens/SOM3t03.pdf used on input line 1432.
 (pdftex.def)             Requested size: 113.81102pt x 88.66573pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[119
+ [117
 
  <./Imagens/SOM1t03.pdf> <./Imagens/SOM2t03.pdf
 
@@ -3411,48 +2943,40 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t03.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv03.png, id=3846, 1445.4pt x 722.7pt>
+>] <Imagens/conv03.png, id=3637, 1445.4pt x 722.7pt>
 File: Imagens/conv03.png Graphic file (type png)
  <use Imagens/conv03.png>
-Package pdftex.def Info: Imagens/conv03.png used on input line 1436.
+Package pdftex.def Info: Imagens/conv03.png used on input line 1443.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1436--1436
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1443--1443
  [][][][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[120
+[118
 
  <./Imagens/conv03.png>]
-<Imagens/SOM1t04.pdf, id=3873, 656.14508pt x 515.55421pt>
+<Imagens/SOM1t04.pdf, id=3663, 656.14508pt x 515.55421pt>
 File: Imagens/SOM1t04.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t04.pdf>
-Package pdftex.def Info: Imagens/SOM1t04.pdf used on input line 1451.
+Package pdftex.def Info: Imagens/SOM1t04.pdf used on input line 1458.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM2t04.pdf, id=3874, 656.14508pt x 515.55421pt>
+<Imagens/SOM2t04.pdf, id=3664, 656.14508pt x 515.55421pt>
 File: Imagens/SOM2t04.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t04.pdf>
-Package pdftex.def Info: Imagens/SOM2t04.pdf used on input line 1451.
+Package pdftex.def Info: Imagens/SOM2t04.pdf used on input line 1458.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM3t04.pdf, id=3875, 656.14508pt x 515.55421pt>
+<Imagens/SOM3t04.pdf, id=3665, 656.14508pt x 515.55421pt>
 File: Imagens/SOM3t04.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t04.pdf>
-Package pdftex.def Info: Imagens/SOM3t04.pdf used on input line 1451.
+Package pdftex.def Info: Imagens/SOM3t04.pdf used on input line 1458.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[121
+ [119
 
  <./Imagens/SOM1t04.pdf> <./Imagens/SOM2t04.pdf
 
@@ -3462,48 +2986,40 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t04.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv04.png, id=4050, 1445.4pt x 722.7pt>
+>] <Imagens/conv04.png, id=3838, 1445.4pt x 722.7pt>
 File: Imagens/conv04.png Graphic file (type png)
  <use Imagens/conv04.png>
-Package pdftex.def Info: Imagens/conv04.png used on input line 1461.
+Package pdftex.def Info: Imagens/conv04.png used on input line 1468.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1461--1461
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1468--1468
  [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[122
+[120
 
  <./Imagens/conv04.png>]
-<Imagens/SOM1t05.pdf, id=4077, 656.14508pt x 515.55421pt>
+<Imagens/SOM1t05.pdf, id=3864, 656.14508pt x 515.55421pt>
 File: Imagens/SOM1t05.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t05.pdf>
-Package pdftex.def Info: Imagens/SOM1t05.pdf used on input line 1476.
+Package pdftex.def Info: Imagens/SOM1t05.pdf used on input line 1483.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM2t05.pdf, id=4078, 656.14508pt x 515.55421pt>
+<Imagens/SOM2t05.pdf, id=3865, 656.14508pt x 515.55421pt>
 File: Imagens/SOM2t05.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t05.pdf>
-Package pdftex.def Info: Imagens/SOM2t05.pdf used on input line 1476.
+Package pdftex.def Info: Imagens/SOM2t05.pdf used on input line 1483.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM3t05.pdf, id=4079, 656.14508pt x 515.55421pt>
+<Imagens/SOM3t05.pdf, id=3866, 656.14508pt x 515.55421pt>
 File: Imagens/SOM3t05.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t05.pdf>
-Package pdftex.def Info: Imagens/SOM3t05.pdf used on input line 1476.
+Package pdftex.def Info: Imagens/SOM3t05.pdf used on input line 1483.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[123
+ [121
 
  <./Imagens/SOM1t05.pdf> <./Imagens/SOM2t05.pdf
 
@@ -3513,48 +3029,40 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t05.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv05.png, id=4253, 1445.4pt x 722.7pt>
+>] <Imagens/conv05.png, id=4040, 1445.4pt x 722.7pt>
 File: Imagens/conv05.png Graphic file (type png)
  <use Imagens/conv05.png>
-Package pdftex.def Info: Imagens/conv05.png used on input line 1487.
+Package pdftex.def Info: Imagens/conv05.png used on input line 1494.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1487--1487
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1494--1494
  [][][][] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[124
+[122
 
  <./Imagens/conv05.png>]
-<Imagens/SOM1t06.pdf, id=4280, 656.14508pt x 515.55421pt>
+<Imagens/SOM1t06.pdf, id=4066, 656.14508pt x 515.55421pt>
 File: Imagens/SOM1t06.pdf Graphic file (type pdf)
 
 <use Imagens/SOM1t06.pdf>
-Package pdftex.def Info: Imagens/SOM1t06.pdf used on input line 1502.
+Package pdftex.def Info: Imagens/SOM1t06.pdf used on input line 1509.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM2t06.pdf, id=4281, 656.14508pt x 515.55421pt>
+<Imagens/SOM2t06.pdf, id=4067, 656.14508pt x 515.55421pt>
 File: Imagens/SOM2t06.pdf Graphic file (type pdf)
 
 <use Imagens/SOM2t06.pdf>
-Package pdftex.def Info: Imagens/SOM2t06.pdf used on input line 1502.
+Package pdftex.def Info: Imagens/SOM2t06.pdf used on input line 1509.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
 
-<Imagens/SOM3t06.pdf, id=4282, 656.14508pt x 515.55421pt>
+<Imagens/SOM3t06.pdf, id=4068, 656.14508pt x 515.55421pt>
 File: Imagens/SOM3t06.pdf Graphic file (type pdf)
 
 <use Imagens/SOM3t06.pdf>
-Package pdftex.def Info: Imagens/SOM3t06.pdf used on input line 1502.
+Package pdftex.def Info: Imagens/SOM3t06.pdf used on input line 1509.
 (pdftex.def)             Requested size: 113.81102pt x 89.42093pt.
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[125
+ [123
 
  <./Imagens/SOM1t06.pdf> <./Imagens/SOM2t06.pdf
 
@@ -3564,312 +3072,198 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Imagens/SOM3t06.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Imagens/conv06.png, id=4457, 1445.4pt x 722.7pt>
+>] <Imagens/conv06.png, id=4242, 1445.4pt x 722.7pt>
 File: Imagens/conv06.png Graphic file (type png)
  <use Imagens/conv06.png>
-Package pdftex.def Info: Imagens/conv06.png used on input line 1512.
+Package pdftex.def Info: Imagens/conv06.png used on input line 1519.
 (pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
 
-Overfull \hbox (10.23775pt too wide) in paragraph at lines 1512--1512
+Overfull \hbox (10.23775pt too wide) in paragraph at lines 1519--1519
  [] 
  []
 
+[124
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/conv06.png>] [125
 
-
-[126
-
- <./Imagens/conv06.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[127
-
-] <Imagens/result01.png, id=4509, 361.35pt x 1445.4pt>
+]
+<Imagens/result01.png, id=4291, 361.35pt x 1445.4pt>
 File: Imagens/result01.png Graphic file (type png)
 
 <use Imagens/result01.png>
-Package pdftex.def Info: Imagens/result01.png used on input line 1548.
+Package pdftex.def Info: Imagens/result01.png used on input line 1555.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1548
+Overfull \vbox (32.8555pt too high) detected at line 1555
  []
 
+[126
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result01.png>] [127
 
-
-[128
-
- <./Imagens/result01.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[129
-
-] <Imagens/result02.png, id=4562, 361.35pt x 1445.4pt>
+]
+<Imagens/result02.png, id=4343, 361.35pt x 1445.4pt>
 File: Imagens/result02.png Graphic file (type png)
 
 <use Imagens/result02.png>
-Package pdftex.def Info: Imagens/result02.png used on input line 1579.
+Package pdftex.def Info: Imagens/result02.png used on input line 1586.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1579
+Overfull \vbox (32.8555pt too high) detected at line 1586
  []
 
+[128
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result02.png>] [129
 
-
-[130
-
- <./Imagens/result02.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[131
-
-] <Imagens/result03.png, id=4614, 361.35pt x 1445.4pt>
+]
+<Imagens/result03.png, id=4393, 361.35pt x 1445.4pt>
 File: Imagens/result03.png Graphic file (type png)
 
 <use Imagens/result03.png>
-Package pdftex.def Info: Imagens/result03.png used on input line 1610.
+Package pdftex.def Info: Imagens/result03.png used on input line 1617.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1610
+Overfull \vbox (32.8555pt too high) detected at line 1617
  []
 
+[130
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result03.png>] [131
 
-
-[132
-
- <./Imagens/result03.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[133
-
-] <Imagens/result04.png, id=4668, 361.35pt x 1445.4pt>
+]
+<Imagens/result04.png, id=4444, 361.35pt x 1445.4pt>
 File: Imagens/result04.png Graphic file (type png)
 
 <use Imagens/result04.png>
-Package pdftex.def Info: Imagens/result04.png used on input line 1641.
+Package pdftex.def Info: Imagens/result04.png used on input line 1648.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1641
+Overfull \vbox (32.8555pt too high) detected at line 1648
  []
 
+[132
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result04.png>] [133
 
-
-[134
-
- <./Imagens/result04.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[135
-
-] <Imagens/result05.png, id=4720, 361.35pt x 1445.4pt>
+]
+<Imagens/result05.png, id=4495, 361.35pt x 1445.4pt>
 File: Imagens/result05.png Graphic file (type png)
 
 <use Imagens/result05.png>
-Package pdftex.def Info: Imagens/result05.png used on input line 1672.
+Package pdftex.def Info: Imagens/result05.png used on input line 1679.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1672
+Overfull \vbox (32.8555pt too high) detected at line 1679
  []
 
+[134
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result05.png>] [135
 
-
-[136
-
- <./Imagens/result05.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[137
-
-] <Imagens/result06.png, id=4773, 361.35pt x 1445.4pt>
+]
+<Imagens/result06.png, id=4546, 361.35pt x 1445.4pt>
 File: Imagens/result06.png Graphic file (type png)
 
 <use Imagens/result06.png>
-Package pdftex.def Info: Imagens/result06.png used on input line 1702.
+Package pdftex.def Info: Imagens/result06.png used on input line 1709.
 (pdftex.def)             Requested size: 65.04019pt x 260.16077pt.
 
-Overfull \vbox (32.8555pt too high) detected at line 1702
+Overfull \vbox (32.8555pt too high) detected at line 1709
  []
 
+[136
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+ <./Imagens/result06.png>] [137
 
+] (./Carreira2018_Sem.toc) [138
 
-[138
-
- <./Imagens/result06.png>]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
+]
+Overfull \vbox (14.64316pt too high) detected at line 1766
+ []
 
 [139
 
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
+]
+Overfull \vbox (14.64316pt too high) detected at line 1766
+ []
 
 [140
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [141
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [142
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [143
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [144
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [145
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [146
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
+Overfull \vbox (14.64316pt too high) detected at line 1766
  []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
 
 [147
 
-]
-Overfull \vbox (14.64316pt too high) detected at line 1759
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[148
+] (./Carreira2018_Sem.toc) [148
 
 ]
-Overfull \vbox (14.64316pt too high) detected at line 1759
- []
-
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[149
-
-] (./Carreira2018_Sem.toc)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[150
-
-]
-Overfull \hbox (13.25803pt too wide) in paragraph at lines 1802--1802
+Overfull \hbox (13.25803pt too wide) in paragraph at lines 1809--1809
 [] 
  []
 
-
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[151
+[149
 
 ]
-Overfull \hbox (13.25803pt too wide) in paragraph at lines 1839--1839
+Overfull \hbox (13.25803pt too wide) in paragraph at lines 1846--1846
  [] 
  []
 
+[150
 
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
+] (./Carreira2018_Sem.bbl) [151
 
-
-[152
-
-] (./Carreira2018_Sem.bbl)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[153
-
-]
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[154
+] [152
 
 
 ]
 File: Imagens/logonvertical.jpg Graphic file (type jpg)
  <use Imagens/logonvertical.jpg>
-Package pdftex.def Info: Imagens/logonvertical.jpg used on input line 2552.
+Package pdftex.def Info: Imagens/logonvertical.jpg used on input line 2559.
 (pdftex.def)             Requested size: 86.24197pt x 73.4743pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 2552.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 2559.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Overfull \vbox (5.83327pt too high) has occurred while \output is active []
-
-
-[155
+) [153
 
 ]
 \tf@nav=\write9
@@ -3881,21 +3275,22 @@ Overfull \vbox (5.83327pt too high) has occurred while \output is active []
 \tf@snm=\write11
 \openout11 = `Carreira2018_Sem.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2557.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2557.
- (./Carreira2018_Sem.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2557.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2564.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2564.
+
+(./Carreira2018_Sem.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2564.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2564.
 
 Package rerunfilecheck Info: File `Carreira2018_Sem.out' has not changed.
-(rerunfilecheck)             Checksum: 55805714324762C2756C745B41BB346A;778.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2557.
+(rerunfilecheck)             Checksum: E46B0AF100E56CA087EB83E6B8694A1E;723.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2564.
  ) 
 Here is how much of TeX's memory you used:
- 37386 strings out of 493029
- 774913 string characters out of 6136235
- 871351 words of memory out of 5000000
- 39726 multiletter control sequences out of 15000+600000
+ 37368 strings out of 493029
+ 774701 string characters out of 6136235
+ 871872 words of memory out of 5000000
+ 39717 multiletter control sequences out of 15000+600000
  70045 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,76p,10431b,1027s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3914,10 +3309,10 @@ e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Carreira2018_Sem.pdf (155 pages, 11717216 bytes).
+Output written on Carreira2018_Sem.pdf (153 pages, 11951094 bytes).
 PDF statistics:
- 5385 PDF objects out of 6186 (max. 8388607)
- 4259 compressed objects within 43 object streams
- 377 named destinations out of 1000 (max. 500000)
- 690 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5137 PDF objects out of 5155 (max. 8388607)
+ 4015 compressed objects within 41 object streams
+ 372 named destinations out of 1000 (max. 500000)
+ 682 words of extra memory for PDF output out of 10000 (max. 10000000)
 

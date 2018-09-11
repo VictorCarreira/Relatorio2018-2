@@ -325,29 +325,24 @@
 \end{itemize}
 \end{frame}
 
-
-\subsection{Treinamento não-supervisionado}
+\subsection{Objetivo}
 
 \begin{frame}
-\frametitle{Treinamento não-supervisionado}
-\begin{itemize}
-\item  Insere-se na rede os atributos de entrada;
-\pause
-\item Os valores de saída são definidos pela própria rede;
-\pause
-\item Indicado para os casos aonde se tem agrupamento de dados;
-\pause
-\item Inspira-se no funcionamento do córtex cerebral \citep{Schott1993}.
-\end{itemize}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{Imagens/penfield.png}
-\caption{Homúnculo de Penfield }
-\label{penfield}
-\end{figure}
-
+	\frametitle{Objetivo}
+	\begin{columns}\footnotesize 
+		\justifying
+		\column{0.55\textwidth}
+		\begin{itemize}
+			\item[Problema Geofísico:] Identificação de rochas em dados de perfilagem da Bacia do Paraná nos termos de inteligência artificial;
+			\pause
+			\item[Maneira de resolver:] utilizando um mapa auto-organizado (SOM)  e dois classificadores estatísticos e escolher o melhor destes para aplicar no dado real;
+			\pause
+			\item[Estratégia:] Comparar o resultado dos três métodos em dados sintéticos, Kohonen (SOM),  e os classificadores euclideanos e de mahalanobis. E aplicar a melhor metodologia aos dados reais. 
+		\end{itemize}
+	\end{columns}
 \end{frame}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -550,169 +545,16 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 \end{figure}
 \end{frame}
 
-\begin{frame}
-\frametitle{Localização dos poços}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.25]{Imagens/Pocos2.png}
-\caption{Localização dos poços de trabalho.}
-\label{real}
-\end{figure}
-\end{frame}
 
-\begin{frame}
-\frametitle{Os dados reais}
-\begin{enumerate}
-	\item Os primeiros poços devem estar localizados próximos para garantir um controle inicial no que tange as litologias presentes no poço de treinamento. 
-	\pause
-	\item O poço de treinamento deve possuir a maior quantidade possível de dados por litologia
-	\pause
-	\item As entradas da rede devem ser compostas das mesmas propriedades físicas
-	\pause
-	\item Propriedades que definem litologia devem ser priorizadas quando possível.
-\end{enumerate}
-\end{frame}
 
-\begin{frame}
-	\frametitle{Os dados reais}
-\begin{figure}[H]
-\centering
-		\includegraphics[scale=0.5]{Imagens/locmap02.pdf}
-	\caption{Localização dos poços escolhidos.}
-	\label{loc02}
-\end{figure}
-\end{frame}
 
-\begin{frame}
-	\frametitle{Os dados reais: o poço de classificação}
-\begin{figure}[H]
-	\centering
-	\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
-	\qquad                                                           
-	\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
-	\qquad                                                             
-	\subfigure[ref2][SP]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_SP.png}}
-	\qquad
-	\subfigure[ref3][RLAT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_res.png}}
-	\qquad
-	%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) o potencial espontâneo e em (d) a resistividade lateral.   } 
-	\label{1BN0002SCa}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Os dados reais: o poço de classificação}
-\begin{figure}[H]
-	\centering                                                         
-	\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
-	\qquad                                                           
-	\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
-	\qquad                                                             
-	\subfigure[ref4][TTI]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TTI.png}}
-	\qquad
-	\subfigure[ref5][TOT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TOT.png}}
-	\qquad
-	%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) \textit{Transient Time Integrator} e em (d) TOT.}
-	\label{1BN0002SCb}
-\end{figure}
-\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-------------------------OBJETIVO------------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Objetivo}
-
-\begin{frame}
-	\frametitle{Objetivo}
-	\begin{columns}\footnotesize 
-		\justifying
-		\column{0.55\textwidth}
-		\begin{itemize}
-			\item[Problema Geofísico:] Identificação de rochas em dados de perfilagem da Bacia do Paraná nos termos de inteligência artificial;
-			\pause
-			\item[Maneira de resolver:] utilizando um mapa auto-organizado (SOM)  e dois classificadores estatísticos e escolher o melhor destes para aplicar no dado real;
-			\pause
-			\item[Estratégia:] Comparar o resultado dos três métodos em dados sintéticos, Kohonen (SOM),  e os classificadores euclideanos e de mahalanobis. E aplicar a melhor metodologia aos dados reais. 
-		\end{itemize}
-	\end{columns}
-\end{frame}
 
 
 
-\section{O programa da Rede}
-
-%\subsection{Fluxograma de criação dos dados sintéticos}
-\begin{frame}
-\frametitle{Fluxograma de criação dos dados sintéticos}
-\begin{footnotesize}
-\begin{figure}[H]
-\centering
-
-\begin{tikzpicture}
-[node distance=.5cm,
-start chain=going below,]
-\node[punktchain, join]  {Modelo de Bacia};
-\node[punktchain, join]   {Dados da Literatura};
-\node[punktchain, join]   {Estimar erros das propriedades físicas para dada litologia};
-\node[punktchain, join] {Definir taxa de amostragem};
-\node[punktchain, join, ] {Gerar dados sintéticos contaminados com o erro gaussiano estimado};
-
-\end{tikzpicture}
-%		\caption{Fluxograma do programa de geração dos dados sintéticos}
-\end{figure}
-
-\end{footnotesize}	
-\end{frame}
-
-%\subsection{Fluxograma de Treinamento da rede}
-\begin{frame}
-\frametitle{Fluxograma de treinamento}
-\begin{scriptsize}
-
-
-\begin{figure}[H]
-\centering
-
-%		\begin{tikzpicture}
-%		[node distance=.3cm,
-%		start chain=going below,]
-%		\node[punktchain, join]  {Início};
-%		\node[punktchain, join] (L1)  {Entrar com os dados do treinamento};
-%		\node[punktchain, join]   {Atualizar o peso do neurônio vencedor};
-%		\node[punktchain, join] (L2) {Fazer alteração nas vizinhanças do neurônio vencedor. Varre os dados de forma sequencial};
-%		\node[punktchain, join, ] {Avaliar o nível de treinamento da rede};
-%		\node[punktchain, join, ] {\color{red}Caso não esteja satisfatório volta-se para o Início e repete o processo de forma acumulativa};
-%		\node[punktchain, join, ] {\color{blue}Caso esteja satisfatório é o decretado o final do treinamento};	
-%		\end{tikzpicture}
-\includegraphics[scale=0.35]{Imagens/treinamento.png}
-\end{figure}
-\end{scriptsize}
-\end{frame}
-
-
-%\subsection{Fluxograma de classificação da rede}
-\begin{frame}
-\frametitle{Fluxograma de classificação}
-\begin{small}
-
-
-\begin{figure}[H]
-\centering
-
-\begin{tikzpicture}
-[node distance=.8cm,
-start chain=going below,]
-\node[punktchain, join]  {Entrada do dado não classificado};
-\node[punktchain, join] (L1)  {Determina a distância entre o dado e os valores dos neurônios da rede};
-\node[punktchain, join]   {Armazena as distâncias};
-\node[punktchain, join] (L2) {Seleciona a menor distância};
-\node[punktchain, join, ] {Classifica o dado};	
-\end{tikzpicture}
-
-%		\includegraphics[scale=0.55]{Imagens/classificacao.png}
-\end{figure}
-\end{small}
-\end{frame}
 
 
 
@@ -1091,6 +933,27 @@ start chain=going below,]
 
 
 \begin{frame}
+	\frametitle{Treinamento não-supervisionado}
+	\begin{itemize}
+		\item  Insere-se na rede os atributos de entrada;
+		\pause
+		\item Os valores de saída são definidos pela própria rede;
+		\pause
+		\item Indicado para os casos aonde se tem agrupamento de dados;
+		\pause
+		\item Inspira-se no funcionamento do córtex cerebral \citep{Schott1993}.
+	\end{itemize}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{Imagens/penfield.png}
+		\caption{Homúnculo de Penfield }
+		\label{penfield}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}
 	\frametitle{Kohonen - SOM}
 	\framesubtitle{Organização}
 	\includegraphics[scale=0.5]{Imagens/Introkoho1.png} 
@@ -1257,6 +1120,83 @@ start chain=going below,]
 	\end{figure}
 \end{frame}
 
+\subsection{O programa da Rede}
+
+%\subsection{Fluxograma de criação dos dados sintéticos}
+\begin{frame}
+	\frametitle{Fluxograma de criação dos dados sintéticos}
+	\begin{footnotesize}
+		\begin{figure}[H]
+			\centering
+			
+			\begin{tikzpicture}
+			[node distance=.5cm,
+			start chain=going below,]
+			\node[punktchain, join]  {Modelo de Bacia};
+			\node[punktchain, join]   {Dados da Literatura};
+			\node[punktchain, join]   {Estimar erros das propriedades físicas para dada litologia};
+			\node[punktchain, join] {Definir taxa de amostragem};
+			\node[punktchain, join, ] {Gerar dados sintéticos contaminados com o erro gaussiano estimado};
+			
+			\end{tikzpicture}
+			%		\caption{Fluxograma do programa de geração dos dados sintéticos}
+		\end{figure}
+		
+	\end{footnotesize}	
+\end{frame}
+
+%\subsection{Fluxograma de Treinamento da rede}
+\begin{frame}
+	\frametitle{Fluxograma de treinamento}
+	\begin{scriptsize}
+		
+		
+		\begin{figure}[H]
+			\centering
+			
+			%		\begin{tikzpicture}
+			%		[node distance=.3cm,
+			%		start chain=going below,]
+			%		\node[punktchain, join]  {Início};
+			%		\node[punktchain, join] (L1)  {Entrar com os dados do treinamento};
+			%		\node[punktchain, join]   {Atualizar o peso do neurônio vencedor};
+			%		\node[punktchain, join] (L2) {Fazer alteração nas vizinhanças do neurônio vencedor. Varre os dados de forma sequencial};
+			%		\node[punktchain, join, ] {Avaliar o nível de treinamento da rede};
+			%		\node[punktchain, join, ] {\color{red}Caso não esteja satisfatório volta-se para o Início e repete o processo de forma acumulativa};
+			%		\node[punktchain, join, ] {\color{blue}Caso esteja satisfatório é o decretado o final do treinamento};	
+			%		\end{tikzpicture}
+			\includegraphics[scale=0.35]{Imagens/treinamento.png}
+		\end{figure}
+	\end{scriptsize}
+\end{frame}
+
+
+%\subsection{Fluxograma de classificação da rede}
+\begin{frame}
+	\frametitle{Fluxograma de classificação}
+	\begin{small}
+		
+		
+		\begin{figure}[H]
+			\centering
+			
+			\begin{tikzpicture}
+			[node distance=.8cm,
+			start chain=going below,]
+			\node[punktchain, join]  {Entrada do dado não classificado};
+			\node[punktchain, join] (L1)  {Determina a distância entre o dado e os valores dos neurônios da rede};
+			\node[punktchain, join]   {Armazena as distâncias};
+			\node[punktchain, join] (L2) {Seleciona a menor distância};
+			\node[punktchain, join, ] {Classifica o dado};	
+			\end{tikzpicture}
+			
+			%		\includegraphics[scale=0.55]{Imagens/classificacao.png}
+		\end{figure}
+	\end{small}
+\end{frame}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-------------------------RESULTADOS E DISCUSSÕES---------------------------------------
@@ -1356,6 +1296,73 @@ start chain=going below,]
 \end{frame}
 
 \subsection{Dado Real}
+
+\begin{frame}
+	\frametitle{Os dados reais}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.25]{Imagens/Pocos2.png}
+		\caption{Localização dos poços de trabalho.}
+		\label{real}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais}
+	\begin{enumerate}
+		\item Os primeiros poços devem estar localizados próximos para garantir um controle inicial no que tange as litologias presentes no poço de treinamento. 
+		\pause
+		\item O poço de treinamento deve possuir a maior quantidade possível de dados por litologia
+		\pause
+		\item As entradas da rede devem ser compostas das mesmas propriedades físicas
+		\pause
+		\item Propriedades que definem litologia devem ser priorizadas quando possível.
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{Imagens/locmap02.pdf}
+		\caption{Localização dos poços escolhidos.}
+		\label{loc02}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais: o poço de classificação}
+	\begin{figure}[H]
+		\centering
+		\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
+		\qquad                                                           
+		\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
+		\qquad                                                             
+		\subfigure[ref2][SP]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_SP.png}}
+		\qquad
+		\subfigure[ref3][RLAT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_res.png}}
+		\qquad
+		%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) o potencial espontâneo e em (d) a resistividade lateral.   } 
+		\label{1BN0002SCa}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Os dados reais: o poço de classificação}
+	\begin{figure}[H]
+		\centering                                                         
+		\subfigure{\includegraphics[width=1.3cm, height=1.3cm]{Imagens/legenda.png}}
+		\qquad                                                           
+		\subfigure[ref1][Litologia]{\includegraphics[width=1.9cm, height=8cm]{Imagens/1BN0002SC_lit2.png}}
+		\qquad                                                             
+		\subfigure[ref4][TTI]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TTI.png}}
+		\qquad
+		\subfigure[ref5][TOT]{\includegraphics[width=2.0cm]{Imagens/1BN0002SC_TOT.png}}
+		\qquad
+		%\caption{Poço 1BN0002SC e as respectivas propriedades físicas escolhidas para o teste. Em (b) tem-se a variação de litologia com a profundidade, (c) \textit{Transient Time Integrator} e em (d) TOT.}
+		\label{1BN0002SCb}
+	\end{figure}
+\end{frame}
 
 \begin{frame}
 	\frametitle{Dado Real: teste 01}
