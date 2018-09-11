@@ -30,18 +30,18 @@
 \usepackage{hyperref} 
 \usepackage{smartdiagram}
 \usesmartdiagramlibrary{additions}
-%\smartdiagramset{uniform color list=white!60!black for 6 items,
-%	back arrow disabled=true, module minimum width=2cm,
-%	module minimum height=2cm,
-%	module x sep=3cm,
-%	text width=2cm,
-%	additions={
-%		additional item offset=0.5cm,
-%		additional item width=2cm,
-%		additional item height=2cm,
-%		additional item text width=3cm
-%	}
-%}
+\smartdiagramset{%uniform color list=white!60!black for 6 items,
+	back arrow disabled=true, module minimum width=1.8cm,
+	module minimum height=2cm,
+	module x sep=2.7cm,
+	text width=1.8cm,
+	additions={
+		additional item offset=0.5cm,
+		additional item width=2cm,
+		additional item height=2cm,
+		additional item text width=3cm
+	}
+}
 \usepackage{booktabs} % Top and bottom rules for table
 \usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
 \usepackage{subfigure}%cria ambientes de multifiguras
@@ -88,7 +88,7 @@
 \date{Setembro de 2018}
 \subject{Seminário de Doutorado}
 \setbeamertemplate{footline}[frame number]
-\setbeamercovered{transparent}
+%\setbeamercovered{transparent}
 \setbeamertemplate{navigation symbols}{}
 % Tela cheia
 \hypersetup{pdfpagemode=FullScreen}
@@ -122,16 +122,16 @@
 \addtobeamertemplate{navigation symbols}{}{\hskip6pt\raisebox{2pt}{\color{blue}\insertframenumber}}
 \setcounter{framenumber}{0}
 \AtBeginSection[]
-%{ \begin{frame}
-%\centering
-%\frametitle{Sumário}
-%
-%\tableofcontents[currentsection,currentsubsection]% apresenta o sumário antes de cada seção
-%
-%\end{frame} }
+{ \begin{frame}
+\centering
+\frametitle{Sumário}
+
+\tableofcontents[currentsection,currentsubsection]% apresenta o sumário antes de cada seção
+
+\end{frame} }
 
 \section{Introdução}
-\subsection{Motivação}
+%\subsection{Motivação}
 
 {%
 	\usebackgroundtemplate{
@@ -641,7 +641,7 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 
 \section{O programa da Rede}
 
-\subsection{Fluxograma de criação dos dados sintéticos}
+%\subsection{Fluxograma de criação dos dados sintéticos}
 \begin{frame}
 \frametitle{Fluxograma de criação dos dados sintéticos}
 \begin{footnotesize}
@@ -664,7 +664,7 @@ start chain=going below,]
 \end{footnotesize}	
 \end{frame}
 
-\subsection{Fluxograma de Treinamento da rede}
+%\subsection{Fluxograma de Treinamento da rede}
 \begin{frame}
 \frametitle{Fluxograma de treinamento}
 \begin{scriptsize}
@@ -690,7 +690,7 @@ start chain=going below,]
 \end{frame}
 
 
-\subsection{Fluxograma de classificação da rede}
+%\subsection{Fluxograma de classificação da rede}
 \begin{frame}
 \frametitle{Fluxograma de classificação}
 \begin{small}
@@ -1313,7 +1313,7 @@ start chain=going below,]
 \end{figure} 
 \end{frame}
 
-\subsection{Identificação}
+%\subsection{Identificação}
 
 \begin{frame}
 \frametitle{Identificação}
@@ -1733,21 +1733,20 @@ start chain=going below,]
 \begin{small}
 
 
-\begin{itemize}
-\item O teste de convergência da rede indicou que o número de erros não diminui após o milésimo ciclo de treinamento;
-\pause
-\item A maior área de especialização do mapa auto-organizado usado na identificação da rede está relacionada com o padrão sino;
-\pause
-\item As propriedades físicas de densidade e raio-gama tem uma importância relativa maior, na classificação das litologias pela rede dos poços  C$1$ e C$2$ (diagramas de velocidades por densidade e o de velocidade por raio-gama);
-\pause
-\item A saída da rede aponta que o maior número de casos dos erros ocorreram em uma única classe de rocha, a do embasamento;
-\pause
-\item O poço C$1$ apresentou um erro de $1,6\%$;
-\pause
-\item O poço C$2$ apresentou um erro de $0.7\%$;
-\pause
-\item Os erros relativos encontrados nos poços de classificação C$1$ e C$2$ estão relacionados a escolha da alocação do poço de treinamento T$1$. O poço C$2$ localiza-se em um baixo estrutural, atingindo menos de $1$km do embasamento. Entretanto, o poço C$1$ encontra-se em um alto estrutural, divergindo do poço C$2$ e produzindo, consequentemente, os maiores erros relativos encontrados. 
-\end{itemize}
+	\begin{itemize}
+		\item O algoritmo SOM superou os classificadores euclideanos e de mahalanobis em um erro de $0.71\%$
+		\pause
+		\item A complexa distribuição dos agrupamentos no espaço de atributos levou a erros da ordem de $18.28\%$ (mahalanobis) e $1.71\%$ (euclides), no melhor cenário (poço C$2$ ).
+		\pause
+		\item Os classificadores não conseguem identificar corretamente o padrão sino no dado de poço. 
+		\pause
+		\item O classificador euclideano consegue identificar o padrão caixa ao contrário do classificador de mahalanobis.
+		\pause
+		\item A rede neuronal de Kohonen SOM apresentou a melhor performace no que tange a identificação de rochas aonde há mistura como o padrão sino.
+		\pause
+		\item As baixas performances registradas com erros de $2229$ amostras para o teste $01$ quando utiliza-se a rede no dado real deve-se em parte ao conjunto de atributos iniciais escolhidos para o treinamento.
+	\end{itemize}
+
 \end{small}	
 \end{frame}
 
