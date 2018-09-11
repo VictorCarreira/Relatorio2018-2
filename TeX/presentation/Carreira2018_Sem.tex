@@ -1730,10 +1730,12 @@ start chain=going below,]
 
 \begin{frame}
 \frametitle{Conclusões}
+
 \begin{small}
 
 
 	\begin{itemize}
+		\footnotesize
 		\item O algoritmo SOM superou os classificadores euclideanos e de mahalanobis em um erro de $0.71\%$
 		\pause
 		\item A complexa distribuição dos agrupamentos no espaço de atributos levou a erros da ordem de $18.28\%$ (mahalanobis) e $1.71\%$ (euclides), no melhor cenário (poço C$2$ ).
@@ -1744,7 +1746,13 @@ start chain=going below,]
 		\pause
 		\item A rede neuronal de Kohonen SOM apresentou a melhor performace no que tange a identificação de rochas aonde há mistura como o padrão sino.
 		\pause
-		\item As baixas performances registradas com erros de $2229$ amostras para o teste $01$ quando utiliza-se a rede no dado real deve-se em parte ao conjunto de atributos iniciais escolhidos para o treinamento.
+		\item As baixas performances médias registradas para os seis testes com dados reais apresentaram erros de $2230$ amostras uma performance de $75\%$ . É possível que tal desempenho esteja relacionado a três fatores.
+		\pause
+		\item As propriedades físicas escolhidas para o treinamento da rede.
+		\pause
+		\item A inexistência de um banco de dados que contemple unidades litológicas e propriedades físicas.
+		\pause
+		\item Determinação de uma nova relação de vizinhança. 
 	\end{itemize}
 
 \end{small}	
