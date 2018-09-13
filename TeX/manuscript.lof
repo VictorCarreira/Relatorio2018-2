@@ -1,4 +1,4 @@
-\babel@toc {brazil}{}
+\select@language {brazil}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Modelo esquem\IeC {\'a}tico de um neur\IeC {\^o}nio de McCulloch-Pitts. Onde $x_{1}, x_{2}, ..., x_{n}$ s\IeC {\~a}o os \textit {inputs}, $w_{1}, w_{2}, ..., w_{n}$ s\IeC {\~a}o os pesos, h \IeC {\'e} o treino, $g(x)$ \IeC {\'e} a fun\IeC {\c c}\IeC {\~a}o de ativa\IeC {\c c}\IeC {\~a}o, e $y$ \IeC {\'e} o \textit {output}.}}{4}{figure.1.1}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Neur\IeC {\^o}nio e suas vizinhan\IeC {\c c}as}}{5}{figure.1.2}
