@@ -736,22 +736,91 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 
 \subsubsection{Classificador euclideano}
 
+
 \begin{frame}
 	\frametitle{Classificador euclideano}
+	Sejam $\theta$($\bar{x}_{i},\bar{y}_{i}$) e $\beta$($\bar{x}_{j},\bar{y}_{j}$), os seus vetores de coordenadas cartesianas podem ser definidos como
+	
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+		\begin{equation}
+		\textbf{x}^{i}=
+		\begin{bmatrix} 
+		x_{1}^{i} \\
+		x_{2}^{i} \\
+		x_{2}^{i} \\
+		\vdots \\
+		x_{m}^{i}
+		\end{bmatrix} \nonumber
+		\end{equation}
+        \end{column}
+		\begin{column}{0.5\textwidth}
+		\begin{equation}
+		\textbf{y}^{i}=
+		\begin{bmatrix} 
+		y_{1}^{i} \\
+		y_{2}^{i} \\
+		y_{2}^{i} \\
+		\vdots \\
+		y_{m}^{i}
+		\end{bmatrix} \nonumber
+		\end{equation}
+	    \end{column}
+	\end{columns}	
+	para um agrupamento $\theta$, e 
+\pause
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{equation}
+		\textbf{x}^{j}=
+		\begin{bmatrix} 
+		x_{1}^{j} \\
+		x_{2}^{j} \\
+		x_{2}^{j} \\
+		\vdots \\
+		x_{n}^{j}
+		\end{bmatrix} \nonumber
+		\end{equation}
+        \end{column}
+        \begin{column}{0.5\textwidth}	
+		\begin{equation}
+		\textbf{y}^{j}=
+		\begin{bmatrix} 
+		y_{1}^{j} \\
+		y_{2}^{j} \\
+		y_{2}^{j} \\
+		\vdots \\
+		y_{n}^{j}
+		\end{bmatrix} \nonumber
+		\end{equation}
+	    \end{column}
+\end{columns}
+	para outro agrupamento  $\beta$. 
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Classificador euclideano}
+	Temos que, 
 	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
 		\begin{equation}
-		Ed_{i} =  \Arrowvert \textbf{X}-\bar{\textbf{X}}_{i}  \Arrowvert_{2} \nonumber
+		[(\bar{\textbf{x}_{i}}-\bar{\textbf{x}}_{j})^{T}\textbf{A}(\bar{\textbf{y}}_{i}-\bar{\textbf{y}}_{j})]^{1/2} \nonumber
 		\label{eq4}
 		\end{equation}  
 	\end{tcolorbox}
 	\pause
 	\begin{itemize}
 		\centering
-		\item[$\textbf{X}$], vetor de atributos (entrada)
+		\item[$\bar{\textbf{x}}_{i}$], média do vetor de coordenadas cartesianas do agrupamento $\theta$ com dimensão $m$
 		\pause
-		\item[$\bar{\textbf{X}}_{i}$], vetor média
+		\item[$\bar{\textbf{y}}_{i}$], é a média do vetor de coordenadas do agrupamento $\theta$ com dimensão $m$
+		\pause
+		\item[$\bar{\textbf{x}}_{j}$], é a média do vetor de coordenadas do agrupamento $\beta$ com dimensão $n$
+		\pause
+		\item[$\bar{\textbf{y}}_{j}$], é a média do segundo vetor de coordenadas cartesianas do agrupamento $\beta$ também com dimensão $n$
+		\pause
+		\item[$\textbf{A}$], é a matriz Identidade 
 	\end{itemize}
-	
 \end{frame}
 
 
@@ -801,19 +870,31 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 	\frametitle{Classificador de Mahalanobis}
 	\begin{tcolorbox}[colback=gray!5,colframe=blue!40!black,title=Definição]
 		\begin{equation}
-		Md_{i}=\Arrowvert(\textbf{X}-\bar{\textbf{X}}_{i})^{T}\textbf{C}_{i}^{-1}(\textbf{X}-\bar{\textbf{X}}_{i})\Arrowvert_{2}\nonumber
+		[(\bar{\textbf{x}_{i}}-\bar{\textbf{x}}_{j})^{T}\textbf{S}^{-1}(\bar{\textbf{y}}_{i}-\bar{\textbf{y}}_{j})]^{1/2} \nonumber
 		\label{eq5}
 		\end{equation}
 	\end{tcolorbox}
 	\pause
-	\begin{itemize}
-		\centering
-		\item[$\textbf{X}$], vetor de atributos (entrada)
-		\pause
-		\item[$\bar{\textbf{X}}_{i}$], vetor média
-		\pause
-		\item[$\textbf{C}_{i}$], matriz de covariância 
-	\end{itemize}
+	Onde a  matriz covariância para o grupo $i$ é calculada
+	\pause
+\begin{equation}
+\textbf{C}_{i}=\dfrac{1}{n} \hat{\textbf{X}_{i}}^{T}\hat{\textbf{X}_{i}} \nonumber
+\end{equation}
+\pause
+Onde $n=\sum_{i} n_{i}$, ou seja a soma de todos os dados de todos os grupos. E,
+\pause
+\begin{equation}
+\textbf{S}(\theta, \beta)=\dfrac{1}{n}\sum^{g}_{i=1}n_{i}C_{i} \nonumber
+\end{equation}
+Onde,
+\begin{itemize}
+	\item[$\textbf{S}$], é a matriz de covariância agrupada
+	\pause
+	 \item[($\theta$,$\beta$)], representam os dois agrupamentos
+	 \pause
+	 \item[$g$], é o número de agrupamentos
+\end{itemize}
+
 \end{frame}
 
 
@@ -1261,6 +1342,29 @@ Paraná $\Longleftrightarrow$ sequência devoniana\\
 \caption{Teste de convergência da rede.}
 \label{convergencia}
 \end{figure} 
+\end{frame}
+
+\begin{frame}
+	\frametitle{Treinamento}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{c|c}
+			
+			Litologia                    & Código numérico \\ % Note a separação de col. e a quebra de linhas
+			\hline                                                             % para uma linha horizontal
+			Folhelho 2                 &  1\\
+			Dolomita  		            &  2 \\
+			Diabásio    	            &  3 \\
+			Conglomerado          &  4 \\
+			Conglomerado 80\% &  5  \\
+			Conglomerado 60\%&  6 \\
+			Conglomerado 40\%&  7\\
+			Conglomerado 20\%&  8 \\
+			Embasamento          &  9 \\
+			% não é preciso quebrar a última linha
+			
+		\end{tabular}
+	\end{table}
 \end{frame}
 
 %\subsection{Identificação}

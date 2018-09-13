@@ -1,5 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Defini\IeC {\c c}\IeC {\~o}es}{6}{0}{1}
 \beamer@subsectionintoc {1}{2}{Pesquisa bibliogr\IeC {\'a}fica}{12}{0}{1}
@@ -7,12 +6,13 @@
 \beamer@sectionintoc {2}{Contexto Geol\IeC {\'o}gico e Localiza\IeC {\c c}\IeC {\~a}o}{28}{0}{2}
 \beamer@sectionintoc {3}{Metodologia}{42}{0}{3}
 \beamer@subsubsectionintoc {3}{0}{1}{Classificador euclideano}{53}{0}{3}
-\beamer@subsubsectionintoc {3}{0}{2}{Classificador de mahalanobis}{61}{0}{3}
-\beamer@subsubsectionintoc {3}{0}{3}{Agrupamento e o espa\IeC {\c c}o de atributos}{67}{0}{3}
-\beamer@subsubsectionintoc {3}{0}{4}{Kohonen - SOM}{74}{0}{3}
-\beamer@subsectionintoc {3}{1}{O programa da Rede}{93}{0}{3}
-\beamer@sectionintoc {4}{Resultados e Discuss\IeC {\~o}es}{96}{0}{4}
-\beamer@subsectionintoc {4}{1}{Dado Sint\IeC {\'e}tico}{97}{0}{4}
-\beamer@subsectionintoc {4}{2}{Dado Real}{105}{0}{4}
-\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{138}{0}{5}
-\beamer@sectionintoc {6}{Cronograma}{148}{0}{6}
+\beamer@subsubsectionintoc {3}{0}{2}{Classificador de Mahalanobis}{66}{0}{3}
+\beamer@subsubsectionintoc {3}{0}{3}{Agrupamento e o espa\IeC {\c c}o de atributos}{75}{0}{3}
+\beamer@subsubsectionintoc {3}{0}{4}{Kohonen - SOM}{82}{0}{3}
+\beamer@subsectionintoc {3}{1}{O programa da Rede}{102}{0}{3}
+\beamer@sectionintoc {4}{Resultados e Discuss\IeC {\~o}es}{105}{0}{4}
+\beamer@subsectionintoc {4}{1}{Dado Sint\IeC {\'e}tico}{106}{0}{4}
+\beamer@subsectionintoc {4}{2}{Dado Real}{115}{0}{4}
+\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{148}{0}{5}
+\beamer@sectionintoc {6}{Pr\IeC {\'o}ximas etapas}{157}{0}{6}
+\beamer@sectionintoc {7}{Cronograma}{164}{0}{7}
